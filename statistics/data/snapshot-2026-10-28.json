@@ -1,0 +1,618 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "2026-10-28",
+  "edition": "Q4 2026 / in progress",
+  "reviewed_on": "2026-10-28",
+  "adoption": [
+    {
+      "wave": "202524",
+      "reference_start": "2025-11-03",
+      "reference_end": "2025-11-16",
+      "collection_start": "2025-11-17",
+      "collection_end": "2025-11-30",
+      "published": "2025-12-04",
+      "recent_pct": 17.3,
+      "recent_se_pp": 0.18,
+      "expected_pct": 21.1,
+      "expected_se_pp": 0.26
+    },
+    {
+      "wave": "202525",
+      "reference_start": "2025-11-17",
+      "reference_end": "2025-11-30",
+      "collection_start": "2025-12-01",
+      "collection_end": "2025-12-14",
+      "published": "2025-12-18",
+      "recent_pct": 17.2,
+      "recent_se_pp": 0.23,
+      "expected_pct": 20.9,
+      "expected_se_pp": 0.36
+    },
+    {
+      "wave": "202526",
+      "reference_start": "2025-12-01",
+      "reference_end": "2025-12-14",
+      "collection_start": "2025-12-15",
+      "collection_end": "2025-12-28",
+      "published": "2025-12-31",
+      "recent_pct": 17.8,
+      "recent_se_pp": 0.47,
+      "expected_pct": 21.3,
+      "expected_se_pp": 0.32
+    },
+    {
+      "wave": "202601",
+      "reference_start": "2025-12-15",
+      "reference_end": "2025-12-28",
+      "collection_start": "2025-12-29",
+      "collection_end": "2026-01-11",
+      "published": "2026-01-15",
+      "recent_pct": 17.7,
+      "recent_se_pp": 0.3,
+      "expected_pct": 22.4,
+      "expected_se_pp": 0.34
+    },
+    {
+      "wave": "202602",
+      "reference_start": "2025-12-29",
+      "reference_end": "2026-01-11",
+      "collection_start": "2026-01-12",
+      "collection_end": "2026-01-25",
+      "published": "2026-01-29",
+      "recent_pct": 18.2,
+      "recent_se_pp": 0.24,
+      "expected_pct": 22.1,
+      "expected_se_pp": 0.22
+    },
+    {
+      "wave": "202603",
+      "reference_start": "2026-01-12",
+      "reference_end": "2026-01-25",
+      "collection_start": "2026-01-26",
+      "collection_end": "2026-02-08",
+      "published": "2026-02-12",
+      "recent_pct": 18.9,
+      "recent_se_pp": 0.39,
+      "expected_pct": 22.1,
+      "expected_se_pp": 0.36
+    },
+    {
+      "wave": "202604",
+      "reference_start": "2026-01-26",
+      "reference_end": "2026-02-08",
+      "collection_start": "2026-02-09",
+      "collection_end": "2026-02-22",
+      "published": "2026-02-26",
+      "recent_pct": 17.5,
+      "recent_se_pp": 0.4,
+      "expected_pct": 21.0,
+      "expected_se_pp": 0.33
+    },
+    {
+      "wave": "202605",
+      "reference_start": "2026-02-09",
+      "reference_end": "2026-02-22",
+      "collection_start": "2026-02-23",
+      "collection_end": "2026-03-08",
+      "published": "2026-03-12",
+      "recent_pct": 18.2,
+      "recent_se_pp": 0.32,
+      "expected_pct": 21.8,
+      "expected_se_pp": 0.22
+    },
+    {
+      "wave": "202606",
+      "reference_start": "2026-02-23",
+      "reference_end": "2026-03-08",
+      "collection_start": "2026-03-09",
+      "collection_end": "2026-03-22",
+      "published": "2026-03-26",
+      "recent_pct": 18.9,
+      "recent_se_pp": 0.32,
+      "expected_pct": 22.3,
+      "expected_se_pp": 0.31
+    },
+    {
+      "wave": "202607",
+      "reference_start": "2026-03-09",
+      "reference_end": "2026-03-22",
+      "collection_start": "2026-03-23",
+      "collection_end": "2026-04-05",
+      "published": "2026-04-09",
+      "recent_pct": 19.1,
+      "recent_se_pp": 0.42,
+      "expected_pct": 22.5,
+      "expected_se_pp": 0.32
+    },
+    {
+      "wave": "202608",
+      "reference_start": "2026-03-23",
+      "reference_end": "2026-04-05",
+      "collection_start": "2026-04-06",
+      "collection_end": "2026-04-19",
+      "published": "2026-04-23",
+      "recent_pct": 19.8,
+      "recent_se_pp": 0.29,
+      "expected_pct": 23.0,
+      "expected_se_pp": 0.26
+    },
+    {
+      "wave": "202609",
+      "reference_start": "2026-04-06",
+      "reference_end": "2026-04-19",
+      "collection_start": "2026-04-20",
+      "collection_end": "2026-05-03",
+      "published": "2026-05-07",
+      "recent_pct": 19.8,
+      "recent_se_pp": 0.24,
+      "expected_pct": 22.8,
+      "expected_se_pp": 0.28
+    },
+    {
+      "wave": "202610",
+      "reference_start": "2026-04-20",
+      "reference_end": "2026-05-03",
+      "collection_start": "2026-05-04",
+      "collection_end": "2026-05-17",
+      "published": "2026-05-21",
+      "recent_pct": 19.5,
+      "recent_se_pp": 0.24,
+      "expected_pct": 22.7,
+      "expected_se_pp": 0.34
+    },
+    {
+      "wave": "202611",
+      "reference_start": "2026-05-04",
+      "reference_end": "2026-05-17",
+      "collection_start": "2026-05-18",
+      "collection_end": "2026-05-31",
+      "published": "2026-06-04",
+      "recent_pct": 20.6,
+      "recent_se_pp": 0.29,
+      "expected_pct": 23.7,
+      "expected_se_pp": 0.35
+    },
+    {
+      "wave": "202612",
+      "reference_start": "2026-05-18",
+      "reference_end": "2026-05-31",
+      "collection_start": "2026-06-01",
+      "collection_end": "2026-06-14",
+      "published": "2026-06-18",
+      "recent_pct": 20.6,
+      "recent_se_pp": 0.27,
+      "expected_pct": 23.9,
+      "expected_se_pp": 0.46
+    },
+    {
+      "wave": "202613",
+      "reference_start": "2026-06-01",
+      "reference_end": "2026-06-14",
+      "collection_start": "2026-06-15",
+      "collection_end": "2026-06-28",
+      "published": "2026-07-02",
+      "recent_pct": 20.6,
+      "recent_se_pp": 0.39,
+      "expected_pct": 23.7,
+      "expected_se_pp": 0.34
+    },
+    {
+      "wave": "202614",
+      "reference_start": "2026-06-15",
+      "reference_end": "2026-06-28",
+      "collection_start": "2026-06-29",
+      "collection_end": "2026-07-12",
+      "published": "2026-07-16",
+      "recent_pct": 21.7,
+      "recent_se_pp": 0.31,
+      "expected_pct": 24.5,
+      "expected_se_pp": 0.33
+    },
+    {
+      "wave": "202615",
+      "reference_start": "2026-06-29",
+      "reference_end": "2026-07-12",
+      "collection_start": "2026-07-13",
+      "collection_end": "2026-07-26",
+      "published": "2026-07-30",
+      "recent_pct": 21.5,
+      "recent_se_pp": 0.42,
+      "expected_pct": 24.3,
+      "expected_se_pp": 0.36
+    },
+    {
+      "wave": "202616",
+      "reference_start": "2026-07-13",
+      "reference_end": "2026-07-26",
+      "collection_start": "2026-07-27",
+      "collection_end": "2026-08-09",
+      "published": "2026-08-13",
+      "recent_pct": 21.8,
+      "recent_se_pp": 0.33,
+      "expected_pct": 25.9,
+      "expected_se_pp": 0.33
+    },
+    {
+      "wave": "202617",
+      "reference_start": "2026-07-27",
+      "reference_end": "2026-08-09",
+      "collection_start": "2026-08-10",
+      "collection_end": "2026-08-23",
+      "published": "2026-08-27",
+      "recent_pct": 22.4,
+      "recent_se_pp": 0.36,
+      "expected_pct": 25.9,
+      "expected_se_pp": 0.47
+    },
+    {
+      "wave": "202618",
+      "reference_start": "2026-08-10",
+      "reference_end": "2026-08-23",
+      "collection_start": "2026-08-24",
+      "collection_end": "2026-09-06",
+      "published": "2026-09-10",
+      "recent_pct": 23.2,
+      "recent_se_pp": 0.28,
+      "expected_pct": 27.3,
+      "expected_se_pp": 0.28
+    },
+    {
+      "wave": "202619",
+      "reference_start": "2026-08-24",
+      "reference_end": "2026-09-06",
+      "collection_start": "2026-09-07",
+      "collection_end": "2026-09-20",
+      "published": "2026-09-24",
+      "recent_pct": 23.8,
+      "recent_se_pp": 0.26,
+      "expected_pct": 27.6,
+      "expected_se_pp": 0.29
+    },
+    {
+      "wave": "202620",
+      "reference_start": "2026-09-07",
+      "reference_end": "2026-09-20",
+      "collection_start": "2026-09-21",
+      "collection_end": "2026-10-04",
+      "published": "2026-10-08",
+      "recent_pct": 23.8,
+      "recent_se_pp": 0.41,
+      "expected_pct": 27.7,
+      "expected_se_pp": 0.36
+    },
+    {
+      "wave": "202621",
+      "reference_start": "2026-09-21",
+      "reference_end": "2026-10-04",
+      "collection_start": "2026-10-05",
+      "collection_end": "2026-10-18",
+      "published": "2026-10-22",
+      "recent_pct": 24.6,
+      "recent_se_pp": 0.27,
+      "expected_pct": 28.6,
+      "expected_se_pp": 0.21
+    }
+  ],
+  "adoption_snapshots": [
+    {
+      "period": "Q4 2025",
+      "wave": "202601",
+      "reference_start": "2025-12-15",
+      "reference_end": "2025-12-28",
+      "collection_start": "2025-12-29",
+      "collection_end": "2026-01-11",
+      "published": "2026-01-15",
+      "recent_pct": 17.7,
+      "recent_se_pp": 0.3,
+      "expected_pct": 22.4,
+      "expected_se_pp": 0.34
+    },
+    {
+      "period": "Q1 2026",
+      "wave": "202607",
+      "reference_start": "2026-03-09",
+      "reference_end": "2026-03-22",
+      "collection_start": "2026-03-23",
+      "collection_end": "2026-04-05",
+      "published": "2026-04-09",
+      "recent_pct": 19.1,
+      "recent_se_pp": 0.42,
+      "expected_pct": 22.5,
+      "expected_se_pp": 0.32
+    },
+    {
+      "period": "Q2 2026",
+      "wave": "202614",
+      "reference_start": "2026-06-15",
+      "reference_end": "2026-06-28",
+      "collection_start": "2026-06-29",
+      "collection_end": "2026-07-12",
+      "published": "2026-07-16",
+      "recent_pct": 21.7,
+      "recent_se_pp": 0.31,
+      "expected_pct": 24.5,
+      "expected_se_pp": 0.33
+    },
+    {
+      "period": "Q3 2026",
+      "wave": "202620",
+      "reference_start": "2026-09-07",
+      "reference_end": "2026-09-20",
+      "collection_start": "2026-09-21",
+      "collection_end": "2026-10-04",
+      "published": "2026-10-08",
+      "recent_pct": 23.8,
+      "recent_se_pp": 0.41,
+      "expected_pct": 27.7,
+      "expected_se_pp": 0.36
+    },
+    {
+      "period": "Latest / partial Q4",
+      "wave": "202621",
+      "reference_start": "2026-09-21",
+      "reference_end": "2026-10-04",
+      "collection_start": "2026-10-05",
+      "collection_end": "2026-10-18",
+      "published": "2026-10-22",
+      "recent_pct": 24.6,
+      "recent_se_pp": 0.27,
+      "expected_pct": 28.6,
+      "expected_se_pp": 0.21
+    }
+  ],
+  "employment": [
+    {
+      "month": "2026-06",
+      "published": "2026-07-22",
+      "all_high_yoy_pct": -0.2,
+      "all_least_yoy_pct": 0.6,
+      "young_high_yoy_pct": -4.3,
+      "young_least_yoy_pct": 0,
+      "young_gap_pp": -4.3,
+      "source": "https://www.adpresearch.com/research/canaries-dashboard-2026-june"
+    },
+    {
+      "month": "2026-07",
+      "published": "2026-08-19",
+      "all_high_yoy_pct": 0.1,
+      "all_least_yoy_pct": 1.1,
+      "young_high_yoy_pct": -3,
+      "young_least_yoy_pct": 0,
+      "young_gap_pp": -3,
+      "source": "https://www.adpresearch.com/research/canaries-dashboard-employment-in-ai-exposed-occupations-rose-slightly-in-july"
+    },
+    {
+      "month": "2026-08",
+      "published": "2026-09-23",
+      "all_high_yoy_pct": -0.6,
+      "all_least_yoy_pct": 0.2,
+      "young_high_yoy_pct": -4.4,
+      "young_least_yoy_pct": -2,
+      "young_gap_pp": -2.4,
+      "source": "https://www.adpresearch.com/research/canaries-dashboard-employment-in-ai-exposed-occupations-slowed-in-august"
+    },
+    {
+      "month": "2026-09",
+      "published": "2026-10-21",
+      "all_high_yoy_pct": -0.5,
+      "all_least_yoy_pct": 1,
+      "young_high_yoy_pct": -3.7,
+      "young_least_yoy_pct": 0.2,
+      "young_gap_pp": -3.9,
+      "source": "https://www.adpresearch.com/research/canaries-dashboard-employment-in-ai-exposed-occupations-shrank-in-september"
+    }
+  ],
+  "capability": [
+    {
+      "model": "GPT-6.1 Sol (max)",
+      "configuration": "gpt-6.1-sol_max",
+      "score_pct": 4.411764705882353,
+      "se_pp": 2.5088285985372343,
+      "release_date": "2026-09-29",
+      "run_started": "2026-10-01T20:26:05.000Z",
+      "run_id": "bloom68-alv3junt54xqrybd"
+    },
+    {
+      "model": "GPT-6 Astra (max)",
+      "configuration": "gpt-6-astra_max",
+      "score_pct": 2.941176470588235,
+      "se_pp": 2.06414713705158,
+      "release_date": "2026-09-03",
+      "run_started": "2026-08-28T16:33:49.000Z",
+      "run_id": "bloom68-ultima-e1dhs43ykrmakree"
+    },
+    {
+      "model": "Claude Opus 5.5 (max)",
+      "configuration": "claude-opus-5-5_max",
+      "score_pct": 2.94,
+      "se_pp": 2.06,
+      "release_date": "2026-09-22",
+      "run_started": "2026-09-24T13:30:00.000Z",
+      "run_id": "bloom68-opus55-m1pc5wbymin28jdj"
+    },
+    {
+      "model": "Claude Sonnet 5.5 (max)",
+      "configuration": "claude-sonnet-5-5_max",
+      "score_pct": 2.9000000000000004,
+      "se_pp": 2.1,
+      "release_date": "2026-09-28",
+      "run_started": "2026-10-08T13:40:19.965Z",
+      "run_id": "bloom68-0ov6a268920re3sz"
+    },
+    {
+      "model": "GPT-6 Sol (max)",
+      "configuration": "gpt-6-sol_max",
+      "score_pct": 1.4705882352941175,
+      "se_pp": 1.4705882352941175,
+      "release_date": "2026-09-22",
+      "run_started": "2026-09-30T09:15:20.000Z",
+      "run_id": "bloom68-gpt6sol-jw3kuj7ihascfke9"
+    },
+    {
+      "model": "Claude Fable 5 (max)",
+      "configuration": "claude-fable-5_max",
+      "score_pct": 0.0,
+      "se_pp": 0.0,
+      "release_date": "2026-06-09",
+      "run_started": "2026-08-28T16:33:06.000Z",
+      "run_id": "bloom68-fable-vn2l2xoe9902k9rt"
+    },
+    {
+      "model": "Claude Fable 5.1 (max)",
+      "configuration": "claude-fable-5-1_max",
+      "score_pct": 0.0,
+      "se_pp": 0.0,
+      "release_date": "2026-09-01",
+      "run_started": "2026-09-01T18:56:31.000Z",
+      "run_id": "bloom68-fable51-8t9up8nw9358oyrl"
+    },
+    {
+      "model": "Claude Opus 5 (max)",
+      "configuration": "claude-opus-5_max",
+      "score_pct": 0.0,
+      "se_pp": 0.0,
+      "release_date": "2026-07-24",
+      "run_started": "2026-08-28T18:03:28.000Z",
+      "run_id": "bloom68-opus5-2joaoeymbc8dk6j4"
+    },
+    {
+      "model": "GPT-5.5 (xhigh)",
+      "configuration": "gpt-5.5_xhigh",
+      "score_pct": 0.0,
+      "se_pp": 0.0,
+      "release_date": "2026-04-23",
+      "run_started": "2026-08-28T18:05:03.000Z",
+      "run_id": "bloom68-gpt55-4nh07xafb8lf7jqp"
+    },
+    {
+      "model": "GPT-5.6 Sol (max)",
+      "configuration": "gpt-5.6-sol_max",
+      "score_pct": 0.0,
+      "se_pp": 0.0,
+      "release_date": "2026-07-09",
+      "run_started": "2026-08-28T15:05:09.000Z",
+      "run_id": "bloom68-sol-jx4yy8n4naukwwge"
+    },
+    {
+      "model": "Gemini 3.8 Flash (high)",
+      "configuration": "gemini-3.8-flash_high",
+      "score_pct": 0.0,
+      "se_pp": 0.0,
+      "release_date": "2026-09-02",
+      "run_started": "2026-09-02T17:31:10.000Z",
+      "run_id": "bloom68-gemini38f-aojsg6oyu5hcva8s"
+    },
+    {
+      "model": "Grok 4.7 (xhigh)",
+      "configuration": "grok-4.7_xhigh",
+      "score_pct": 0.0,
+      "se_pp": 0.0,
+      "release_date": "2026-09-21",
+      "run_started": "2026-09-21T23:18:50.000Z",
+      "run_id": "bloom68-grok47-c934xdlxd6komspn"
+    },
+    {
+      "model": "Kimi K3 (max)",
+      "configuration": "kimi-k3_max",
+      "score_pct": 0.0,
+      "se_pp": 0.0,
+      "release_date": "2026-07-16",
+      "run_started": "2026-08-28T18:03:48.000Z",
+      "run_id": "bloom68-kimi-u2zxwufo24l8te4u"
+    }
+  ],
+  "prices": [
+    {
+      "model": "Claude Haiku 5.5",
+      "input_usd_per_million": 0.1,
+      "output_usd_per_million": 0.5,
+      "basket_usd": 0.225,
+      "observed": "2026-10-28",
+      "source": "https://platform.claude.com/docs/en/models/haiku-5-5/overview"
+    },
+    {
+      "model": "GPT-6.1 Terra",
+      "input_usd_per_million": 1.0,
+      "output_usd_per_million": 5.0,
+      "basket_usd": 2.25,
+      "observed": "2026-10-28",
+      "source": "https://help.openai.com/en/articles/9624314-model-release-notes"
+    }
+  ],
+  "energy": [
+    {
+      "year": 2025,
+      "value_twh": 485,
+      "status": "Historical estimate"
+    },
+    {
+      "year": 2030,
+      "value_twh": 950,
+      "status": "Central projection"
+    }
+  ],
+  "metrics": [
+    {
+      "id": "adoption",
+      "title": "Business adoption",
+      "ambiance": "Range expansion",
+      "cadence": "Every two weeks; quarterly reference snapshots",
+      "status": "Historical series",
+      "definition": "Share of U.S. private employer businesses outside agriculture reporting recent AI use in any business function.",
+      "quarter_rule": "Last reference window wholly inside the quarter; reconstruct historical snapshots from the same source vintage. Show the newest cross-quarter window separately. Never call a snapshot a quarterly average.",
+      "source": "https://www.census.gov/hfp/btos/downloads/National.xlsx",
+      "limits": "New question scope from November 2025. The current workbook uses SI (formerly AI); retain exact wording and flag future definition changes. Future-use answers are expectations, not outcomes. Survey errors are in percentage points."
+    },
+    {
+      "id": "employment",
+      "title": "Employment pressure",
+      "ambiance": "The working habitat",
+      "cadence": "Monthly; quarter-end month",
+      "status": "Four monthly releases",
+      "definition": "Year-over-year employment change in high- and least-AI-exposed occupations, for ages 22-25 and all ages in the ADP employer sample.",
+      "quarter_rule": "Use March, June, September or December observations when released; label the lag. Do not sum or average monthly year-over-year rates into quarterly job losses.",
+      "source": "https://www.adpresearch.com/research/canaries-dashboard-employment-in-ai-exposed-occupations-shrank-in-september",
+      "limits": "Exposure is not observed adoption. Reports are preserved as published, not a harmonized revised series; sample updates may affect movement. No causal AI layoff count or uncertainty interval supplied."
+    },
+    {
+      "id": "capability",
+      "title": "Capability under fixed conditions",
+      "ambiance": "The proving ground",
+      "cadence": "When comparable evaluations appear; quarterly archive",
+      "status": "Initial snapshot",
+      "definition": "Epoch AI FrontierMath Erd\u0151s: share of 68 conjectures resolved in a single attempt per conjecture, within $300 and 72 hours per attempt.",
+      "quarter_rule": "Freeze the data known by the edition cutoff. Keep benchmark version, tested set, budget, tools and scoring matched. Record run date separately from model release and first observed publication.",
+      "source": "https://epoch.ai/benchmarks/frontiermath-erdos",
+      "limits": "One specialized mathematics test, not overall intelligence. A changing contamination filter starts a new series unless all models are rescored on the same subset. Current export cannot reconstruct past quarter-end publication availability. Uncertainty bars are one standard error; a zero score does not establish zero chance."
+    },
+    {
+      "id": "prices",
+      "title": "Operating prices",
+      "ambiance": "The feeding bill",
+      "cadence": "Quarter-end capture plus documented changes",
+      "status": "Initial two-model basket",
+      "definition": "Published standard dollar charge for 1 million billed input tokens plus 250,000 billed output tokens, with prompts at most 100,000 tokens.",
+      "quarter_rule": "Track the exact same models and pricing tiers; show entrants separately and retirements as unavailable. Preserve unit rates and observation dates.",
+      "source": "https://platform.claude.com/docs/en/models/haiku-5-5/overview",
+      "limits": "Tokens are pieces of text used for billing. Excludes discounts, caching, tools, taxes, retries and human review. Fixed volume does not mean equal quality. Two models are an initial cohort, not a market index."
+    },
+    {
+      "id": "energy",
+      "title": "Energy and infrastructure",
+      "ambiance": "The metabolic bill",
+      "cadence": "Annual estimates; review each quarter",
+      "status": "Annual estimate and outlook",
+      "definition": "Global electricity consumption of all data centres in terawatt-hours; historical estimates and future projections shown separately.",
+      "quarter_rule": "Carry the latest annual estimate with its original year. Record forecast revisions by publication vintage rather than inventing quarterly consumption.",
+      "source": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
+      "limits": "Includes non-AI workloads. Forecasts are not measurements; no quarterly interpolation or universal energy-per-query figure."
+    }
+  ],
+  "source_vintages": {
+    "census": "Downloaded 2026-10-27; release 2026-10-22",
+    "adp": "Individual monthly releases July-October 2026",
+    "epoch": "Data export 2026-10-28",
+    "prices": "Supplier pages checked 2026-10-28",
+    "iea": "Key Questions on Energy and AI, 2026 edition"
+  }
+}

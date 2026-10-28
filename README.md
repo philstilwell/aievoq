@@ -6,16 +6,17 @@ The public website for **https://aievoq.com**: an illustrated quarterly explorin
 
 This is a small static site: `index.html`, `styles.css` and local artwork. There are no package dependencies, build steps, forms, trackers or server services.
 
-The homepage introduces the first issue through three lead stories, the demand section, six recurring departments, the fictional species, and the editorial approach. The issue remains in preparation for the end of 2026. This public preview draws on review draft 0.13; it does not serve the working PDF.
+The homepage introduces the first issue through three lead stories, the demand section, six recurring departments, the fictional species, and the editorial approach. The issue remains in preparation for the end of 2026. The issue preview now includes the statistical census developed for review draft 0.16; it does not serve the working PDF.
 
 The three fictional species illustrations and four supporting scenes were created for this project using built-in ImageGen. The website uses lightweight WebP copies; the original report and full-resolution artwork are maintained separately. No new images were generated for the website expansion.
 
-The design echoes the report with charcoal, cobalt, ivory and copper; small capsule illustrations with 3px borders; softly rounded information panels; subtle shadows; and large unframed artwork with fading edges. Native HTML disclosure controls provide optional extra detail without JavaScript. System fonts avoid external font requests.
+The design echoes the report with charcoal, cobalt, ivory and copper; small capsule illustrations with 3px borders; softly rounded information panels; subtle shadows; and large unframed artwork with fading edges. Native HTML disclosure controls provide optional extra detail without JavaScript. The statistics page progressively adds SVG charts and two display controls; its tables and downloads remain available without JavaScript. System fonts avoid external font requests.
 
 ## Content and artwork
 
 - `index.html`: issue preview, recurring departments and publication status.
 - `styles.css`: responsive layouts, accessible focus states and reduced-motion support.
+- `statistics/`: permanent census with five charts, source notes, static data tables, CSV downloads and a dated JSON archive. See `statistics/README.md` for the update rules.
 - `assets/ledgerfinch.webp`, `relay-octopus.webp`, `proofweaver.webp`: the recurring species.
 - `assets/mathematical-rain.webp`, `learning-nursery.webp`, `naturalist-surprised.webp`: capsule illustrations from the existing report.
 - `assets/watering-hole.webp`: the established demand scene, also used for social sharing metadata.
