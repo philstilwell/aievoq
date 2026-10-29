@@ -1,0 +1,418 @@
+{
+  "version": "0.18",
+  "source_sha256": "6af8cef8682b844a6aced6428643b9aaf6d341fe1fe50a4abd5d68e51af2c440",
+  "plates": {
+    "living-jungle": {
+      "src": "/assets/issue-01/living-jungle.webp",
+      "width": 1500,
+      "height": 500,
+      "caption": "A shared habitat: useful abilities, outside resources and neighbours all matter.",
+      "number": 1,
+      "alt": "Imagined scene. A small sweeping ecosystem in one wide scene: Ledgerfinch sorting ivory tiles on a branch at left, Relay Octopus working with detachable tools beside a pool in the middle, Proofweaver spinning a precise web between roots at right. Subtle connected paths and trailing cord suggest interdependence. Make the creatures substantial and readable, not tiny lost figures. Invitation to an expedition through an intelligent habitat."
+    },
+    "mathematical-rain": {
+      "src": "/assets/issue-01/mathematical-rain.webp",
+      "width": 1500,
+      "height": 500,
+      "caption": "A rain of possible results; each strand still needs examination.",
+      "number": 2,
+      "alt": "Imagined scene. The Proofweaver in a forest clearing has spun an unexpectedly expansive network of webs. Pale blank leaf-shaped papers drift down like rain, catching on the strands. A separate small checking frame and an anonymous human hand with a magnifying glass inspect just one strand at the edge. Distinguish the abundance of proposed threads from the careful checking of each. No equations or written marks. Wondrous, not apocalyptic."
+    },
+    "office-reef": {
+      "src": "/assets/issue-01/office-reef.webp",
+      "width": 1500,
+      "height": 504,
+      "caption": "More arms reach more drawers, provided the keys and connections are available.",
+      "number": 3,
+      "alt": "Imagined scene. The Relay Octopus inhabits a whimsical office reef grown from coral-like wooden drawers. It uses distinct detachable implements to reach a paper tray, a cabinet key and an information pool. Several drawers are open; one remains locked; a cord visibly runs to an external resource stone. A clear wide scene about tools and permissions, not simply more intelligence inside a bigger head."
+    },
+    "beyond-glasshouse": {
+      "src": "/assets/issue-01/beyond-glasshouse.webp",
+      "width": 1500,
+      "height": 500,
+      "caption": "The same creature, different conditions. This is a proposed encounter, not a test result.",
+      "number": 4,
+      "alt": "Imagined scene. A graceful paired landscape joined across one wide scene: on the left the Relay Octopus works inside a sunlit small glasshouse with orderly drawers and dry blank papers. On the right the SAME recurring species ventures into a windblown garden where papers have moved, a gate is shut and a cable ends short of its socket. Show an attentive pause and a tool held ready, not a demonstrated failure or victory. Repeat the character deliberately as two hypothetical settings. Strong visual contrast in surroundings, identical creature capability."
+    },
+    "empty-perch": {
+      "src": "/assets/issue-01/empty-perch.webp",
+      "width": 1500,
+      "height": 500,
+      "caption": "An empty perch need not mean extinction; useful work may continue elsewhere.",
+      "number": 5,
+      "alt": "Imagined scene. Wide forest vignette about local disappearance and continued life: a conspicuously empty mossy perch and a small loose copper feather at left; in the middle distance the Ledgerfinch is still alive and working on a different branch; at right a young living branch supports a carefully reworked small Proofweaver web in an ivory checking frame. No dead animals, gravestones or total extinction imagery. Quiet transition with a hopeful, investigative tone."
+    },
+    "learning-nursery": {
+      "src": "/assets/issue-01/learning-nursery.webp",
+      "width": 1500,
+      "height": 500,
+      "caption": "A full tray and a learned skill are different achievements. The nursery is an invented analogy.",
+      "number": 6,
+      "alt": "Imagined scene. A woodland learning scene. An adult Ledgerfinch uses a fine wing-finger to demonstrate one ivory tile to a smaller juvenile of the SAME fictional species. The juvenile actively tries sorting a few tiles itself, with a small imperfect pile still present. At the opposite side the helpful Relay Octopus holds a full prepared tray but waits, leaving room for the youngster to practice. Express the difference between giving an answer and making room for learning. Warm, thoughtful, not infantilizing humans."
+    },
+    "borrowed-metabolism": {
+      "src": "/assets/issue-01/borrowed-metabolism.webp",
+      "width": 1500,
+      "height": 500,
+      "caption": "Borrowed functions can support a capable partnership; the outside supply still matters.",
+      "number": 7,
+      "alt": "Imagined scene. An imaginative dependency plate, not a literal biological diagram. At left, two magnified translucent organic microbe-like forms exchange different copper and teal nutrient beads through a shared pool. At right, the Relay Octopus's external cord reaches a resource stone fed by the same visual current. A broad ivory gap softly separates the microscopic metaphor and the familiar AI creature; copper and teal flows tie them together. Clear reciprocal exchange, no labelled pathways, no genetic symbols, no claim that cells are actual AI components."
+    },
+    "claws-in-reserve": {
+      "src": "/assets/issue-01/claws-in-reserve.webp",
+      "width": 1500,
+      "height": 500,
+      "caption": "A tool can rest in its case while a useful skill stays in practice.",
+      "number": 8,
+      "alt": "Imagined scene. The Ledgerfinch deliberately practices handling and checking ivory tiles with its fine wing-fingers at a little woodland workbench. A useful detachable tool lies safely in an OPEN case nearby, available but temporarily set aside. Three simple objects suggest practice, stored capability and a fallback: a working pile, a spare implement, a small bridge to another perch. No disuse deformity, no genetic degeneration, no broken limbs. The bird looks curious and capable. This is retaining a skill through practice."
+    },
+    "access-to-web": {
+      "src": "/assets/issue-01/access-to-web.webp",
+      "width": 1500,
+      "height": 500,
+      "caption": "Who can reach the web, inspect its strands and build on what they find?",
+      "number": 9,
+      "alt": "Imagined scene. A large elegant Proofweaver web spans a woodland arch. One half of the arch is open, with a magnifying glass and an ivory checking frame within reach; the other side is behind a tasteful closed lattice gate with a simple keyhole. The Proofweaver tends the web without a villainous expression. Focus on access to inspect a result, not safety policing. No human caricatures or named organizations. A small key placed outside the gate makes the question visible."
+    },
+    "understanding-the-web": {
+      "src": "/assets/issue-01/understanding-the-web.webp",
+      "width": 1500,
+      "height": 500,
+      "caption": "A proposed result invites checking, explanation and further work.",
+      "number": 10,
+      "alt": "Imagined scene. A single wide scene follows a strand of reasoning across the forest: left an intricate tangled exploratory web with an amber unfinished strand, center an anonymous human hand gently guides that strand through the Proofweaver's separate ivory checking frame, right a smaller clean elegant web opens onto further branches. The familiar Proofweaver remains visible near the frame. Suggest proposing, checking, understanding and building onward without text, arrows, a guaranteed conclusion or a numerical chart. Beautiful and intelligible."
+    },
+    "habitat-engineers": {
+      "src": "/assets/issue-01/habitat-engineers.webp",
+      "width": 1500,
+      "height": 500,
+      "caption": "Changing the habitat can open one route while making another less useful.",
+      "number": 11,
+      "alt": "Imagined scene. A wide evocative habitat-engineering scene. A recognizable ordinary beaver at left places a branch in a low dam, changing the course of a small stream. The stream winds into a clearly fantastical office garden at right where the Relay Octopus and Ledgerfinch occupy reorganized wooden work platforms and channels. The water creates both a new sheltered pool and a stranded former pathway. No catastrophe; show that different inhabitants encounter different conditions. The beaver is a biological comparison, not a new branded AI species. Metaphor of people reorganizing around tools; no actual event depicted."
+    },
+    "naturalist-surprised": {
+      "src": "/assets/issue-01/naturalist-surprised.webp",
+      "width": 1500,
+      "height": 500,
+      "caption": "The notebook must change when the observations no longer fit.",
+      "number": 12,
+      "alt": "Imagined scene. An anonymous naturalist's open field notebook rests on a stump across the foreground, with NO writing, only a simple ink silhouette of a bird confined inside a small drawn boundary. The real Ledgerfinch steps past the notebook's edge toward an unexpected new perch; nearby a Proofweaver thread runs beyond an old empty measuring frame. A surprised human hand holds a pencil above the blank page, ready to revise. Gentle humor about expectations and evidence, no named expert, no dunce cap, no certainty that every forecast fails."
+    },
+    "wall-with-doors": {
+      "src": "/assets/issue-01/wall-with-doors.webp",
+      "width": 1500,
+      "height": 500,
+      "caption": "Several routes may help, but their contributions overlap and their limits still need testing.",
+      "number": 13,
+      "alt": "Imagined scene. A low ancient garden wall crosses the wide scene, with several different routes through or around it. Ledgerfinch explores a narrow opening with a precise beak, Relay Octopus uses a key in a larger gate, Proofweaver lays an exploratory thread toward an upper gap. Some routes reconnect rather than forming independent roads. Show possibilities for different methods, not inevitable unlimited progress. The landscape continues into mist rather than a triumphant final summit. No arrows or text."
+    },
+    "sealed-forecasts": {
+      "src": "/assets/issue-01/sealed-forecasts.webp",
+      "width": 1500,
+      "height": 500,
+      "caption": "Seal the prediction before the outcome arrives; preserve what was actually expected.",
+      "number": 14,
+      "alt": "Imagined scene. A naturalist's careful forecast archive: three closed ivory envelopes with copper wax seals arranged beside three CLOSED seed capsules on a wooden field table, with a blank calendar-like card without any digits or letters. The Ledgerfinch observes without opening them. A distant path leads into unpainted mist. Strong sense of preserved expectations and an outcome genuinely unknown, no sprouting seed that reveals which prediction wins, no crystal ball. Warm restrained still life."
+    },
+    "unexpected-use": {
+      "src": "/assets/issue-01/unexpected-use.webp",
+      "width": 1500,
+      "height": 500,
+      "caption": "An old tool may find a new use. This scene illustrates repurposing, not a reported test.",
+      "number": 15,
+      "alt": "Imagined scene. The Ledgerfinch uses its familiar narrow precision beak in an unexpected but plausible new way: instead of sorting the nearby ivory tiles, it carefully draws an amber thread through a small eyelet, opening a different kind of seedpod-like mechanism. The same beak, recognizable species, no suddenly invented extra limbs. Its usual tiles remain visible to establish the original niche. Moment of curious discovery, an imagined example of repurposing rather than a documented capability."
+    },
+    "price-of-feathers": {
+      "src": "/assets/issue-01/price-of-feathers.webp",
+      "width": 1500,
+      "height": 500,
+      "caption": "What does the new plumage earn, and what does supporting it require?",
+      "number": 16,
+      "alt": "Imagined scene. A thought-provoking Ledgerfinch portrait in a wide woodland vignette: its familiar green and copper plumage has a modest flourish of extra elegant feathers, while nearby sit a larger seed dish, an unmarked hourglass and a magnifying lens for checking work. Keep ordinary bird proportions, not a peacock or a new species. The bird examines the objects thoughtfully. No scales with measured quantities, no numbers, no suggestion that all improvements must cost more. A hypothetical question about usefulness and upkeep."
+    },
+    "possible-branches": {
+      "src": "/assets/issue-01/possible-branches.webp",
+      "width": 1500,
+      "height": 500,
+      "caption": "Possible branches for discussion. The drawing does not establish a speciation event.",
+      "number": 17,
+      "alt": "Imagined scene. A very wide natural-history study of a mossy branch splitting into three twigs. On the first sits the familiar Ledgerfinch; on the others sit subtly varied imagined close relatives with different precision beaks and tool-like wing-finger poses. Make similarities clear. Their chosen objects differ: sorting tiles, a thread, a small seed capsule. Use faint unfinished ink lines at branch tips so this reads as a hypothetical sketch being considered, not a confirmed family tree. No labels, no rankings, no claim of actual ancestry."
+    },
+    "changing-weather": {
+      "src": "/assets/issue-01/changing-weather.webp",
+      "width": 1500,
+      "height": 500,
+      "caption": "A changed route raises questions about recovery, help and dependence.",
+      "number": 18,
+      "alt": "Imagined scene. The Relay Octopus and Ledgerfinch meet a change in weather along a woodland work route. A gust moves a hanging sign-shaped blank leaf and a bridge plank has shifted; an external cord and its socket remain visible. The Octopus reaches carefully for a stable alternate stepping stone while the Finch watches a new route. Depict deliberation and a recoverable obstacle, not a guaranteed successful crossing, disaster or dead creatures. A broad elegant landscape with changing conditions clearly legible."
+    },
+    "octopus-correspondence": {
+      "src": "/assets/issue-01/octopus-correspondence.webp",
+      "width": 1500,
+      "height": 500,
+      "caption": "An invented correspondent, with several arms and a complicated relationship with drawers.",
+      "number": 19,
+      "alt": "Imagined scene. A witty, exquisitely drawn wide scene of the Relay Octopus writing a private letter with a detachable ivory stylus at a compact woodland secretary desk. All paper is blank. Around it are several drawers, only two visibly open, a conspicuously useful keyring and an external cord leading to its resource stone. One arm patiently holds a sealed drawer handle. Express mild bemusement through pose, not exaggerated cartoon facial features. No speech bubbles or actual text. Match natural-history watercolor, not a modern cartoon."
+    },
+    "unwalked-trail": {
+      "src": "/assets/issue-01/unwalked-trail.webp",
+      "width": 1500,
+      "height": 500,
+      "caption": "The trail continues into unreported territory. Future outcomes remain open.",
+      "number": 20,
+      "alt": "Imagined scene. A beautiful wide panorama: the three familiar species pause at the edge of a winding forest trail. The near ground is richly observed in ink and watercolor; farther along, the landscape fades into warm ivory unpainted paper and a gentle pale mist. No visible future triumph, extinction, new species or destination. A blank field notebook and pencil lie nearby. A sense of curiosity and ongoing observation through an unfinished season."
+    },
+    "crowded-watering-hole": {
+      "src": "/assets/issue-01/crowded-watering-hole.webp",
+      "width": 1500,
+      "height": 500,
+      "caption": "More visitors, more buckets, and only so much room at the water's edge.",
+      "number": 21,
+      "alt": "Imagined scene. The three recurring AI species gather at a crowded woodland watering hole, drinking, waiting and carrying buckets."
+    },
+    "laborans-two-arrangements": {
+      "src": "/assets/issue-01/laborans-two-arrangements.webp",
+      "width": 1500,
+      "height": 625,
+      "caption": "The same human, two working arrangements: stepping back from the task, or directing and checking it with an AI partner.",
+      "number": 22,
+      "alt": "Imagined scene. The same recognizable fictional human steps back from work in one imagined scene and directs and checks work with the Relay Octopus in the other."
+    }
+  },
+  "figures": {
+    "ledgerfinch": {
+      "type": "portrait",
+      "src": "/assets/ledgerfinch.webp",
+      "entries": [
+        [
+          "Small body",
+          "A reminder to ask about cost and efficiency."
+        ],
+        [
+          "Precision beak",
+          "Picking relevant details from a larger pile."
+        ],
+        [
+          "Sorted tiles",
+          "Repeated classification and extraction."
+        ],
+        [
+          "Fine wing tips",
+          "Acting through a computer interface."
+        ],
+        [
+          "LF-01 / first field portrait",
+          "A recurring character for economical information work."
+        ]
+      ]
+    },
+    "relay_octopus": {
+      "type": "portrait",
+      "src": "/assets/relay-octopus.webp",
+      "entries": [
+        [
+          "Different implements",
+          "Tools for different kinds of work."
+        ],
+        [
+          "The key",
+          "Permission to use information and services."
+        ],
+        [
+          "The empty cuff",
+          "Capabilities that can be added or removed."
+        ],
+        [
+          "The trailing cord",
+          "Dependence on something outside the model."
+        ],
+        [
+          "RO-01 / first field portrait",
+          "A recurring character for connected assistants."
+        ]
+      ]
+    },
+    "proofweaver": {
+      "type": "portrait",
+      "src": "/assets/proofweaver.webp",
+      "entries": [
+        [
+          "The geometric web",
+          "Steps in an argument that must fit together."
+        ],
+        [
+          "The amber strand",
+          "An unfinished or exploratory line of thought."
+        ],
+        [
+          "The separate frame",
+          "External checking; not an organ of certainty."
+        ],
+        [
+          "The surrounding clearing",
+          "A community that interprets and develops the work."
+        ],
+        [
+          "PW-01 / first field portrait",
+          "A recurring character for mathematical exploration."
+        ]
+      ]
+    },
+    "adoption_trend": {
+      "type": "chart",
+      "src": "/assets/issue-01/adoption_trend.svg",
+      "width": 516,
+      "height": 220,
+      "text": "BUSINESS ADOPTION / U.S. EMPLOYER BUSINESSES\nRecent use: solid blue / Expected within six months: dashed copper\n\n\n\n30%\n                                                                                   28.6%\n                                                                                   24.6%\n20%\n\n\n10%\n\n\n0%\n      Nov 2025        Jan 2026                         Apr             Jul   Oct\n\nReference windows / whiskers: +/-1 standard error / Census BTOS [86]"
+    },
+    "employment_trend": {
+      "type": "chart",
+      "src": "/assets/issue-01/employment_trend.svg",
+      "width": 516,
+      "height": 220,
+      "text": "EMPLOYMENT CHANGE / AGES 22-25\nYear over year (%) / High AI exposure: copper / Least exposure: blue\n\n+1%                                                                              +0.2%\n        +0.0%                               +0.0%\n0%\n\n\n                                                                        -2.0%\n-2%\n                                            -3.0%\n                                                                                 -3.7%\n        -4.3%                                                           -4.4%\n-4%\n\n\n        June                                July                        August   September\n2026 observation months / releases as published / ADP [79], [87]-[89]"
+    },
+    "capability_baseline": {
+      "type": "chart",
+      "src": "/assets/issue-01/capability_baseline.svg",
+      "width": 516,
+      "height": 245,
+      "text": "FRONTIERMATH ERDŐS / OCTOBER 28 SNAPSHOT\nConjectures resolved (%) / 68 items / error bars: +/-1 standard error\n\n\nGPT-6.1 Sol (max)                                                                             4.4%\n\nGPT-6 Astra (max)                                                                      2.9%\n\nClaude Opus 5.5 (max)                                                                  2.9%\n\nClaude Sonnet 5.5 (max)                                                                2.9%\n\nGPT-6 Sol (max)                                                                1.5%\n\n\n                                                    0%             2%             4%     6%      8%   10%\n\nEight further configurations: 0% observed. See downloadable data for all 13.\nEpoch AI [90]-[91], CC BY 4.0 / adapted by AIEVOQ / specialized test only"
+    },
+    "price_basket": {
+      "type": "chart",
+      "src": "/assets/issue-01/price_basket.svg",
+      "width": 516,
+      "height": 180,
+      "text": "STANDARD TEXT BASKET / U.S. DOLLARS\n1m billed input tokens + 250k billed output / Copper: input / Blue: output\n\n\nClaude Haiku 5.5                                   $0.225\n\n\n\nGPT-6.1 Terra                                                                        $2.250\n\n\n                                         $0                                $1   $2\n\nRates checked October 28 [4], [7] / fixed volume, not equivalent quality"
+    },
+    "energy_outlook": {
+      "type": "chart",
+      "src": "/assets/issue-01/energy_outlook.svg",
+      "width": 516,
+      "height": 200,
+      "text": "DATA-CENTRE ELECTRICITY / GLOBAL TOTAL\nTerawatt-hours per year / Includes AI and non-AI work\n\n\n\n2025 / estimate                                                                      485\n\n\n\n2030 / projection                                                                          950\n\n                                                 0                                  500    1000\n\n\nIEA, 2026 outlook [74] / An annual estimate and a forecast, not two observations."
+    },
+    "timeline": {
+      "type": "chart",
+      "src": "/assets/issue-01/timeline.svg",
+      "width": 516,
+      "height": 350,
+      "text": "SELECTED OCTOBER SIGHTINGS\n\n\nOCT 06       Mathematical output released; Large 4 preview [1]-[2]\n\nOCT 07       Haiku arrives; a mathematical association objects [3], [14]\n\nOCT 08       Gemini agent for work announced [5]\n\nOCT 13       Gemini 4 Argon app access announced [6]\n\nOCT 14       GPT-5.5 leaves selected products [7]\n\nOCT 15       Simons announces support for the mathematical community [15]\n\nOCT 16       Human mathematicians report a shorter, stronger proof [16]\n\nOCT 21       The nursery question; employment pressure [47], [79]\n\nOCT 22       Business adoption; Barclays workforce plans [70], [82]\n\nOCT 25-26    Access debated; GPT-6.1 Terra rollout [7], [17]\n\nOCT 26       Assisted capability and retained knowledge [84]\n\n\n OCT 28 | DRAFT CUTOFF\n NOVEMBER + DECEMBER | OPEN FIELD NOTES"
+    },
+    "haiku": {
+      "type": "chart",
+      "src": "/assets/issue-01/haiku.svg",
+      "width": 516,
+      "height": 195,
+      "text": "REPORTED COMPUTER-USE PERFORMANCE\nOSWorld 2.1, offline subset / percent\n\n\nHaiku 4.5                                 15.7%\n\n\nHaiku 5.5                                                                                    72.4%\n\n\n                         0                     25                     50                    75                     100\n\nSource: Anthropic [3]. Supplier-reported results; no independent rerun, sample count, or error bars supplied by this draft.\nThis is not a survival score."
+    },
+    "employment_snapshot": {
+      "type": "chart",
+      "src": "/assets/issue-01/employment_snapshot.svg",
+      "width": 516,
+      "height": 210,
+      "text": "EMPLOYMENT CHANGE BY OCCUPATIONAL AI EXPOSURE\nSeptember 2026 vs September 2025 / U.S. private-employer sample\n\n\n\nAll ages                                                                High: -0.5%\n\n                                                                                                    Least: +1.0%\n\n\nAges 22-25           High: -3.7%\n\n                                                                                          Least: +0.2%\n                            -4%             -3%             -2%             -1%       0           +1%\n\nHigh exposure / copper       Least exposure / cobalt\nSource: ADP / Stanford [79]. Employment counts, not an AI-caused layoff rate."
+    },
+    "demand_snapshot": {
+      "type": "chart",
+      "src": "/assets/issue-01/demand_snapshot.svg",
+      "width": 516,
+      "height": 175,
+      "text": "A FOOTHOLD, AND AN EXPECTATION\nU.S. employer businesses / October 22, 2026 release [70]\n\n\n24.6%                                                         28.6%\nREPORTED RECENT USE                                           EXPECTED WITHIN SIX MONTHS\n\n\n0%                                                  40%       0%                                                   40%\n\n\nSurvey point estimates. Recent use refers to September 21-October 4. The outlined bar is an expectation, not a future\noutcome or a measure of spending."
+    },
+    "prices": {
+      "type": "chart",
+      "src": "/assets/issue-01/prices.svg",
+      "width": 516,
+      "height": 198,
+      "text": "THE FEEDING TARIFF\nStandard US dollars per million tokens / snapshot: October 27, 2026\n\n\nHaiku 5.5 input                       $0.10\n\nHaiku 5.5 output                           $0.50\n\nTerra input                                          $1.00\n\nTerra output                                                                                                   $5.00\n\n                                  0              1             2              3             4              5\n\nSources: [4], [7]. Haiku rates apply to prompts up to 100,000 tokens. Excludes caching, batch discounts, tool fees and\ntaxes. Unit rates do not compare quality or total task cost."
+    },
+    "reliability_walk": {
+      "type": "chart",
+      "src": "/assets/issue-01/reliability_walk.svg",
+      "width": 516,
+      "height": 210,
+      "text": "THE CHANCE OF AN UNBROKEN JOURNEY\nIllustration only / probability that every step succeeds\n  100%\n                                                              99.9% per step: 90.5% after 100\n\n\n   50%\n\n                                                              99% per step: 36.6% after 100\n\n     0%\n          0                            25                          50                           75   100\n                                                      Number of required steps\nIndependent steps, equal reliability, no recovery. Not measured AI results."
+    }
+  },
+  "portraits": {
+    "sam-altman": {
+      "src": "/assets/issue-01/sam-altman.webp",
+      "width": 800,
+      "height": 1000,
+      "name": "Sam Altman",
+      "title": "The gate opener",
+      "role_line": "OpenAI / chief executive",
+      "caption": "An open gate stands for releasing new AI capabilities. The shoots hint at what may grow once people can use them. Later episodes will follow who gets through the gate, and on what terms. [18]"
+    },
+    "dario-amodei": {
+      "src": "/assets/issue-01/dario-amodei.webp",
+      "width": 800,
+      "height": 1000,
+      "name": "Dario Amodei",
+      "title": "The greenhouse inspector",
+      "role_line": "Anthropic / co-founder",
+      "caption": "The greenhouse combines growth with monitoring. Its dial asks how capability can develop alongside checks and safeguards. It represents an ambition, not a safety certificate; the growing conditions still need watching. [19]"
+    },
+    "demis-hassabis": {
+      "src": "/assets/issue-01/demis-hassabis.webp",
+      "width": 800,
+      "height": 1000,
+      "name": "Demis Hassabis",
+      "title": "The puzzle naturalist",
+      "role_line": "Google DeepMind / co-founder",
+      "caption": "A chessboard grows into a molecular model: a small journey from games to scientific discovery. The magnifying lens keeps the emphasis on investigation. A spectacular move is only the start of understanding why it works. [20]"
+    },
+    "arthur-mensch": {
+      "src": "/assets/issue-01/arthur-mensch.webp",
+      "width": 800,
+      "height": 1000,
+      "name": "Arthur Mensch",
+      "title": "The wind gardener",
+      "role_line": "Mistral / co-founder",
+      "caption": "A weather vane and windswept sapling give a European AI contender its own visual patch. The plant bends with the conditions. Our recurring question is which combination of models, tools, price and access can keep it growing. [23]"
+    },
+    "jensen-huang": {
+      "src": "/assets/issue-01/jensen-huang.webp",
+      "width": 800,
+      "height": 1000,
+      "name": "Jensen Huang",
+      "title": "The supplier of sunlight",
+      "role_line": "NVIDIA / co-founder",
+      "caption": "The chip-shaped grow light stands for computing power, which helps many kinds of AI develop and operate. Even the fiercest competitors need resources. In this jungle, somebody still has to supply the grow lights. [22]"
+    },
+    "fei-fei-li": {
+      "src": "/assets/issue-01/fei-fei-li.webp",
+      "width": 800,
+      "height": 1000,
+      "name": "Fei-Fei Li",
+      "title": "The cartographer of space",
+      "role_line": "World Labs / co-founder",
+      "caption": "The flat picture and miniature landscape distinguish seeing a view from understanding a space. This is a portrait of spatial intelligence: reasoning about objects, places and their relationships. The little path leads beyond the picture frame. [21]"
+    },
+    "mark-zuckerberg": {
+      "src": "/assets/issue-01/mark-zuckerberg.webp",
+      "width": 800,
+      "height": 1000,
+      "name": "Mark Zuckerberg",
+      "title": "The connected-habitat builder",
+      "role_line": "Meta / founder",
+      "caption": "Linked islands stand for platforms and the connections among their users. The bridges remind us that reaching people can matter as much as a new capability. A useful habitat needs paths as well as impressive inhabitants. [24]"
+    },
+    "elon-musk": {
+      "src": "/assets/issue-01/elon-musk.webp",
+      "width": 800,
+      "height": 1000,
+      "name": "Elon Musk",
+      "title": "The cross-habitat tinkerer",
+      "role_line": "SpaceX / Tesla / xAI lineage",
+      "caption": "The rocket, robot and trailing cord bring AI and physical engineering into one miniature habitat. This is an imagined combination, not a claim that the pieces already work together. The cord invites us to follow the dependencies. [25]"
+    }
+  },
+  "cover": {
+    "src": "/assets/issue-01/cover.webp",
+    "width": 1100,
+    "height": 1424
+  }
+}

@@ -1,0 +1,346 @@
+{
+  "version": "0.18",
+  "reviewed_on": "2026-10-28",
+  "source_sha256": "6af8cef8682b844a6aced6428643b9aaf6d341fe1fe50a4abd5d68e51af2c440",
+  "source_sections": 78,
+  "editorial_articles": 53,
+  "article_pages": 55,
+  "concept_panels": 53,
+  "statistic_panels": 29,
+  "source_count": 92,
+  "source_sections_count": 23,
+  "plate_placements": 34,
+  "figure_placements": 19,
+  "pages": [
+    {
+      "source_index": 1,
+      "title": "AI EVOLUTION QUARTERLY",
+      "path": "/issues/2026-q4/ai-evolution-quarterly/",
+      "category": "About this edition"
+    },
+    {
+      "source_index": 2,
+      "title": "Welcome to the AI jungle",
+      "path": "/issues/2026-q4/welcome-to-the-ai-jungle/",
+      "category": "The evolutionary lens"
+    },
+    {
+      "source_index": 3,
+      "title": "Why this is an evolutionary story",
+      "path": "/issues/2026-q4/why-this-is-an-evolutionary-story/",
+      "category": "The evolutionary lens"
+    },
+    {
+      "source_index": 4,
+      "title": "Common dynamics / 1",
+      "path": "/issues/2026-q4/common-dynamics-1/",
+      "category": "The evolutionary lens"
+    },
+    {
+      "source_index": 5,
+      "title": "Common dynamics / 2",
+      "path": "/issues/2026-q4/common-dynamics-2/",
+      "category": "The evolutionary lens"
+    },
+    {
+      "source_index": 6,
+      "title": "Where the analogy earns its keep",
+      "path": "/issues/2026-q4/where-the-analogy-earns-its-keep/",
+      "category": "The evolutionary lens"
+    },
+    {
+      "source_index": 7,
+      "title": "The Ledgerfinch",
+      "path": "/issues/2026-q4/the-ledgerfinch/",
+      "category": "Meet the species"
+    },
+    {
+      "source_index": 8,
+      "title": "The Relay Octopus",
+      "path": "/issues/2026-q4/the-relay-octopus/",
+      "category": "Meet the species"
+    },
+    {
+      "source_index": 9,
+      "title": "The Proofweaver",
+      "path": "/issues/2026-q4/the-proofweaver/",
+      "category": "Meet the species"
+    },
+    {
+      "source_index": 10,
+      "title": "The quarterly census",
+      "path": "/issues/2026-q4/the-quarterly-census/",
+      "category": "The quarterly census"
+    },
+    {
+      "source_index": 11,
+      "title": "Adoption spreads",
+      "path": "/issues/2026-q4/adoption-spreads/",
+      "category": "The quarterly census"
+    },
+    {
+      "source_index": 12,
+      "title": "Work under pressure",
+      "path": "/issues/2026-q4/work-under-pressure/",
+      "category": "The quarterly census"
+    },
+    {
+      "source_index": 13,
+      "title": "A demanding proving ground",
+      "path": "/issues/2026-q4/a-demanding-proving-ground/",
+      "category": "The quarterly census"
+    },
+    {
+      "source_index": 14,
+      "title": "The feeding bill",
+      "path": "/issues/2026-q4/the-feeding-bill/",
+      "category": "The quarterly census"
+    },
+    {
+      "source_index": 15,
+      "title": "The metabolic bill",
+      "path": "/issues/2026-q4/the-metabolic-bill/",
+      "category": "The quarterly census"
+    },
+    {
+      "source_index": 16,
+      "title": "October: the trail so far",
+      "path": "/issues/2026-q4/october-the-trail-so-far/",
+      "category": "October field notes"
+    },
+    {
+      "source_index": 17,
+      "title": "October 6",
+      "path": "/issues/2026-q4/october-6/",
+      "category": "October field notes"
+    },
+    {
+      "source_index": 18,
+      "title": "October 7",
+      "path": "/issues/2026-q4/october-7/",
+      "category": "October field notes"
+    },
+    {
+      "source_index": 19,
+      "title": "October 8-13",
+      "path": "/issues/2026-q4/october-8-13/",
+      "category": "October field notes"
+    },
+    {
+      "source_index": 20,
+      "title": "Beyond the Glasshouse",
+      "path": "/issues/2026-q4/beyond-the-glasshouse/",
+      "category": "October field notes"
+    },
+    {
+      "source_index": 21,
+      "title": "October 14-16",
+      "path": "/issues/2026-q4/october-14-16/",
+      "category": "October field notes"
+    },
+    {
+      "source_index": 22,
+      "title": "October 21",
+      "path": "/issues/2026-q4/october-21/",
+      "category": "Humans, learning & work"
+    },
+    {
+      "source_index": 23,
+      "title": "The borrowed metabolism",
+      "path": "/issues/2026-q4/the-borrowed-metabolism/",
+      "category": "Humans, learning & work"
+    },
+    {
+      "source_index": 24,
+      "title": "Keeping claws in reserve",
+      "path": "/issues/2026-q4/keeping-claws-in-reserve/",
+      "category": "Humans, learning & work"
+    },
+    {
+      "source_index": 25,
+      "title": "The shrinking habitat",
+      "path": "/issues/2026-q4/the-shrinking-habitat/",
+      "category": "Humans, learning & work"
+    },
+    {
+      "source_index": 26,
+      "title": "A partnership worth keeping",
+      "path": "/issues/2026-q4/a-partnership-worth-keeping/",
+      "category": "Humans, learning & work"
+    },
+    {
+      "source_index": 27,
+      "title": "The employment field notebook",
+      "path": "/issues/2026-q4/the-employment-field-notebook/",
+      "category": "Humans, learning & work"
+    },
+    {
+      "source_index": 28,
+      "title": "October 21 / employment",
+      "path": "/issues/2026-q4/october-21-employment/",
+      "category": "Humans, learning & work"
+    },
+    {
+      "source_index": 29,
+      "title": "October 22 / employment",
+      "path": "/issues/2026-q4/october-22-employment/",
+      "category": "Humans, learning & work"
+    },
+    {
+      "source_index": 30,
+      "title": "October 22",
+      "path": "/issues/2026-q4/october-22/",
+      "category": "Demand & resources"
+    },
+    {
+      "source_index": 31,
+      "title": "What keeps the creatures coming?",
+      "path": "/issues/2026-q4/what-keeps-the-creatures-coming/",
+      "category": "Demand & resources"
+    },
+    {
+      "source_index": 32,
+      "title": "When the feeding grounds fill",
+      "path": "/issues/2026-q4/when-the-feeding-grounds-fill/",
+      "category": "Demand & resources"
+    },
+    {
+      "source_index": 33,
+      "title": "Three seasons ahead",
+      "path": "/issues/2026-q4/three-seasons-ahead/",
+      "category": "Demand & resources"
+    },
+    {
+      "source_index": 34,
+      "title": "October 25-26",
+      "path": "/issues/2026-q4/october-25-26/",
+      "category": "Mathematics & the habitat"
+    },
+    {
+      "source_index": 35,
+      "title": "October 26 / research",
+      "path": "/issues/2026-q4/october-26-research/",
+      "category": "Mathematics & the habitat"
+    },
+    {
+      "source_index": 36,
+      "title": "Mathematics after the rain",
+      "path": "/issues/2026-q4/mathematics-after-the-rain/",
+      "category": "Mathematics & the habitat"
+    },
+    {
+      "source_index": 37,
+      "title": "The Habitat Engineers",
+      "path": "/issues/2026-q4/the-habitat-engineers/",
+      "category": "Mathematics & the habitat"
+    },
+    {
+      "source_index": 38,
+      "title": "The Naturalist Was Wrong",
+      "path": "/issues/2026-q4/the-naturalist-was-wrong/",
+      "category": "Expectations & forecasts"
+    },
+    {
+      "source_index": 39,
+      "title": "Expectations under pressure",
+      "path": "/issues/2026-q4/expectations-under-pressure/",
+      "category": "Expectations & forecasts"
+    },
+    {
+      "source_index": 40,
+      "title": "The wall grew doors",
+      "path": "/issues/2026-q4/the-wall-grew-doors/",
+      "category": "Expectations & forecasts"
+    },
+    {
+      "source_index": 41,
+      "title": "When the measuring stick moves",
+      "path": "/issues/2026-q4/when-the-measuring-stick-moves/",
+      "category": "Expectations & forecasts"
+    },
+    {
+      "source_index": 42,
+      "title": "Predictions in sealed envelopes",
+      "path": "/issues/2026-q4/predictions-in-sealed-envelopes/",
+      "category": "Expectations & forecasts"
+    },
+    {
+      "source_index": 43,
+      "title": "The three sealed envelopes",
+      "path": "/issues/2026-q4/the-three-sealed-envelopes/",
+      "category": "Expectations & forecasts"
+    },
+    {
+      "source_index": 44,
+      "title": "New tricks and unexpected turns",
+      "path": "/issues/2026-q4/new-tricks-and-unexpected-turns/",
+      "category": "The field journal"
+    },
+    {
+      "source_index": 45,
+      "title": "The Price of Feathers",
+      "path": "/issues/2026-q4/the-price-of-feathers/",
+      "category": "The field journal"
+    },
+    {
+      "source_index": 46,
+      "title": "The speciation hearing",
+      "path": "/issues/2026-q4/the-speciation-hearing/",
+      "category": "The field journal"
+    },
+    {
+      "source_index": 47,
+      "title": "Could it survive a change of weather?",
+      "path": "/issues/2026-q4/could-it-survive-a-change-of-weather/",
+      "category": "The field journal"
+    },
+    {
+      "source_index": 48,
+      "title": "More features for the field journal",
+      "path": "/issues/2026-q4/more-features-for-the-field-journal/",
+      "category": "The field journal"
+    },
+    {
+      "source_index": 49,
+      "title": "Letters from the Undergrowth",
+      "path": "/issues/2026-q4/letters-from-the-undergrowth/",
+      "category": "The field journal"
+    },
+    {
+      "source_index": 50,
+      "title": "November-December",
+      "path": "/issues/2026-q4/november-december/",
+      "category": "The field journal"
+    },
+    {
+      "source_index": 51,
+      "title": "The human cast",
+      "path": "/issues/2026-q4/the-human-cast/",
+      "category": "The human cast"
+    },
+    {
+      "source_index": 52,
+      "title": "From puzzles to worlds",
+      "path": "/issues/2026-q4/from-puzzles-to-worlds/",
+      "category": "The human cast"
+    },
+    {
+      "source_index": 53,
+      "title": "What keeps the jungle growing",
+      "path": "/issues/2026-q4/what-keeps-the-jungle-growing/",
+      "category": "The human cast"
+    },
+    {
+      "source_index": 54,
+      "title": "Paths into the wider world",
+      "path": "/issues/2026-q4/paths-into-the-wider-world/",
+      "category": "The human cast"
+    },
+    {
+      "source_index": 55,
+      "title": "Our continuing workshop",
+      "path": "/issues/2026-q4/our-continuing-workshop/",
+      "category": "About this edition"
+    }
+  ]
+}

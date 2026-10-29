@@ -4,17 +4,25 @@ The public website for **https://aievoq.com**: an illustrated quarterly explorin
 
 ## Website
 
-This is a small static site: `index.html`, `styles.css` and local artwork. There are no package dependencies, build steps, forms, trackers or server services.
+This is a static webzine with local artwork, full reading pages and a statistical census. There are no package dependencies, trackers or server services. The contents search runs in the browser; all articles and sources remain readable without JavaScript.
 
-The homepage introduces the first issue through three lead stories, the demand section, six recurring departments, the fictional species, and the editorial approach. The issue remains in preparation for the end of 2026. The issue preview now includes the statistical census developed for review draft 0.18; it does not serve the working PDF.
+The complete developing first issue is at `/issues/2026-q4/`. Draft 0.18 contains 53 articles and field notes, plus front matter and workshop notes, 29 Key statistics panels, 92 numbered sources, all 22 illustrated scenes, the species and human casts, and all 19 figure placements. The contents page supports full manuscript search and department filtering. Each reading page has a permanent URL and previous/next links; citations open the matching source entry. The homepage links to the full articles.
 
-The three fictional species illustrations and four supporting scenes were created for this project using built-in ImageGen. The website uses lightweight WebP copies; the original report and full-resolution artwork are maintained separately. No new images were generated for the website expansion.
+The publication is web first. Q4 remains in progress, with evidence reviewed through October 28, 2026 and November–December still open. The preserved manuscript and artwork support a possible later print edition. The working PDF remains in the editorial workspace.
+
+The web edition reuses the three fictional species, all twenty-two illustrated scenes, eight public-figure caricatures and the approved cover. The website uses lightweight WebP copies; charts retain their original vector shapes and labels. The original report and full-resolution artwork are maintained separately. No new images were generated for the migration.
 
 The design echoes the report with charcoal, cobalt, ivory and copper; small capsule illustrations with 3px borders; softly rounded information panels; subtle shadows; and large unframed artwork with fading edges. Native HTML disclosure controls provide optional extra detail without JavaScript. The statistics page progressively adds SVG charts and two display controls; its tables and downloads remain available without JavaScript. System fonts avoid external font requests.
 
 ## Content and artwork
 
-- `index.html`: issue preview, recurring departments and publication status.
+- `index.html`: webzine home, featured articles and publication status.
+- `issues/2026-q4/`: complete contents, 55 reading sections and the combined source ledger.
+- `webzine.css`, `webzine.js`: reading layouts, print stylesheet and optional contents search.
+- `content/`: exact versioned manuscript, statistics panels, figure captions and migration inventory.
+- `scripts/build_webzine.py`: dependency-free generator for the reading pages, source ledger, search index and sitemap.
+- `scripts/check_webzine.py`: content-preservation, citation, image and local-link audit.
+- `assets/issue-01/`: optimized copies of approved artwork and vector figures exported from the print source; no new generated art.
 - `styles.css`: responsive layouts, accessible focus states and reduced-motion support.
 - `statistics/`: permanent census with five charts, source notes, static data tables, CSV downloads and a dated JSON archive. See `statistics/README.md` for the update rules.
 - `assets/ledgerfinch.webp`, `relay-octopus.webp`, `proofweaver.webp`: the recurring species.
@@ -41,7 +49,9 @@ Keep existing mail and verification records when updating web routing. HTTPS is 
 
 ## Local review
 
-Serve this directory with any static web server, for example `python3 -m http.server 4173`, then open `http://localhost:4173`.
+Rebuild with `python3 scripts/build_webzine.py`, then run `python3 scripts/check_webzine.py`. Serve this directory with any static web server, for example `python3 -m http.server 4173`, then open `http://localhost:4173`.
+
+The generator reads the saved draft in `content/`; never edit generated article HTML by hand. Preserve numbered source versions when revising. The original editorial workspace also contains `production/export_webzine_assets.py`, which reuses the approved print figure definitions, verifies embedded fonts in temporary PDF intermediates, and exports browser-ready SVG figures and WebP artwork. Temporary PDFs are removed automatically. Rebuilding the website from the checked-in source requires only Python's standard library and the retained assets.
 
 © 2026 Phil Stilwell. No additional license is granted for the text or artwork.
 
