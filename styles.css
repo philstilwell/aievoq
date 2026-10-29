@@ -114,3 +114,17 @@ footer p{margin:7px 0 0;font:12px/1.7 var(--sans);color:var(--muted)}
 .concept-intro{margin:16px 0 20px;padding:15px 17px;background:#edf2f6;border:1px solid #c4d0da;border-left:3px solid var(--cobalt);border-radius:7px;box-shadow:var(--shadow);color:var(--ink)}.concept-label{display:block;margin:0 0 8px;font:700 10px/1.4 var(--mono);letter-spacing:.07em;text-transform:uppercase;color:var(--cobalt)}.concept-intro p{margin:0;font:14px/1.65 var(--sans);color:var(--ink)}.notebook .concept-intro{margin:14px 0 17px}.census-hero .concept-intro{max-width:720px;margin-top:24px}.stat-section>.concept-intro{max-width:960px;margin:22px 0 18px}.stat-section>.concept-intro p{font-size:16px;line-height:1.65}.demand-copy .concept-intro p{font-size:15px}.lead-story .concept-intro{margin-top:3px}
 @media(min-width:541px) and (max-width:780px){.lead-story .concept-intro{grid-column:2}}
 @media(max-width:540px){.concept-intro{padding:13px 14px}.stat-section>.concept-intro p{font-size:15px}}
+
+/* Key figures use the warm half of the palette, distinct from concept openings. */
+.key-statistics{margin:18px 0 22px;padding:16px 17px;background:#fffdf7;border:1px solid #d5d1c5;border-left:3px solid var(--copper);border-radius:7px;box-shadow:var(--shadow);color:var(--ink);min-width:0}
+.key-statistics .key-statistics-title{margin:0 0 7px;font:700 10px/1.4 var(--mono);letter-spacing:.07em;text-transform:uppercase;color:var(--copper)}
+.key-statistics .key-statistics-scope{margin:0 0 15px;font:12px/1.5 var(--sans);color:var(--muted)}
+.key-statistics dl{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:0 0 15px;padding:0 0 15px;border-bottom:1px solid var(--rule)}
+.key-statistics dl>div{display:flex;flex-direction:column;min-width:0;gap:5px}.key-statistics dt{order:2;font:12px/1.5 var(--sans)}.key-statistics dd{order:1;margin:0;font:800 23px/1.2 var(--sans);overflow-wrap:anywhere}
+.key-statistics dl>div:only-child{grid-column:1/-1}
+.key-statistics .key-statistics-comparison,.key-statistics .key-statistics-limit{margin:0 0 10px;font:13px/1.6 var(--sans)}
+.key-statistics .key-statistics-source{margin:0;font:12px/1.6 var(--sans);color:var(--muted)}.key-statistics-source a{color:var(--cobalt);text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+.stat-section>.key-statistics{max-width:960px}.census-hero .key-statistics{max-width:720px}
+.stat-section>.key-statistics dd{font-size:28px}.stat-section>.key-statistics .key-statistics-comparison,.stat-section>.key-statistics .key-statistics-limit{font-size:15px}
+@media(min-width:541px) and (max-width:780px){.lead-story .key-statistics{grid-column:2}}
+@media(max-width:540px){.key-statistics{padding:14px}.key-statistics dl{gap:12px}.key-statistics dd{font-size:22px}.stat-section>.key-statistics dd{font-size:24px}}

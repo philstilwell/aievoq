@@ -6,7 +6,7 @@ The public website for **https://aievoq.com**: an illustrated quarterly explorin
 
 This is a small static site: `index.html`, `styles.css` and local artwork. There are no package dependencies, build steps, forms, trackers or server services.
 
-The homepage introduces the first issue through three lead stories, the demand section, six recurring departments, the fictional species, and the editorial approach. The issue remains in preparation for the end of 2026. The issue preview now includes the statistical census developed for review draft 0.17; it does not serve the working PDF.
+The homepage introduces the first issue through three lead stories, the demand section, six recurring departments, the fictional species, and the editorial approach. The issue remains in preparation for the end of 2026. The issue preview now includes the statistical census developed for review draft 0.18; it does not serve the working PDF.
 
 The three fictional species illustrations and four supporting scenes were created for this project using built-in ImageGen. The website uses lightweight WebP copies; the original report and full-resolution artwork are maintained separately. No new images were generated for the website expansion.
 
@@ -48,3 +48,9 @@ Serve this directory with any static web server, for example `python3 -m http.se
 ## Article openings
 
 Every article and substantive feature begins with an **AI concept** panel that defines the real AI subject before the biological comparison. Use ordinary language and explain why the distinction matters. Keep the label and styling consistent with the magazine. The issue page has ten panels, and the statistical census has six. Article length remains flexible during development; do not compress copy merely to match a prior layout.
+
+## Key statistics panels
+
+Evidence-bearing features have a warm ivory **Key statistics** panel after the concept opening. Six appear on the homepage and six in the census. Each shows named sources and dates, comparisons where supported, and the limits that change interpretation. Definitions come from the magazine’s reviewed article-panel record. The downloadable companion is `statistics/data/article-panels-2026-10-28.json`; the original census data remain unchanged.
+
+Keep observed rates, experimental effects, company evaluations, plans and projections distinct. Never label an experiment, model-version comparison or annual forecast as a quarter-to-quarter trend. If a section has no suitable measured result, omit the panel.

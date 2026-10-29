@@ -18,3 +18,7 @@ Five recurring departments: business adoption, employment pressure, capability o
 The magazine's local production folder contains the source-extraction script and detailed research notes. The public release contains the derived data and source links, not the working PDF. Updates are reviewed before publication; the three-day research watch does not automatically publish.
 
 Epoch AI's own FrontierMath Erdős evaluations are adapted under **CC BY 4.0**, retrieved October 28, 2026. Source and license links are on the page. Other data retain their publishers' terms. Text and artwork © 2026 Phil Stilwell; the Epoch data license does not license the magazine's artwork.
+
+## Article panels / 28 October 2026
+
+The six census openings now have Key statistics panels with explicit comparisons and named source links. The separate `data/article-panels-2026-10-28.json` companion records 15 panel definitions used across the magazine and homepage. It does not revise or replace the original census snapshot or its six CSV files. Quarter snapshots, quarter-end annual growth rates, experimental contrasts, provider evaluations, commitments and forecasts retain their different meanings. Missing comparable history is stated explicitly.
