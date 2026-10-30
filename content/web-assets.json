@@ -1,6 +1,6 @@
 {
-  "version": "0.21",
-  "source_sha256": "df003abc7c7e828d12b85eda3d2f789d25be1415cabcc583fd95593094c0158a",
+  "version": "0.22",
+  "source_sha256": "9a1aef260576be8b4bc9cf5f079c455961862e9e21c5bce9fdbabbb65ff67f6c",
   "plates": {
     "living-jungle": {
       "src": "/assets/issue-01/living-jungle.webp",
@@ -351,6 +351,34 @@
       "width": 516,
       "height": 210,
       "text": "THE CHANCE OF AN UNBROKEN JOURNEY\nIllustration only / probability that every step succeeds\n  100%\n                                                              99.9% per step: 90.5% after 100\n\n\n   50%\n\n                                                              99% per step: 36.6% after 100\n\n     0%\n          0                            25                          50                           75   100\n                                                      Number of required steps\nIndependent steps, equal reliability, no recovery. Not measured AI results."
+    },
+    "human_frequency": {
+      "type": "chart",
+      "src": "/assets/issue-01/human_frequency.svg",
+      "width": 516,
+      "height": 350,
+      "text": "Workplace AI use\nU.S. employees aged 18+ working for organizations\n\nQ1 2026 / February / outline                                             Q2 2026 / May / solid\n\n\nAt least a few times a year                                                                 50%\n\n                                                                                            52%\n\n\nA few times a week or more                                                28%\n\n                                                                            30%\n\n\nDaily                                                      13%\n\n                                                             15%\n\n                                             0                      25                 50         75        100\n                                                 Percent of the stated population\n\nEach measure: +2 percentage points, Q1 to Q2. Groups overlap. No Q3/Q4 reading is included. Not quarterly\naverages.\nPublished April 12, 2026; July 20, 2026 Sources: [99], [100].\nPoint estimates; uncertainty for these contrasts is not included."
+    },
+    "human_reach": {
+      "type": "chart",
+      "src": "/assets/issue-01/human_reach.svg",
+      "width": 516,
+      "height": 310,
+      "text": "Generative AI use beyond the workplace\nAll U.S. adults aged 18-64 / any purpose\n\nAugust 2024 / outline                                                    August 2026 / solid\n\n\nAny use                                                                               44.6%\n\n                                                                                                  60.8%\n\n\nUse in the previous week                                                        36.1%\n\n                                                                                               53.8%\n\n                                             0                      25                  50                75   100\n                                                 Percent of the stated population\n\nTwo-year changes: +16.2 and +17.7 percentage points. No adjacent-quarter comparison verified. Groups overlap.\nTracker retrieved October 30, 2026; academic methods published January 20, 2026. Sources: [101], [102].\nPoint estimates; uncertainty for these contrasts is not included."
+    },
+    "human_barriers": {
+      "type": "chart",
+      "src": "/assets/issue-01/human_barriers.svg",
+      "width": 516,
+      "height": 325,
+      "text": "Selected major reasons for not using chatbots\nU.S. adults who say they never use AI chatbots\n\nFebruary 17-23, 2026\n\n\nNot interested                                                                              60%\n\n\nPersonal-information concerns                                                             54%\n\n\nAccuracy concerns                                                                   45%\n\n\nDo not know how to use them                                              29%\n\n                                             0                      25              50            75       100\n                                                 Percent of the stated population\n\nOverlapping major reasons among non-users; four of five shown. No prior-quarter comparison. Full survey n = 5,119,\nnot subgroup n.\nPublished June 17, 2026 Sources: [103].\nPoint estimates; uncertainty for these contrasts is not included."
+    },
+    "human_benefits": {
+      "type": "chart",
+      "src": "/assets/issue-01/human_benefits.svg",
+      "width": 516,
+      "height": 300,
+      "text": "Benefits reported by workplace AI users\nU.S. employees using AI at work at least a few times in the past year\n\nJanuary 26-March 24, 2026\n\n\nWork faster                                                                                     63%\n\n\nFind more creative solutions                                                              56%\n\n\nProduce higher-quality work                                                         46%\n\n                                             0                      25              50                75       100\n                                                 Percent of the stated population\n\nSelf-reports among 7,845 AI users; three of four benefits shown. Shares reporting benefits, not productivity gains. No\nprior-quarter comparison.\nPublished October 6, 2026 / Q4 release Sources: [104].\nPoint estimates; uncertainty for these contrasts is not included."
     }
   },
   "portraits": {

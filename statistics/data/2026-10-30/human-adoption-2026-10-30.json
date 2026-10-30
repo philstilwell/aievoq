@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "human-adoption-2026-10-30",
+  "reviewed_on": "2026-10-30",
+  "edition": "Q4 2026 / in progress",
+  "charts": {
+    "human_frequency": {
+      "title": "Workplace AI use",
+      "population": "U.S. employees aged 18+ working for organizations",
+      "periods": [
+        "Q1 2026 / February",
+        "Q2 2026 / May"
+      ],
+      "observation_dates": [
+        "February 4-19, 2026",
+        "May 2026"
+      ],
+      "publication_dates": [
+        "April 12, 2026",
+        "July 20, 2026"
+      ],
+      "rows": [
+        {
+          "label": "At least a few times a year",
+          "values": [
+            50,
+            52
+          ],
+          "change_pp": 2
+        },
+        {
+          "label": "A few times a week or more",
+          "values": [
+            28,
+            30
+          ],
+          "change_pp": 2
+        },
+        {
+          "label": "Daily",
+          "values": [
+            13,
+            15
+          ],
+          "change_pp": 2
+        }
+      ],
+      "comparison": "Q2 minus Q1: +2 percentage points for each measure. Survey readings, not quarterly averages.",
+      "limits": "Groups overlap: daily users are included in both broader measures. These are self-reports, not measured productivity. Q3 and Q4 readings are not included in this snapshot.",
+      "uncertainty": "Point estimates; no confidence intervals for these contrasts are included. Differences are not claimed to be statistically significant.",
+      "refs": [
+        99,
+        100
+      ],
+      "quarter_comparison": "Q1 to Q2 2026",
+      "cadence": "Review quarterly; add comparable waves as released."
+    },
+    "human_reach": {
+      "title": "Generative AI use beyond the workplace",
+      "population": "All U.S. adults aged 18-64 / any purpose",
+      "periods": [
+        "August 2024",
+        "August 2026"
+      ],
+      "observation_dates": [
+        "August 2024",
+        "August 2026"
+      ],
+      "publication_dates": [
+        "Living tracker retrieved October 30, 2026"
+      ],
+      "rows": [
+        {
+          "label": "Any use",
+          "values": [
+            44.6,
+            60.8
+          ],
+          "change_pp": 16.2
+        },
+        {
+          "label": "Use in the previous week",
+          "values": [
+            36.1,
+            53.8
+          ],
+          "change_pp": 17.7
+        }
+      ],
+      "comparison": "Two-year changes: +16.2 points for any use; +17.7 points for use in the previous week. This is not a quarter-to-quarter comparison.",
+      "limits": "Both endpoints come from the same current tracker summary. Weekly users are included in any use. Different population and wording from Gallup; keep the series separate. An adjacent-quarter comparison has not been verified here.",
+      "uncertainty": "Point estimates; source-specific uncertainty for these contrasts is not available in this snapshot.",
+      "refs": [
+        101,
+        102
+      ],
+      "quarter_comparison": null,
+      "cadence": "Quarterly survey; add each verified wave, preserving the source vintage."
+    },
+    "human_barriers": {
+      "title": "Selected major reasons for not using chatbots",
+      "population": "U.S. adults who say they never use AI chatbots",
+      "periods": [
+        "February 17-23, 2026"
+      ],
+      "observation_dates": [
+        "February 17-23, 2026"
+      ],
+      "publication_dates": [
+        "June 17, 2026"
+      ],
+      "rows": [
+        {
+          "label": "Not interested",
+          "values": [
+            60
+          ]
+        },
+        {
+          "label": "Personal-information concerns",
+          "values": [
+            54
+          ]
+        },
+        {
+          "label": "Accuracy concerns",
+          "values": [
+            45
+          ]
+        },
+        {
+          "label": "Do not know how to use them",
+          "values": [
+            29
+          ]
+        }
+      ],
+      "comparison": "No comparable earlier-quarter reading is available in this record. Carry this dated baseline until a matching survey is released.",
+      "limits": "Major reasons only; respondents could name several. These percentages concern non-users, not all adults. The full survey had 5,119 adults; that is not the non-user subgroup size. Four of five reasons are shown.",
+      "uncertainty": "Subgroup confidence intervals are not supplied in this snapshot.",
+      "refs": [
+        103
+      ],
+      "quarter_comparison": null,
+      "cadence": "Review quarterly; refresh only when a comparable survey appears."
+    },
+    "human_benefits": {
+      "title": "Benefits reported by workplace AI users",
+      "population": "U.S. employees using AI at work at least a few times in the past year",
+      "periods": [
+        "January 26-March 24, 2026"
+      ],
+      "observation_dates": [
+        "January 26-March 24, 2026"
+      ],
+      "publication_dates": [
+        "October 6, 2026 / Q4 release"
+      ],
+      "rows": [
+        {
+          "label": "Work faster",
+          "values": [
+            63
+          ]
+        },
+        {
+          "label": "Find more creative solutions",
+          "values": [
+            56
+          ]
+        },
+        {
+          "label": "Produce higher-quality work",
+          "values": [
+            46
+          ]
+        }
+      ],
+      "comparison": "Newly published in Q4, using Q1 survey data. No matching earlier-quarter benefits comparison has been verified.",
+      "limits": "Self-assessed benefits among 7,845 AI users; full employee sample 15,482. Benefits overlap. These percentages are shares reporting a benefit, not sizes of productivity gains. Three of four benefits are shown.",
+      "uncertainty": "Subgroup confidence intervals are not supplied in this snapshot.",
+      "refs": [
+        104
+      ],
+      "quarter_comparison": null,
+      "cadence": "Review quarterly; retain dates and separate perceptions from measured outcomes."
+    }
+  },
+  "recurring_panels": [
+    {
+      "id": "use-frequency",
+      "title": "Frequency of use",
+      "ambiance": "The regular visitors",
+      "chart_ids": [
+        "human_frequency",
+        "human_reach"
+      ],
+      "rule": "Compare identical questions, populations and frequency cutoffs across waves. Publish percentage-point changes. Never stitch the two surveys together."
+    },
+    {
+      "id": "adoption-barriers",
+      "title": "Barriers to adoption",
+      "ambiance": "At the forest edge",
+      "chart_ids": [
+        "human_barriers"
+      ],
+      "rule": "Keep non-users as the denominator, major reasons separate from minor reasons, and overlapping responses visible. Missing quarters remain unavailable."
+    },
+    {
+      "id": "adoption-benefits",
+      "title": "Reported versus measured benefits",
+      "ambiance": "What the partnership delivers",
+      "chart_ids": [
+        "human_benefits"
+      ],
+      "rule": "Place self-reports beside relevant independent outcome studies. Preserve tasks, dates, units and methods; no combined productivity score or universal multiplier."
+    }
+  ],
+  "sources": {
+    "99": {
+      "title": "Gallup / Q1 workplace use",
+      "url": "https://www.gallup.com/workplace/704225/rising-adoption-spurs-workforce-changes.aspx",
+      "published": "2026-04-12"
+    },
+    "100": {
+      "title": "Gallup / Q2 workplace use",
+      "url": "https://www.gallup.com/workplace/712736/organizational-adoption-jumps-six-points.aspx",
+      "published": "2026-07-20"
+    },
+    "101": {
+      "title": "Harvard / GenAI Adoption Tracker",
+      "url": "https://pw.hks.harvard.edu/post/the-generative-ai-adoption-tracker",
+      "published": null,
+      "retrieved": "2026-10-30",
+      "companion_url": "https://www.genaiadoptiontracker.com/"
+    },
+    "102": {
+      "title": "Bick, Blandin & Deming / Management Science",
+      "url": "https://doi.org/10.1287/mnsc.2025.02523",
+      "published": "2026-01-20"
+    },
+    "103": {
+      "title": "Pew / reasons for non-use",
+      "url": "https://www.pewresearch.org/internet/2026/06/17/why-dont-people-use-chatbots/",
+      "published": "2026-06-17"
+    },
+    "104": {
+      "title": "Gallup / American Job Quality Study",
+      "url": "https://news.gallup.com/poll/714602/benefits-work-unevenly-distributed.aspx",
+      "published": "2026-10-06"
+    }
+  }
+}

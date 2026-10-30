@@ -7,11 +7,12 @@ import json
 import math
 import re
 import unicodedata
+from adoption_components import render_chart
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = '/issues/2026-q4/'
 ORIGIN = 'https://aievoq.com'
-VERSION = '0.21'
+VERSION = '0.22'
 DATE = '2026-10-30'
 REVIEW_DATE = 'October 30, 2026'
 SOURCE = ROOT/'content'/f'q4-2026-v{VERSION}.md'
@@ -73,6 +74,8 @@ def image(item,alt,cls='',eager=False):
     return f'<img src="{item["src"]}" width="{item["width"]}" height="{item["height"]}" alt="{escape(alt,quote=True)}" class="{cls}" loading="{"eager" if eager else "lazy"}" decoding="async">'
 
 def figure(kind):
+    if kind.startswith('human_'):
+        return render_chart(kind)
     if kind=='cast_cover':
         return '<div class="issue-cast">'+''.join(f'<figure><img src="/assets/{k}.webp" width="1122" height="1402" alt="{n}, an imagined AI species" loading="lazy"><figcaption>{n}</figcaption></figure>' for k,n in [('ledgerfinch','The Ledgerfinch'),('relay-octopus','The Relay Octopus'),('proofweaver','The Proofweaver')])+'</div>'
     if kind.startswith('people_pair'):
@@ -138,6 +141,8 @@ def render(section,source_mode=False):
     return '\n'.join(out)
 
 def shell(title,description,path,body,extra_head='',body_class=''):
+    if 'class="human-chart"' in body:
+        extra_head += '<link rel="stylesheet" href="/statistics/human-adoption.css?v=0.22"><script src="/statistics/human-adoption.js?v=0.22" defer></script>'
     canonical=ORIGIN+path
     return f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">

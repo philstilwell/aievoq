@@ -1,16 +1,16 @@
 {
-  "version": "0.21",
+  "version": "0.22",
   "reviewed_on": "2026-10-30",
-  "source_sha256": "df003abc7c7e828d12b85eda3d2f789d25be1415cabcc583fd95593094c0158a",
-  "source_sections": 82,
+  "source_sha256": "9a1aef260576be8b4bc9cf5f079c455961862e9e21c5bce9fdbabbb65ff67f6c",
+  "source_sections": 84,
   "editorial_articles": 55,
   "article_pages": 57,
   "concept_panels": 55,
-  "statistic_panels": 31,
-  "source_count": 98,
-  "source_sections_count": 25,
+  "statistic_panels": 34,
+  "source_count": 104,
+  "source_sections_count": 27,
   "plate_placements": 37,
-  "figure_placements": 19,
+  "figure_placements": 23,
   "pages": [
     {
       "source_index": 1,
