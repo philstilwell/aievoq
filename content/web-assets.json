@@ -1,6 +1,6 @@
 {
-  "version": "0.18",
-  "source_sha256": "6af8cef8682b844a6aced6428643b9aaf6d341fe1fe50a4abd5d68e51af2c440",
+  "version": "0.19",
+  "source_sha256": "af624bdb51c783e14c32d953d7b0d6aaf32c0ece51c2e80718968342053fd439",
   "plates": {
     "living-jungle": {
       "src": "/assets/issue-01/living-jungle.webp",
@@ -298,7 +298,7 @@
       "src": "/assets/issue-01/timeline.svg",
       "width": 516,
       "height": 350,
-      "text": "SELECTED OCTOBER SIGHTINGS\n\n\nOCT 06       Mathematical output released; Large 4 preview [1]-[2]\n\nOCT 07       Haiku arrives; a mathematical association objects [3], [14]\n\nOCT 08       Gemini agent for work announced [5]\n\nOCT 13       Gemini 4 Argon app access announced [6]\n\nOCT 14       GPT-5.5 leaves selected products [7]\n\nOCT 15       Simons announces support for the mathematical community [15]\n\nOCT 16       Human mathematicians report a shorter, stronger proof [16]\n\nOCT 21       The nursery question; employment pressure [47], [79]\n\nOCT 22       Business adoption; Barclays workforce plans [70], [82]\n\nOCT 25-26    Access debated; GPT-6.1 Terra rollout [7], [17]\n\nOCT 26       Assisted capability and retained knowledge [84]\n\n\n OCT 28 | DRAFT CUTOFF\n NOVEMBER + DECEMBER | OPEN FIELD NOTES"
+      "text": "SELECTED OCTOBER SIGHTINGS\n\n\nOCT 06       Mathematical output released; Large 4 preview [1]-[2]\n\nOCT 07       Haiku arrives; a mathematical association objects [3], [14]\n\nOCT 08       Gemini agent for work announced [5]\n\nOCT 13       Gemini 4 Argon app access announced [6]\n\nOCT 14       GPT-5.5 leaves selected products [7]\n\nOCT 15       Simons announces support for the mathematical community [15]\n\nOCT 16       Human mathematicians report a shorter, stronger proof [16]\n\nOCT 21       The nursery question; employment pressure [47], [79]\n\nOCT 22       Business adoption; Barclays workforce plans [70], [82]\n\nOCT 22       Elephant-Goldfish separates design and review [93]\n\nOCT 25-26    Access debated; GPT-6.1 Terra rollout [7], [17]\n\nOCT 26       Assisted capability and retained knowledge [84]\n\n\n OCT 30 | DRAFT CUTOFF\n NOVEMBER + DECEMBER | OPEN FIELD NOTES"
     },
     "haiku": {
       "type": "chart",

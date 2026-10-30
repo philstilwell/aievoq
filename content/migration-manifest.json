@@ -1,15 +1,15 @@
 {
-  "version": "0.18",
-  "reviewed_on": "2026-10-28",
-  "source_sha256": "6af8cef8682b844a6aced6428643b9aaf6d341fe1fe50a4abd5d68e51af2c440",
-  "source_sections": 78,
-  "editorial_articles": 53,
-  "article_pages": 55,
-  "concept_panels": 53,
-  "statistic_panels": 29,
-  "source_count": 92,
-  "source_sections_count": 23,
-  "plate_placements": 34,
+  "version": "0.19",
+  "reviewed_on": "2026-10-30",
+  "source_sha256": "af624bdb51c783e14c32d953d7b0d6aaf32c0ece51c2e80718968342053fd439",
+  "source_sections": 80,
+  "editorial_articles": 54,
+  "article_pages": 56,
+  "concept_panels": 54,
+  "statistic_panels": 30,
+  "source_count": 96,
+  "source_sections_count": 24,
+  "plate_placements": 35,
   "figure_placements": 19,
   "pages": [
     {
@@ -188,156 +188,162 @@
     },
     {
       "source_index": 30,
+      "title": "October 22 / design",
+      "path": "/issues/2026-q4/october-22-design/",
+      "category": "October field notes"
+    },
+    {
+      "source_index": 31,
       "title": "October 22",
       "path": "/issues/2026-q4/october-22/",
       "category": "Demand & resources"
     },
     {
-      "source_index": 31,
+      "source_index": 32,
       "title": "What keeps the creatures coming?",
       "path": "/issues/2026-q4/what-keeps-the-creatures-coming/",
       "category": "Demand & resources"
     },
     {
-      "source_index": 32,
+      "source_index": 33,
       "title": "When the feeding grounds fill",
       "path": "/issues/2026-q4/when-the-feeding-grounds-fill/",
       "category": "Demand & resources"
     },
     {
-      "source_index": 33,
+      "source_index": 34,
       "title": "Three seasons ahead",
       "path": "/issues/2026-q4/three-seasons-ahead/",
       "category": "Demand & resources"
     },
     {
-      "source_index": 34,
+      "source_index": 35,
       "title": "October 25-26",
       "path": "/issues/2026-q4/october-25-26/",
       "category": "Mathematics & the habitat"
     },
     {
-      "source_index": 35,
+      "source_index": 36,
       "title": "October 26 / research",
       "path": "/issues/2026-q4/october-26-research/",
       "category": "Mathematics & the habitat"
     },
     {
-      "source_index": 36,
+      "source_index": 37,
       "title": "Mathematics after the rain",
       "path": "/issues/2026-q4/mathematics-after-the-rain/",
       "category": "Mathematics & the habitat"
     },
     {
-      "source_index": 37,
+      "source_index": 38,
       "title": "The Habitat Engineers",
       "path": "/issues/2026-q4/the-habitat-engineers/",
       "category": "Mathematics & the habitat"
     },
     {
-      "source_index": 38,
+      "source_index": 39,
       "title": "The Naturalist Was Wrong",
       "path": "/issues/2026-q4/the-naturalist-was-wrong/",
       "category": "Expectations & forecasts"
     },
     {
-      "source_index": 39,
+      "source_index": 40,
       "title": "Expectations under pressure",
       "path": "/issues/2026-q4/expectations-under-pressure/",
       "category": "Expectations & forecasts"
     },
     {
-      "source_index": 40,
+      "source_index": 41,
       "title": "The wall grew doors",
       "path": "/issues/2026-q4/the-wall-grew-doors/",
       "category": "Expectations & forecasts"
     },
     {
-      "source_index": 41,
+      "source_index": 42,
       "title": "When the measuring stick moves",
       "path": "/issues/2026-q4/when-the-measuring-stick-moves/",
       "category": "Expectations & forecasts"
     },
     {
-      "source_index": 42,
+      "source_index": 43,
       "title": "Predictions in sealed envelopes",
       "path": "/issues/2026-q4/predictions-in-sealed-envelopes/",
       "category": "Expectations & forecasts"
     },
     {
-      "source_index": 43,
+      "source_index": 44,
       "title": "The three sealed envelopes",
       "path": "/issues/2026-q4/the-three-sealed-envelopes/",
       "category": "Expectations & forecasts"
     },
     {
-      "source_index": 44,
+      "source_index": 45,
       "title": "New tricks and unexpected turns",
       "path": "/issues/2026-q4/new-tricks-and-unexpected-turns/",
       "category": "The field journal"
     },
     {
-      "source_index": 45,
+      "source_index": 46,
       "title": "The Price of Feathers",
       "path": "/issues/2026-q4/the-price-of-feathers/",
       "category": "The field journal"
     },
     {
-      "source_index": 46,
+      "source_index": 47,
       "title": "The speciation hearing",
       "path": "/issues/2026-q4/the-speciation-hearing/",
       "category": "The field journal"
     },
     {
-      "source_index": 47,
+      "source_index": 48,
       "title": "Could it survive a change of weather?",
       "path": "/issues/2026-q4/could-it-survive-a-change-of-weather/",
       "category": "The field journal"
     },
     {
-      "source_index": 48,
+      "source_index": 49,
       "title": "More features for the field journal",
       "path": "/issues/2026-q4/more-features-for-the-field-journal/",
       "category": "The field journal"
     },
     {
-      "source_index": 49,
+      "source_index": 50,
       "title": "Letters from the Undergrowth",
       "path": "/issues/2026-q4/letters-from-the-undergrowth/",
       "category": "The field journal"
     },
     {
-      "source_index": 50,
+      "source_index": 51,
       "title": "November-December",
       "path": "/issues/2026-q4/november-december/",
       "category": "The field journal"
     },
     {
-      "source_index": 51,
+      "source_index": 52,
       "title": "The human cast",
       "path": "/issues/2026-q4/the-human-cast/",
       "category": "The human cast"
     },
     {
-      "source_index": 52,
+      "source_index": 53,
       "title": "From puzzles to worlds",
       "path": "/issues/2026-q4/from-puzzles-to-worlds/",
       "category": "The human cast"
     },
     {
-      "source_index": 53,
+      "source_index": 54,
       "title": "What keeps the jungle growing",
       "path": "/issues/2026-q4/what-keeps-the-jungle-growing/",
       "category": "The human cast"
     },
     {
-      "source_index": 54,
+      "source_index": 55,
       "title": "Paths into the wider world",
       "path": "/issues/2026-q4/paths-into-the-wider-world/",
       "category": "The human cast"
     },
     {
-      "source_index": 55,
+      "source_index": 56,
       "title": "Our continuing workshop",
       "path": "/issues/2026-q4/our-continuing-workshop/",
       "category": "About this edition"

@@ -6,9 +6,9 @@ The public website for **https://aievoq.com**: an illustrated quarterly explorin
 
 This is a static webzine with local artwork, full reading pages and a statistical census. There are no package dependencies, trackers or server services. The contents search runs in the browser; all articles and sources remain readable without JavaScript.
 
-The complete developing first issue is at `/issues/2026-q4/`. Draft 0.18 contains 53 articles and field notes, plus front matter and workshop notes, 29 Key statistics panels, 92 numbered sources, all 22 illustrated scenes, the species and human casts, and all 19 figure placements. The contents page supports full manuscript search and department filtering. Each reading page has a permanent URL and previous/next links; citations open the matching source entry. The homepage links to the full articles.
+The complete developing first issue is at `/issues/2026-q4/`. Draft 0.19 contains 54 articles and field notes, plus front matter and workshop notes, 30 Key statistics panels, 96 numbered sources, all 22 illustrated scenes, the species and human casts, and all 19 figure placements. The contents page supports full manuscript search and department filtering. Each reading page has a permanent URL and previous/next links; citations open the matching source entry. The homepage links to the full articles.
 
-The publication is web first. Q4 remains in progress, with evidence reviewed through October 28, 2026 and November–December still open. The preserved manuscript and artwork support a possible later print edition. The working PDF remains in the editorial workspace.
+The publication is web first. Q4 remains in progress, with selected evidence reviewed through October 30, 2026 and November–December still open. The preserved manuscript and artwork support a possible later print edition. The working PDF remains in the editorial workspace.
 
 The web edition reuses the three fictional species, all twenty-two illustrated scenes, eight public-figure caricatures and the approved cover. The website uses lightweight WebP copies; charts retain their original vector shapes and labels. The original report and full-resolution artwork are maintained separately. No new images were generated for the migration.
 
@@ -17,7 +17,7 @@ The design echoes the report with charcoal, cobalt, ivory and copper; small caps
 ## Content and artwork
 
 - `index.html`: webzine home, featured articles and publication status.
-- `issues/2026-q4/`: complete contents, 55 reading sections and the combined source ledger.
+- `issues/2026-q4/`: complete contents, 56 reading sections and the combined source ledger.
 - `webzine.css`, `webzine.js`: reading layouts, print stylesheet and optional contents search.
 - `content/`: exact versioned manuscript, statistics panels, figure captions and migration inventory.
 - `scripts/build_webzine.py`: dependency-free generator for the reading pages, source ledger, search index and sitemap.
@@ -64,3 +64,7 @@ Every article and substantive feature begins with an **AI concept** panel that d
 Evidence-bearing features have a warm ivory **Key statistics** panel after the concept opening. Six appear on the homepage and six in the census. Each shows named sources and dates, comparisons where supported, and the limits that change interpretation. Definitions come from the magazine’s reviewed article-panel record. The downloadable companion is `statistics/data/article-panels-2026-10-28.json`; the original census data remain unchanged.
 
 Keep observed rates, experimental effects, company evaluations, plans and projections distinct. Never label an experiment, model-version comparison or annual forecast as a quarter-to-quarter trend. If a section has no suitable measured result, omit the panel.
+
+## October 30 editorial update
+
+Draft 0.19 adds one dated Elephant-Goldfish field note and a background-research panel. Four new sources distinguish the launch/documentation from two earlier academic studies. The existing census remains frozen at October 28; none of its readings have been refreshed. The new workflow is not classified as a confirmed species or a measured productivity gain. Existing article URLs are preserved.

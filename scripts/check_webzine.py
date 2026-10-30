@@ -25,7 +25,7 @@ class Document(HTMLParser):
 def compact(text):return re.sub(r'[^\w]','',text).lower()
 
 manifest=json.loads((ROOT/'content/migration-manifest.json').read_text())
-source=ROOT/'content/q4-2026-v0.18.md'
+source=ROOT/'content'/f"q4-2026-v{manifest['version']}.md"
 assert hashlib.sha256(source.read_bytes()).hexdigest()==manifest['source_sha256']
 sections=source.read_text().split('---PAGE---')
 docs={p:Document(p.read_text()) for p in ROOT.rglob('*.html') if '.git' not in p.parts}
@@ -46,11 +46,11 @@ for path,doc in docs.items():
 
 sources=docs[ROOT/(BASE.strip('/'))/'sources/index.html']
 source_text=compact(' '.join(sources.text))
-panels=json.loads((ROOT/'content/key-statistics-v0.18.json').read_text())['panels']
+panels=json.loads((ROOT/'content'/f"key-statistics-v{manifest['version']}.json").read_text())['panels']
 checked_lines=0
 for i,section in enumerate(sections):
     if i==0:continue
-    if i>=56:rendered=source_text
+    if re.search(r'^# Sources',section,re.M):rendered=source_text
     else:
         entry=next(x for x in manifest['pages'] if x['source_index']==i)
         rendered=compact(' '.join(docs[ROOT/entry['path'].strip('/')/'index.html'].text))
@@ -75,8 +75,8 @@ tags=[t for d in article_docs for t in d.tags]
 concepts=sum('concept-intro' in a.get('class','').split() for t,a in tags)
 stats=sum('key-statistics' in a.get('class','').split() for t,a in tags)
 plates=sum('editorial-plate' in a.get('class','').split() for t,a in tags)
-assert (concepts,stats,plates)==(53,29,34),(concepts,stats,plates)
-assert {f'source-{i}' for i in range(1,93)} <= set(sources.ids)
-summary={'passed':not failures,'html_pages':len(docs),'checked_manuscript_lines_and_cells':checked_lines,'local_links_and_assets_checked':local_links,'concept_panels':concepts,'key_statistics_panels':stats,'illustration_placements':plates,'numbered_sources':92,'failures':failures}
+assert (concepts,stats,plates)==(manifest['concept_panels'],manifest['statistic_panels'],manifest['plate_placements']),(concepts,stats,plates)
+assert {f'source-{i}' for i in range(1,manifest['source_count']+1)} <= set(sources.ids)
+summary={'passed':not failures,'html_pages':len(docs),'checked_manuscript_lines_and_cells':checked_lines,'local_links_and_assets_checked':local_links,'concept_panels':concepts,'key_statistics_panels':stats,'illustration_placements':plates,'numbered_sources':manifest['source_count'],'failures':failures}
 print(json.dumps(summary,indent=2))
 if failures:raise SystemExit(1)
