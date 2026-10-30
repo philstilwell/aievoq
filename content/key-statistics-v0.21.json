@@ -1,0 +1,726 @@
+{
+  "version": "0.21",
+  "reviewed_on": "2026-10-30",
+  "snapshot": "snapshot-2026-10-28.json",
+  "panels": {
+    "adoption": {
+      "scope": "U.S. employer businesses / October 22 release",
+      "metrics": [
+        {
+          "value": "24.6%",
+          "label": "Report recent AI use"
+        },
+        {
+          "value": "28.6%",
+          "label": "Expect use within six months"
+        }
+      ],
+      "comparison": "Recent use: Q1 19.1% → Q2 21.7% → Q3 23.8% (+2.1 percentage points from Q2). Latest: +0.8 points from Q3. Expected use: Q2 24.5% → Q3 27.7% → latest 28.6%.",
+      "limits": "Quarter figures are selected reference windows, not averages. The latest window, September 21–October 4, spans two quarters. History uses the October workbook; expectations are not outcomes.",
+      "source": "U.S. Census Bureau, Business Trends and Outlook Survey; October 22, 2026 release, October 27 workbook.",
+      "refs": [
+        86
+      ],
+      "comparison_basis": "Quarter reference snapshots"
+    },
+    "employment": {
+      "scope": "U.S. employment / ages 22–25 / September 2026",
+      "metrics": [
+        {
+          "value": "-3.7%",
+          "label": "Annual change / high AI exposure"
+        },
+        {
+          "value": "+0.2%",
+          "label": "Annual change / least AI exposure"
+        }
+      ],
+      "comparison": "Q2-end June: -4.3% / 0.0%. Q3-end September: -3.7% / +0.2%. The high-exposure annual growth rate rose +0.6 percentage points.",
+      "limits": "Quarter-end months, each compared with a year earlier; not quarterly job losses. Separate releases may use different samples or revised estimates. Exposure does not establish AI causation. Q4 outcomes are not yet available.",
+      "source": "ADP Research; June release July 22 and September release October 21, 2026.",
+      "refs": [
+        87,
+        79
+      ],
+      "comparison_basis": "Quarter-end observation months"
+    },
+    "census": {
+      "scope": "Two comparable historical readings / Q4 remains open",
+      "metrics": [
+        {
+          "value": "+2.1 points",
+          "label": "Business adoption / Q3 vs Q2"
+        },
+        {
+          "value": "+0.6 points",
+          "label": "Young high-exposure employment growth / September vs June"
+        }
+      ],
+      "comparison": "Adoption: 21.7% → 23.8%. Employment annual growth: −4.3% → −3.7%. Percentage points measure the difference between rates; these two indicators describe different populations.",
+      "limits": "Adoption uses quarter reference snapshots from one workbook. Employment uses quarter-end months from separate releases, not quarterly losses or an estimate of AI causation.",
+      "source": "U.S. Census Bureau, October workbook; ADP Research, July 22 and October 21, 2026 releases.",
+      "refs": [
+        86,
+        87,
+        79
+      ],
+      "comparison_basis": "Quarter reference snapshots and quarter-end months"
+    },
+    "capability": {
+      "scope": "FrontierMath Erdős / October 28, 2026 export",
+      "metrics": [
+        {
+          "value": "3 of 68",
+          "label": "Conjectures resolved / 4.4%"
+        },
+        {
+          "value": "$300 / 72 h",
+          "label": "Maximum budget and time per attempt"
+        }
+      ],
+      "comparison": "Initial publication snapshot: no preserved, comparable earlier-quarter export. Future comparisons must keep the problems, tools, budget and scoring consistent.",
+      "limits": "Best reported configuration: GPT-6.1 Sol (max); one attempt per conjecture. A specialist mathematics test, not a general intelligence ranking. Few successes make rankings uncertain.",
+      "source": "Epoch AI, FrontierMath Erdős methods and October 28 data export; CC BY 4.0.",
+      "refs": [
+        90,
+        91
+      ],
+      "comparison_basis": "Initial baseline"
+    },
+    "prices": {
+      "scope": "Standard billed-text basket / October 28, 2026",
+      "metrics": [
+        {
+          "value": "$0.225",
+          "label": "Claude Haiku 5.5"
+        },
+        {
+          "value": "$2.250",
+          "label": "GPT-6.1 Terra"
+        }
+      ],
+      "comparison": "First saved price baseline; no like-for-like earlier-quarter capture. These are charges for equal billed quantities, not equal-quality results.",
+      "limits": "One million input plus 250,000 output tokens (pieces of billed text); prompts at most 100,000 tokens. Excludes discounts, tools, retries, taxes and human checking.",
+      "source": "Anthropic model documentation and OpenAI release notes; rates checked October 28, 2026. Basket charges calculated by AIEVOQ.",
+      "refs": [
+        4,
+        7
+      ],
+      "comparison_basis": "Initial baseline"
+    },
+    "energy": {
+      "scope": "All data centres worldwide / IEA 2026 outlook",
+      "metrics": [
+        {
+          "value": "485 TWh",
+          "label": "2025 electricity use / estimate"
+        },
+        {
+          "value": "950 TWh",
+          "label": "2030 electricity use / central projection"
+        }
+      ],
+      "comparison": "Annual estimate and future projection, not two quarterly observations. No comparable earlier-quarter consumption figure is available in this series.",
+      "limits": "Both include non-AI computing. One terawatt-hour (TWh) is one billion kilowatt-hours. Carry the estimate with its year; compare revisions to the same forecast year separately.",
+      "source": "International Energy Agency, Key Questions on Energy and AI, 2026 executive summary.",
+      "refs": [
+        74
+      ],
+      "comparison_basis": "Annual estimate and forecast"
+    },
+    "math-catalogue": {
+      "scope": "AI-generated mathematical work / October 27 snapshot",
+      "metrics": [
+        {
+          "value": "721",
+          "label": "Manuscripts in the catalogue"
+        },
+        {
+          "value": "373",
+          "label": "Related manuscript families"
+        }
+      ],
+      "comparison": "The collection was released in October. No comparable earlier-quarter catalogue snapshot is recorded.",
+      "limits": "Counts of proposed research, not accepted breakthroughs or independent results. Several manuscripts can belong to one family; checking stages vary.",
+      "source": "OpenAI mathematics repository, README inspected October 27, 2026.",
+      "refs": [
+        11
+      ],
+      "comparison_basis": "Dated catalogue snapshot"
+    },
+    "haiku": {
+      "scope": "Computer use / provider-reported October 7 evaluation",
+      "metrics": [
+        {
+          "value": "72.4%",
+          "label": "Haiku 5.5 / OSWorld 2.1 offline subset"
+        },
+        {
+          "value": "15.7%",
+          "label": "Haiku 4.5 / the same reported subset"
+        }
+      ],
+      "comparison": "+56.7 percentage points between model versions. This is a comparison published together in Q4, not a measured Q3-to-Q4 trend.",
+      "limits": "Anthropic’s evaluation; no independent rerun or uncertainty estimate in this record. Test success does not establish everyday workplace reliability.",
+      "source": "Anthropic, Introducing Claude Haiku 5.5, October 7, 2026.",
+      "refs": [
+        3
+      ],
+      "comparison_basis": "Model-version comparison"
+    },
+    "funding": {
+      "scope": "Mathematical understanding / October 15 announcement",
+      "metrics": [
+        {
+          "value": "$15 million",
+          "label": "Combined funding and resources committed"
+        }
+      ],
+      "comparison": "A new announced commitment. No comparable earlier-quarter total is recorded.",
+      "limits": "Simons Foundation, Anthropic and OpenAI partnership. The figure includes resources and is not a total already spent or a count of validated results.",
+      "source": "Simons Foundation announcement, October 15, 2026.",
+      "refs": [
+        15
+      ],
+      "comparison_basis": "Announced commitment"
+    },
+    "learning": {
+      "scope": "High-school mathematics / background study published June 2025",
+      "metrics": [
+        {
+          "value": "+48%",
+          "label": "Assisted practice grades / GPT Base"
+        },
+        {
+          "value": "−17%",
+          "label": "Later unaided exam grades / GPT Base"
+        }
+      ],
+      "comparison": "Both are relative to the no-AI control group, not quarter-to-quarter changes. Different tests: do not subtract them to produce a “learning loss” score.",
+      "limits": "One school, nearly 1,000 students. The teaching-oriented GPT Tutor largely avoided the exam penalty. Short-run results do not establish career-long effects.",
+      "source": "Bastani and colleagues, PNAS, June 25, 2025; abstract and Table 1.",
+      "refs": [
+        44
+      ],
+      "comparison_basis": "Experiment versus control"
+    },
+    "workplace-gains": {
+      "scope": "Customer support / background study published February 2025",
+      "metrics": [
+        {
+          "value": "+15%",
+          "label": "Average issues resolved per hour with AI access"
+        },
+        {
+          "value": "5,172",
+          "label": "Customer-support agents studied"
+        }
+      ],
+      "comparison": "Effect estimated during a staggered introduction of AI at one firm; not an earlier-quarter series. A new study would not be a trend unless its methods and population matched.",
+      "limits": "Gains varied across workers. This is a work-output measure, not a 15% wage gain, headcount reduction or economy-wide productivity estimate.",
+      "source": "Brynjolfsson, Li and Raymond, Generative AI at Work, Quarterly Journal of Economics; published February 4, 2025.",
+      "refs": [
+        46
+      ],
+      "comparison_basis": "Workplace study"
+    },
+    "barclays": {
+      "scope": "Barclays / October 22 workforce announcement",
+      "metrics": [
+        {
+          "value": "About 5,000",
+          "label": "Expected reduction in full-time employees"
+        },
+        {
+          "value": "About 5%",
+          "label": "Approximate workforce share affected"
+        }
+      ],
+      "comparison": "A forecast associated with full-year 2026 cost actions, not completed Q4 losses. No comparable prior-quarter AI-only figure is available.",
+      "limits": "AI’s separate contribution is unquantified; other organizational and technology changes are included. Subject to consultation.",
+      "source": "Barclays Q3 2026 results presentation, slide 10 and footnotes 3–4; October 22.",
+      "refs": [
+        82
+      ],
+      "comparison_basis": "Planned workforce change"
+    },
+    "task-expansion": {
+      "scope": "Two studies published in October 2026",
+      "metrics": [
+        {
+          "value": "487",
+          "label": "Consultants in the published Nature study"
+        },
+        {
+          "value": "673",
+          "label": "IT apprentices in the IZA working paper"
+        },
+        {
+          "value": "+26 / +31 points",
+          "label": "Share of available task marks / two beyond-training tasks in the IZA study"
+        }
+      ],
+      "comparison": "Separate experiments, not quarterly trend observations. IZA fieldwork: October 2025–January 2026; journal abstract does not specify the consultants’ test dates.",
+      "limits": "The task gains are percentage points, not wage gains. Immediate comprehension and later unaided knowledge are different outcomes. The IZA paper is not yet peer reviewed.",
+      "source": "Wiles and colleagues, Nature Human Behaviour, October 26; Brosch and colleagues, IZA DP18999, October 2026, pages 12–18.",
+      "refs": [
+        84,
+        85
+      ],
+      "comparison_basis": "Distinct experiments"
+    },
+    "research-automation": {
+      "scope": "Anthropic’s own AI research and development",
+      "metrics": [
+        {
+          "value": "26%",
+          "label": "Work rated “AI leads” / August 2026"
+        },
+        {
+          "value": "Under 1%",
+          "label": "Same rating / February 2026"
+        }
+      ],
+      "comparison": "A Q3 month versus a Q1 month, not whole-quarter averages. The report provides no matched Q4 reading.",
+      "limits": "Company-reported ratings: “leads” still includes human supervision. No measured subset was fully autonomous in the August snapshot. This is not an industry-wide measure.",
+      "source": "Anthropic, Measurements for understanding the pace of AI development inside frontier labs; August 2026 snapshot.",
+      "refs": [
+        30
+      ],
+      "comparison_basis": "Selected months in earlier quarters"
+    },
+    "agent-teams": {
+      "scope": "Research agents / background report published June 2025",
+      "metrics": [
+        {
+          "value": "+90.2%",
+          "label": "Relative performance gain on one internal evaluation"
+        }
+      ],
+      "comparison": "Opus 4 leading Sonnet 4 helpers versus Opus 4 alone. A system comparison reported together, not a quarterly improvement rate or a 90.2-point rise.",
+      "limits": "Anthropic’s own research evaluation. Team coordination and additional computing have costs; this result does not apply to every task or every team.",
+      "source": "Anthropic, How we built our multi-agent research system, June 13, 2025.",
+      "refs": [
+        29
+      ],
+      "comparison_basis": "Provider-reported system comparison"
+    },
+    "agent-design": {
+      "scope": "Earlier research / 2025 / not an Elephant-Goldfish test",
+      "metrics": [
+        {
+          "value": "1,600+",
+          "label": "Recorded AI-agent runs analyzed"
+        },
+        {
+          "value": "7",
+          "label": "Agent frameworks studied"
+        },
+        {
+          "value": "14",
+          "label": "Identified failure types"
+        }
+      ],
+      "comparison": "A background study, not a Q4 2026 trend. No comparable earlier-quarter plugin outcome data are available.",
+      "limits": "Study counts, not a failure rate or an improvement score. The 14 failure types were defined from 150 recorded runs; the larger collection used AI-assisted labeling. It did not include Elephant-Goldfish.",
+      "source": "Cemri et al., Why Do Multi-Agent LLM Systems Fail?, arXiv v3, October 26, 2025; checked October 30, 2026.",
+      "refs": [
+        96
+      ],
+      "comparison_basis": "Earlier research / no quarterly plugin comparison"
+    },
+    "adoption-responses": {
+      "scope": "Earlier studies / different tasks and measures, not Q4 results",
+      "metrics": [
+        {
+          "value": "+15% output/hour",
+          "label": "Customer support: issues resolved; 5,172 agents [46]"
+        },
+        {
+          "value": "+19% time/task",
+          "label": "Software development: longer completion time; 16 developers, 246 tasks [97]"
+        }
+      ],
+      "comparison": "AI access versus comparison conditions in each study. The first is a staggered workplace rollout; the second a randomized task comparison. These figures cannot be averaged or used as a quarterly trend.",
+      "limits": "Rollout in [46] was mainly fall 2020-winter 2021; [97] tested February-June 2025 tools. Different populations and outcomes. No measured 100-times gain or category shares are established here.",
+      "source": "Brynjolfsson, Li and Raymond, QJE, February 4, 2025; Becker et al., arXiv preprint v2, July 25, 2025. Reviewed October 30, 2026.",
+      "refs": [
+        46,
+        97
+      ],
+      "comparison_basis": "Two separate studies; no equivalent quarter comparison"
+    }
+  },
+  "sources": {
+    "3": {
+      "entry": "Anthropic. **Introducing Claude Haiku 5.5.** October 7, 2026. Figure: provider-reported OSWorld 2.1 offline-subset results, Haiku 4.5 = 15.7%, Haiku 5.5 = 72.4%. No independent rerun or uncertainty estimate is supplied by this draft. https://www.anthropic.com/claude-haiku-5-5",
+      "url": "https://www.anthropic.com/claude-haiku-5-5"
+    },
+    "4": {
+      "entry": "Anthropic. **Claude Haiku 5.5 overview.** Live model documentation. Figure: standard input/output rates of $0.10/$0.50 per million tokens for prompts up to 100,000 tokens; larger prompts have different rates. https://platform.claude.com/docs/en/models/haiku-5-5/overview",
+      "url": "https://platform.claude.com/docs/en/models/haiku-5-5/overview"
+    },
+    "7": {
+      "entry": "OpenAI. **Model Release Notes.** October 14 and October 26, 2026 entries. Figure: Terra standard input/output rates of $1/$5 per million tokens. Retirement scope is product-specific. https://help.openai.com/en/articles/9624314-model-release-notes",
+      "url": "https://help.openai.com/en/articles/9624314-model-release-notes"
+    },
+    "11": {
+      "entry": "OpenAI. **Mathematics repository, README.** Live catalogue inspected October 27: 721 manuscripts, 373 families. Verification stages vary. Those totals are a dated snapshot and differ from widely reported initial-release counts. https://github.com/openai/math",
+      "url": "https://github.com/openai/math"
+    },
+    "15": {
+      "entry": "Simons Foundation. **Simons Foundation Launches $15M Effort To Help Mathematicians Navigate AI Era.** October 15, 2026. Describes a combined funding-and-resources commitment, not a payment made to this project. https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
+      "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/"
+    },
+    "29": {
+      "entry": "Anthropic. **How we built our multi-agent research system.** June 13, 2025. The 90.2% gain is relative, on an internal research evaluation, for Opus 4 leading Sonnet 4 helpers versus Opus 4 alone. Costs and coordination limitations accompany the finding. https://www.anthropic.com/research/multi-agent-research-system",
+      "url": "https://www.anthropic.com/research/multi-agent-research-system"
+    },
+    "30": {
+      "entry": "Anthropic. **Measurements for understanding the pace of AI development inside frontier labs.** Company-reported August 2026 snapshot. Its research-automation index distinguishes supervised leadership from full autonomy; the 26% figure does not establish a self-directed successor-development cycle. https://www.anthropic.com/institute/measuring-pace-of-ai-development",
+      "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development"
+    },
+    "44": {
+      "entry": "Hamsa Bastani and colleagues. **Generative AI without guardrails can harm learning: Evidence from high school mathematics.** PNAS, June 25, 2025. Peer-reviewed field experiment in one Turkish high school, with nearly a thousand students. Unrestricted assistance improved assisted practice but reduced subsequent unaided performance; a teaching-oriented design largely mitigated that loss. Short educational setting, not a career-length study. https://doi.org/10.1073/pnas.2422633122",
+      "url": "https://doi.org/10.1073/pnas.2422633122"
+    },
+    "46": {
+      "entry": "Erik Brynjolfsson, Danielle Li and Lindsey Raymond. **Generative AI at Work.** Quarterly Journal of Economics 140(2), 889-942, 2025. Peer-reviewed study of an assistant's staggered introduction among 5,172 support agents. Benefits were strongest among less experienced and lower-performing workers; the authors also report evidence consistent with learning. One workplace, a different task and study design from [44]-[45]; this is a useful counterweight, not a direct replication. https://doi.org/10.1093/qje/qjae044",
+      "url": "https://doi.org/10.1093/qje/qjae044"
+    },
+    "74": {
+      "entry": "International Energy Agency. **Key Questions on Energy and AI.** 2026 report, executive summary. Estimates global data-centre electricity use at 485 TWh in 2025 and projects around 950 TWh in 2030. These totals include non-AI data centres. Discusses efficiency, changing tasks and infrastructure constraints. Institutional energy analysis, not a peer-reviewed experiment; projections depend on assumptions and are not promises about realized demand. https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
+      "url": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary"
+    },
+    "79": {
+      "entry": "Nela Richardson / ADP Research. **Canaries Dashboard: Employment in AI-exposed occupations shrank in September.** October 21, 2026. U.S. private-employer payroll data: September 2026 against September 2025. The chart reproduces all-age and age-22-25 comparisons; it does not estimate causal AI job losses. https://www.adpresearch.com/research/canaries-dashboard-employment-in-ai-exposed-occupations-shrank-in-september/",
+      "url": "https://www.adpresearch.com/research/canaries-dashboard-employment-in-ai-exposed-occupations-shrank-in-september/"
+    },
+    "82": {
+      "entry": "Barclays. **Q3 2026 Results Presentation**, October 22, slide 10 and footnotes 3-4. Expected workforce reduction from full-year structural cost actions, subject to consultation; management's estimate, not an AI-only attribution. Original presentation saved and read. https://home.barclays/content/dam/home-barclays/documents/investor-relations/ResultAnnouncements/Q32026Results/Q326-Results-Presentation.pdf",
+      "url": "https://home.barclays/content/dam/home-barclays/documents/investor-relations/ResultAnnouncements/Q32026Results/Q326-Results-Presentation.pdf"
+    },
+    "84": {
+      "entry": "Emma Wiles, Lisa Krayer, Mohamed Abbadi, Urvi Awasthi, Ryan Kennedy, Pamela Mishkin, Daniel Sack and Francois Candelon. **Generative AI and the temporary upskilling of knowledge workers.** Nature Human Behaviour, published October 26, 2026. Peer-reviewed randomized study. The journal abstract reports 487 consultants. BCG supported the research with employee time and resources; company-affiliated authors participated in the study. https://doi.org/10.1038/s41562-026-02566-6",
+      "url": "https://doi.org/10.1038/s41562-026-02566-6"
+    },
+    "85": {
+      "entry": "Hanna Brosch, Christina Langer, Philipp Lergetporer, Sandra Mueller, Harald Pfeifer and Nele Tschoepe. **Task Expansion with Generative AI: Experimental Evidence on Middle-Skilled, Early-Career Workers.** IZA Discussion Paper 18999, October 2026; exact release day not established. Data collected October 2025-January 2026. Pages 12-18 define scoring and report the effects. https://docs.iza.org/dp18999.pdf",
+      "url": "https://docs.iza.org/dp18999.pdf"
+    },
+    "86": {
+      "entry": "U.S. Census Bureau. **Business Trends and Outlook Survey, National Estimates**, workbook downloaded October 27, 2026; latest release October 22. Response Estimates, Response Standard Errors, and Collection and Reference Dates sheets. This edition retains 24 waves beginning with the November 17, 2025 collection period. Historical quarter snapshots are reconstructed from this one workbook, using the final reference window wholly within each quarter; they are not quarter averages or a record of what was known on each quarter's last day. https://www.census.gov/hfp/btos/data_downloads",
+      "url": "https://www.census.gov/hfp/btos/data_downloads"
+    },
+    "87": {
+      "entry": "ADP Research. **Canaries Dashboard**, June 2026 observation, published July 22, 2026. High/least exposure annual employment growth: all ages -0.2%/+0.6%; ages 22-25 -4.3%/0.0%. https://www.adpresearch.com/research/canaries-dashboard-2026-june",
+      "url": "https://www.adpresearch.com/research/canaries-dashboard-2026-june"
+    },
+    "90": {
+      "entry": "Epoch AI. **FrontierMath Erdős**, benchmark description and methodology; consulted October 28, 2026. The suite contains 68 conjectures from 65 distinct numbered Erdős problems, curated with Thomas Bloom, and uses formally checked proofs. One attempt per conjecture, $300 and 72 hours per attempt. Different test budgets and expanded experiments are excluded from the standard comparison. https://epoch.ai/benchmarks/frontiermath-erdos",
+      "url": "https://epoch.ai/benchmarks/frontiermath-erdos"
+    },
+    "91": {
+      "entry": "Epoch AI. **Capabilities & benchmarking: Use this data.** Export downloaded October 28, 2026; FrontierMath Erdős table and associated model metadata. Thirteen evaluated configurations. Some source scores are rounded; do not infer exact solved-item counts from every displayed percentage. The leading row is exactly 3/68. These are Epoch's own evaluations, licensed CC BY 4.0; chart adaptation by AIEVOQ. The export's run timestamps and model release dates do not establish when every result became public. https://epoch.ai/benchmarks/use-this-data",
+      "url": "https://epoch.ai/benchmarks/use-this-data"
+    },
+    "96": "https://arxiv.org/abs/2503.13657v3",
+    "97": "https://arxiv.org/abs/2507.09089v2",
+    "98": "https://doi.org/10.1063/1.1768652"
+  },
+  "coverage": [
+    {
+      "article": "Welcome to the AI jungle",
+      "panel": null,
+      "reason": "Conceptual, fictional, prospective or qualitative section; no suitable direct numerical finding in the reviewed record."
+    },
+    {
+      "article": "Why this is an evolutionary story",
+      "panel": null,
+      "reason": "Conceptual, fictional, prospective or qualitative section; no suitable direct numerical finding in the reviewed record."
+    },
+    {
+      "article": "Common dynamics / 1",
+      "panel": null,
+      "reason": "Conceptual, fictional, prospective or qualitative section; no suitable direct numerical finding in the reviewed record."
+    },
+    {
+      "article": "Common dynamics / 2",
+      "panel": null,
+      "reason": "Conceptual, fictional, prospective or qualitative section; no suitable direct numerical finding in the reviewed record."
+    },
+    {
+      "article": "Where the analogy earns its keep",
+      "panel": null,
+      "reason": "Conceptual, fictional, prospective or qualitative section; no suitable direct numerical finding in the reviewed record."
+    },
+    {
+      "article": "The Ledgerfinch",
+      "panel": "haiku",
+      "reason": "Evidence directly supports the article."
+    },
+    {
+      "article": "The Relay Octopus",
+      "panel": null,
+      "reason": "Conceptual, fictional, prospective or qualitative section; no suitable direct numerical finding in the reviewed record."
+    },
+    {
+      "article": "The Proofweaver",
+      "panel": "math-catalogue",
+      "reason": "Evidence directly supports the article."
+    },
+    {
+      "article": "The quarterly census",
+      "panel": "census",
+      "reason": "Evidence directly supports the article."
+    },
+    {
+      "article": "Adoption spreads",
+      "panel": "adoption",
+      "reason": "Evidence directly supports the article."
+    },
+    {
+      "article": "Work under pressure",
+      "panel": "employment",
+      "reason": "Evidence directly supports the article."
+    },
+    {
+      "article": "A demanding proving ground",
+      "panel": "capability",
+      "reason": "Evidence directly supports the article."
+    },
+    {
+      "article": "The feeding bill",
+      "panel": "prices",
+      "reason": "Evidence directly supports the article."
+    },
+    {
+      "article": "The metabolic bill",
+      "panel": "energy",
+      "reason": "Evidence directly supports the article."
+    },
+    {
+      "article": "October: the trail so far",
+      "panel": null,
+      "reason": "Conceptual, fictional, prospective or qualitative section; no suitable direct numerical finding in the reviewed record."
+    },
+    {
+      "article": "October 6",
+      "panel": "math-catalogue",
+      "reason": "Evidence directly supports the article."
+    },
+    {
+      "article": "October 7",
+      "panel": "haiku",
+      "reason": "Evidence directly supports the article."
+    },
+    {
+      "article": "October 8-13",
+      "panel": null,
+      "reason": "Conceptual, fictional, prospective or qualitative section; no suitable direct numerical finding in the reviewed record."
+    },
+    {
+      "article": "Beyond the Glasshouse",
+      "panel": null,
+      "reason": "Conceptual, fictional, prospective or qualitative section; no suitable direct numerical finding in the reviewed record."
+    },
+    {
+      "article": "October 14-16",
+      "panel": "funding",
+      "reason": "Evidence directly supports the article."
+    },
+    {
+      "article": "October 21",
+      "panel": "learning",
+      "reason": "Evidence directly supports the article."
+    },
+    {
+      "article": "The borrowed metabolism",
+      "panel": null,
+      "reason": "Conceptual, fictional, prospective or qualitative section; no suitable direct numerical finding in the reviewed record."
+    },
+    {
+      "article": "Keeping claws in reserve",
+      "panel": "learning",
+      "reason": "Evidence directly supports the article."
+    },
+    {
+      "article": "The shrinking habitat",
+      "panel": "employment",
+      "reason": "Evidence directly supports the article."
+    },
+    {
+      "article": "A partnership worth keeping",
+      "panel": "workplace-gains",
+      "reason": "Evidence directly supports the article."
+    },
+    {
+      "article": "The employment field notebook",
+      "panel": "employment",
+      "reason": "Evidence directly supports the article."
+    },
+    {
+      "article": "October 21 / employment",
+      "panel": "employment",
+      "reason": "Evidence directly supports the article."
+    },
+    {
+      "article": "October 22 / employment",
+      "panel": "barclays",
+      "reason": "Evidence directly supports the article."
+    },
+    {
+      "article": "October 22 / design",
+      "panel": "agent-design",
+      "reason": "Background study counts explicitly separated from Q4 release claims; no measured EGM improvement or quarter comparison."
+    },
+    {
+      "article": "October 22",
+      "panel": "adoption",
+      "reason": "Evidence directly supports the article."
+    },
+    {
+      "article": "What keeps the creatures coming?",
+      "panel": "workplace-gains",
+      "reason": "Evidence directly supports the article."
+    },
+    {
+      "article": "The adoption gradient",
+      "panel": "adoption-responses",
+      "reason": "Contrasting independent background studies; different units and populations labeled, with Q4 adoption context in the article. Proposed categories have no measured population shares."
+    },
+    {
+      "article": "When the feeding grounds fill",
+      "panel": "energy",
+      "reason": "Evidence directly supports the article."
+    },
+    {
+      "article": "Three seasons ahead",
+      "panel": null,
+      "reason": "Conceptual, fictional, prospective or qualitative section; no suitable direct numerical finding in the reviewed record."
+    },
+    {
+      "article": "October 25-26",
+      "panel": "prices",
+      "reason": "Evidence directly supports the article."
+    },
+    {
+      "article": "October 26 / research",
+      "panel": "task-expansion",
+      "reason": "Evidence directly supports the article."
+    },
+    {
+      "article": "Mathematics after the rain",
+      "panel": "math-catalogue",
+      "reason": "Evidence directly supports the article."
+    },
+    {
+      "article": "The Habitat Engineers",
+      "panel": "funding",
+      "reason": "Evidence directly supports the article."
+    },
+    {
+      "article": "The Naturalist Was Wrong",
+      "panel": null,
+      "reason": "Conceptual, fictional, prospective or qualitative section; no suitable direct numerical finding in the reviewed record."
+    },
+    {
+      "article": "Expectations under pressure",
+      "panel": null,
+      "reason": "Conceptual, fictional, prospective or qualitative section; no suitable direct numerical finding in the reviewed record."
+    },
+    {
+      "article": "The wall grew doors",
+      "panel": "agent-teams",
+      "reason": "Evidence directly supports the article."
+    },
+    {
+      "article": "When the measuring stick moves",
+      "panel": "research-automation",
+      "reason": "Evidence directly supports the article."
+    },
+    {
+      "article": "Predictions in sealed envelopes",
+      "panel": null,
+      "reason": "Conceptual, fictional, prospective or qualitative section; no suitable direct numerical finding in the reviewed record."
+    },
+    {
+      "article": "The three sealed envelopes",
+      "panel": null,
+      "reason": "Conceptual, fictional, prospective or qualitative section; no suitable direct numerical finding in the reviewed record."
+    },
+    {
+      "article": "New tricks and unexpected turns",
+      "panel": "haiku",
+      "reason": "Evidence directly supports the article."
+    },
+    {
+      "article": "The Price of Feathers",
+      "panel": "prices",
+      "reason": "Evidence directly supports the article."
+    },
+    {
+      "article": "The speciation hearing",
+      "panel": null,
+      "reason": "Conceptual, fictional, prospective or qualitative section; no suitable direct numerical finding in the reviewed record."
+    },
+    {
+      "article": "Could it survive a change of weather?",
+      "panel": null,
+      "reason": "Conceptual, fictional, prospective or qualitative section; no suitable direct numerical finding in the reviewed record."
+    },
+    {
+      "article": "More features for the field journal",
+      "panel": null,
+      "reason": "Conceptual, fictional, prospective or qualitative section; no suitable direct numerical finding in the reviewed record."
+    },
+    {
+      "article": "Letters from the Undergrowth",
+      "panel": null,
+      "reason": "Conceptual, fictional, prospective or qualitative section; no suitable direct numerical finding in the reviewed record."
+    },
+    {
+      "article": "November-December",
+      "panel": null,
+      "reason": "Conceptual, fictional, prospective or qualitative section; no suitable direct numerical finding in the reviewed record."
+    },
+    {
+      "article": "The human cast",
+      "panel": null,
+      "reason": "Conceptual, fictional, prospective or qualitative section; no suitable direct numerical finding in the reviewed record."
+    },
+    {
+      "article": "From puzzles to worlds",
+      "panel": null,
+      "reason": "Conceptual, fictional, prospective or qualitative section; no suitable direct numerical finding in the reviewed record."
+    },
+    {
+      "article": "What keeps the jungle growing",
+      "panel": null,
+      "reason": "Conceptual, fictional, prospective or qualitative section; no suitable direct numerical finding in the reviewed record."
+    },
+    {
+      "article": "Paths into the wider world",
+      "panel": null,
+      "reason": "Conceptual, fictional, prospective or qualitative section; no suitable direct numerical finding in the reviewed record."
+    }
+  ],
+  "website": {
+    "home": {
+      "Mathematics after the rain": "math-catalogue",
+      "Who raises the next generation?": "learning",
+      "A crowded watering hole": "adoption",
+      "New tricks & unexpected turns": "haiku",
+      "The price of feathers": "prices",
+      "The habitat engineers": "funding"
+    },
+    "statistics": {
+      "Take the census.": "census",
+      "Adoption spreads": "adoption",
+      "Work under pressure": "employment",
+      "A demanding test": "capability",
+      "What the text costs": "prices",
+      "An appetite for electricity": "energy"
+    }
+  }
+}

@@ -11,7 +11,7 @@ import unicodedata
 ROOT = Path(__file__).resolve().parents[1]
 BASE = '/issues/2026-q4/'
 ORIGIN = 'https://aievoq.com'
-VERSION = '0.20'
+VERSION = '0.21'
 DATE = '2026-10-30'
 REVIEW_DATE = 'October 30, 2026'
 SOURCE = ROOT/'content'/f'q4-2026-v{VERSION}.md'
@@ -109,7 +109,13 @@ def render(section,source_mode=False):
         if m:
             item=assets['plates'][m[1]]
             cls='editorial-plate editorial-plate-small' if int(m[2])<=100 else 'editorial-plate'
-            out.append(f'<figure class="{cls}">'+image(item,item['alt'])+f'<figcaption><span>Imagined scene / Figure {item["number"]:02}</span> {inline(item["caption"])}</figcaption></figure>');continue
+            artwork=image(item,item['alt'])
+            full_link=''
+            if item.get('full_size'):
+                href=escape(item['full_size'],quote=True)
+                artwork=f'<a href="{href}" aria-label="Open illustration at full size">{artwork}</a>'
+                full_link=f' <a href="{href}">View full-size overview</a>'
+            out.append(f'<figure class="{cls}">'+artwork+f'<figcaption><span>Imagined scene / Figure {item["number"]:02}</span> {inline(item["caption"])}{full_link}</figcaption></figure>');continue
         if line.startswith('|'):
             block=[line]
             while i<len(lines) and lines[i].strip().startswith('|'):block.append(lines[i].strip());i+=1

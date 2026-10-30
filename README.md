@@ -6,7 +6,7 @@ The public website for **https://aievoq.com**: an illustrated quarterly explorin
 
 This is a static webzine with local artwork, full reading pages and a statistical census. There are no package dependencies, trackers or server services. The contents search runs in the browser; all articles and sources remain readable without JavaScript.
 
-The complete developing first issue is at `/issues/2026-q4/`. Draft 0.20 contains 54 articles and field notes, plus front matter and workshop notes, 30 Key statistics panels, 96 numbered sources, all 23 illustrated scenes, the species and human casts, and all 19 figure placements. The contents page supports full manuscript search and department filtering. Each reading page has a permanent URL and previous/next links; citations open the matching source entry. The homepage links to the full articles.
+The complete developing first issue is at `/issues/2026-q4/`. Draft 0.21 contains 55 articles and field notes, plus front matter and workshop notes, 31 Key statistics panels, 98 numbered sources, all 24 illustrated scenes, the species and human casts, and all 19 figure placements. The contents page supports full manuscript search and department filtering. Each reading page has a permanent URL and previous/next links; citations open the matching source entry. The homepage links to the full articles.
 
 The publication is web first. Q4 remains in progress, with selected evidence reviewed through October 30, 2026 and November–December still open. The preserved manuscript and artwork support a possible later print edition. The working PDF remains in the editorial workspace.
 
@@ -70,3 +70,5 @@ Keep observed rates, experimental effects, company evaluations, plans and projec
 Draft 0.19 adds one dated Elephant-Goldfish field note and a background-research panel. Four new sources distinguish the launch/documentation from two earlier academic studies. The existing census remains frozen at October 28; none of its readings have been refreshed. The new workflow is not classified as a confirmed species or a measured productivity gain. Existing article URLs are preserved.
 
 Draft 0.20 adds the dedicated elephant-and-goldfish ImageGen plate to the October 22 design article, replacing its temporary office-reef illustration. It illustrates complementary roles without changing the article's evidence or statistical claims.
+
+Draft 0.21 adds The adoption gradient: nine editorial patterns, three side branches, an audit for extraordinary productivity claims and a historically qualified quantum analogy. Its two-study statistics panel distinguishes output per hour from time per task and labels earlier research separately from Q4 evidence. A user-supplied nine-part natural-history overview opens at full size; the existing working-human illustration remains alongside the text. All prior evidence remains preserved.

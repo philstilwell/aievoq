@@ -1,6 +1,6 @@
 {
-  "version": "0.20",
-  "source_sha256": "aa09f02c7ae196dd4d696b9e2d59de06ec33c8e574ae462750139fa0f247508c",
+  "version": "0.21",
+  "source_sha256": "df003abc7c7e828d12b85eda3d2f789d25be1415cabcc583fd95593094c0158a",
   "plates": {
     "living-jungle": {
       "src": "/assets/issue-01/living-jungle.webp",
@@ -185,6 +185,15 @@
       "caption": "The elephant preserves the design history; the goldfish inspects the plan without the earlier conversation.",
       "number": 23,
       "alt": "Imagined scene. An elephant keeps an archive of rolled plans and unfolds the current design; a copper-orange goldfish inspects an uncertain connection in that design through a brass magnifying lens beside a woodland pool. The animals represent complementary workflow roles."
+    },
+    "adoption-gradient": {
+      "src": "/assets/issue-01/adoption-gradient.webp",
+      "width": 1500,
+      "height": 837,
+      "caption": "Nine patterns of AI adoption. These are behaviors that can change with the task, not fixed kinds of person. Full descriptions follow.",
+      "number": 24,
+      "alt": "Imagined scene. Nine illustrated patterns of human AI adoption: a sealed burrow, an abandoned feeding ground, a forest edge, exploratory foraging, opportunistic feeding, a productive niche, habitat construction, mutualism and expansion into new niches. Full descriptions appear in the article.",
+      "full_size": "/assets/issue-01/adoption-gradient-original.jpeg"
     }
   },
   "figures": {
