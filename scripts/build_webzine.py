@@ -12,7 +12,8 @@ from adoption_components import render_chart
 ROOT = Path(__file__).resolve().parents[1]
 BASE = '/issues/2026-q4/'
 ORIGIN = 'https://aievoq.com'
-VERSION = '0.23'
+VERSION = '0.24'
+CSS_VERSION = hashlib.sha256((ROOT/'webzine.css').read_bytes()).hexdigest()[:12]
 DATE = '2026-10-30'
 REVIEW_DATE = 'October 30, 2026'
 SOURCE = ROOT/'content'/f'q4-2026-v{VERSION}.md'
@@ -23,6 +24,9 @@ OUT = ROOT/BASE.strip('/')
 OUT.mkdir(parents=True,exist_ok=True)
 
 def slug(text):
+    # Keep the already published address when the headline changes.
+    if text == 'Fork it: the right for purists to branch':
+        return "fork-it-the-right-to-branch"
     ascii_text = unicodedata.normalize('NFKD',text).encode('ascii','ignore').decode().lower()
     return re.sub(r'[^a-z0-9]+','-',ascii_text).strip('-')
 
@@ -46,7 +50,7 @@ TITLE_INDEX = {m[1]: i for i, part in enumerate(raw.split('---PAGE---')) if (m :
 GROUP_BOUNDS = [('Welcome to the AI jungle', 'Where the analogy earns its keep', 'The evolutionary lens'), ('The Ledgerfinch', 'The Proofweaver', 'Meet the species'), ('The quarterly census', 'The metabolic bill', 'The quarterly census'), ('October: the trail so far', 'October 14-16', 'October field notes'), ('October 21', 'October 22 / employment', 'Humans, learning & work'), ('October 22', 'Three seasons ahead', 'Demand & resources'), ('October 25-26', 'The Habitat Engineers', 'Mathematics & the habitat'), ('The Naturalist Was Wrong', 'The three sealed envelopes', 'Expectations & forecasts'), ('New tricks and unexpected turns', 'November-December', 'The field journal'), ('The human cast', 'Paths into the wider world', 'The human cast')]
 GROUPS = [(TITLE_INDEX[lo], TITLE_INDEX[hi], name) for lo, hi, name in GROUP_BOUNDS]
 def category(index):
-    if index == TITLE_INDEX.get('Fork it: the right to branch'): return 'Humans, learning & work'
+    if index == TITLE_INDEX.get('Fork it: the right for purists to branch'): return 'Humans, learning & work'
     if index == TITLE_INDEX.get('October 22 / design'): return 'October field notes'
     for lo,hi,name in GROUPS:
         if lo<=index<=hi: return name
@@ -148,7 +152,7 @@ def shell(title,description,path,body,extra_head='',body_class=''):
     return f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{escape(title)} — AIEVOQ</title><meta name="description" content="{escape(description,quote=True)}"><meta name="theme-color" content="#132432">
-<link rel="canonical" href="{canonical}"><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="/webzine.css?v={VERSION}">
+<link rel="canonical" href="{canonical}"><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="/webzine.css?v={CSS_VERSION}">
 <meta property="og:type" content="article"><meta property="og:title" content="{escape(title,quote=True)}"><meta property="og:description" content="{escape(description,quote=True)}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="{ORIGIN}/assets/watering-hole.webp"><meta name="twitter:card" content="summary_large_image">{extra_head}</head>
 <body class="{body_class}"><a class="skip-link" href="#main">Skip to content</a><div class="page">
 <header class="masthead"><a class="wordmark" href="/" aria-label="AI Evolution Quarterly home"><span class="wordmark-title"><span class="wordmark-ai">AI</span> EVOLUTION</span><span class="wordmark-sub">Quarterly <span aria-hidden="true">/</span> AIEVOQ</span></a><nav aria-label="Main navigation"><a href="{BASE}">Read the issue</a><a href="/statistics/">Statistics</a><a href="{BASE}sources/">Sources</a></nav></header>

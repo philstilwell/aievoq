@@ -55,6 +55,7 @@ button:focus-visible,input:focus-visible,select:focus-visible,[tabindex]:focus-v
 .reference:hover{text-decoration:underline}
 .editorial-plate{margin:30px 0 34px}
 .editorial-plate img{display:block;width:100%;height:auto;mix-blend-mode:multiply;border-radius:5px}
+.editorial-plate img[src$="/penguin-branches.webp"]{border-radius:0;mask-image:linear-gradient(to right,transparent,#000 2%,#000 98%,transparent),linear-gradient(to bottom,transparent,#000 3%,#000 97%,transparent);mask-composite:intersect}
 .editorial-plate-small img{width:min(100%,460px);aspect-ratio:3/1;object-fit:cover;margin:auto;border:3px solid var(--ink);border-radius:999px;box-shadow:0 2px 3px #13243214,0 6px 13px #13243210;mix-blend-mode:normal}
 .editorial-plate figcaption{margin:12px auto 0;font:italic 14px/1.6 Georgia,serif;text-align:center;max-width:660px;color:var(--muted)}
 .editorial-plate figcaption span{display:block;font:10px/1.5 var(--mono);text-transform:uppercase;letter-spacing:.04em;margin-bottom:7px;color:var(--copper)}
