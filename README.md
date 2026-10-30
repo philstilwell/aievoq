@@ -6,11 +6,11 @@ The public website for **https://aievoq.com**: an illustrated quarterly explorin
 
 This is a static webzine with local artwork, full reading pages and a statistical census. There are no package dependencies, trackers or server services. The contents search runs in the browser; all articles and sources remain readable without JavaScript.
 
-The complete developing first issue is at `/issues/2026-q4/`. Draft 0.19 contains 54 articles and field notes, plus front matter and workshop notes, 30 Key statistics panels, 96 numbered sources, all 22 illustrated scenes, the species and human casts, and all 19 figure placements. The contents page supports full manuscript search and department filtering. Each reading page has a permanent URL and previous/next links; citations open the matching source entry. The homepage links to the full articles.
+The complete developing first issue is at `/issues/2026-q4/`. Draft 0.20 contains 54 articles and field notes, plus front matter and workshop notes, 30 Key statistics panels, 96 numbered sources, all 23 illustrated scenes, the species and human casts, and all 19 figure placements. The contents page supports full manuscript search and department filtering. Each reading page has a permanent URL and previous/next links; citations open the matching source entry. The homepage links to the full articles.
 
 The publication is web first. Q4 remains in progress, with selected evidence reviewed through October 30, 2026 and November–December still open. The preserved manuscript and artwork support a possible later print edition. The working PDF remains in the editorial workspace.
 
-The web edition reuses the three fictional species, all twenty-two illustrated scenes, eight public-figure caricatures and the approved cover. The website uses lightweight WebP copies; charts retain their original vector shapes and labels. The original report and full-resolution artwork are maintained separately. No new images were generated for the migration.
+The web edition reuses the three fictional species, all twenty-three illustrated scenes, eight public-figure caricatures and the approved cover. The website uses lightweight WebP copies; charts retain their original vector shapes and labels. The original report and full-resolution artwork are maintained separately. No new images were generated for the migration.
 
 The design echoes the report with charcoal, cobalt, ivory and copper; small capsule illustrations with 3px borders; softly rounded information panels; subtle shadows; and large unframed artwork with fading edges. Native HTML disclosure controls provide optional extra detail without JavaScript. The statistics page progressively adds SVG charts and two display controls; its tables and downloads remain available without JavaScript. System fonts avoid external font requests.
 
@@ -68,3 +68,5 @@ Keep observed rates, experimental effects, company evaluations, plans and projec
 ## October 30 editorial update
 
 Draft 0.19 adds one dated Elephant-Goldfish field note and a background-research panel. Four new sources distinguish the launch/documentation from two earlier academic studies. The existing census remains frozen at October 28; none of its readings have been refreshed. The new workflow is not classified as a confirmed species or a measured productivity gain. Existing article URLs are preserved.
+
+Draft 0.20 adds the dedicated elephant-and-goldfish ImageGen plate to the October 22 design article, replacing its temporary office-reef illustration. It illustrates complementary roles without changing the article's evidence or statistical claims.
