@@ -1,6 +1,6 @@
 {
-  "version": "0.24",
-  "source_sha256": "5f458f85f932d46493136cbc25d35edf80004a45aea0b3212c3a147c1e3a6623",
+  "version": "0.25",
+  "source_sha256": "d8ac297cd050f39adbe7c364c5cdd11bdd64ad2507ca54602f24ad51c75db791",
   "plates": {
     "living-jungle": {
       "src": "/assets/issue-01/living-jungle.webp",
@@ -199,7 +199,7 @@
       "src": "/assets/issue-01/penguin-branches.webp",
       "width": 1500,
       "height": 651,
-      "caption": "One shared colony, two working methods: AI-assisted cooperation and deliberate abstention. The connecting paths leave room to change course. Imagined alternatives, not an established Linux split.",
+      "caption": "An unfamiliar helper divides the colony: some penguins work with AI, others rely on their own tools. Imagined choices about trust, not an observed Linux split.",
       "number": 25,
       "alt": "Imagined scene. A shared penguin colony branches into two coastal communities. One builds with an imagined octopus AI partner while the other works with hand tools and plans. Both tend healthy nests; paths remain connected."
     }

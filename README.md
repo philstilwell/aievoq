@@ -6,7 +6,7 @@ The public website for **https://aievoq.com**: an illustrated quarterly explorin
 
 This is a static webzine with local artwork, full reading pages and a statistical census. There are no package dependencies, trackers or server services. The contents search runs in the browser; all articles and sources remain readable without JavaScript.
 
-The complete developing first issue is at `/issues/2026-q4/`. Draft 0.24 contains 56 articles and field notes, plus front matter and workshop notes, 35 Key statistics panels, 112 numbered sources, all 25 illustrated scenes, the species and human casts, and all 23 figure placements. The contents page supports full manuscript search and department filtering. Each reading page has a permanent URL and previous/next links; citations open the matching source entry. The homepage links to the full articles.
+The complete developing first issue is at `/issues/2026-q4/`. Draft 0.25 contains 56 articles and field notes, plus front matter and workshop notes, 35 Key statistics panels, 114 numbered sources, all 25 illustrated scenes, the species and human casts, and all 23 figure placements. The contents page supports full manuscript search and department filtering. Each reading page has a permanent URL and previous/next links; citations open the matching source entry. The homepage links to the full articles.
 
 The publication is web first. Q4 remains in progress, with selected evidence reviewed through October 30, 2026 and November–December still open. The preserved manuscript and artwork support a possible later print edition. The working PDF remains in the editorial workspace.
 
@@ -78,3 +78,5 @@ Draft 0.22 integrates the human-adoption statistics into the feature and the cen
 Draft 0.23 added the Linux companion feature, with Q3 statement dating, Q4 policy developments, a disclosed-assistance count, and two academic studies of software forks. The October 14 label-rule change is a measurement break; no new anti-AI lineage or measured productivity gain is asserted. Earlier statistical snapshots are unchanged.
 
 Draft 0.24 retitles that feature "Fork it: the right for purists to branch", adds conditional outlooks for AI-free practices and communities, and introduces the penguin-colony ImageGen plate. It preserves the published article URL. The February 2026 METR update qualifies use of the early-2025 slowdown result; no numerical survival probabilities or lifespans are claimed.
+
+Draft 0.25 shortens the Linux feature and centers suspicion, dissent and accountability for AI-assisted work. It adds two earlier academic studies of algorithmic trust; forking becomes a brief closing point. Existing statistics and the illustration remain.
