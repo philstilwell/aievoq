@@ -12,7 +12,7 @@ from adoption_components import render_chart
 ROOT = Path(__file__).resolve().parents[1]
 BASE = '/issues/2026-q4/'
 ORIGIN = 'https://aievoq.com'
-VERSION = '0.22'
+VERSION = '0.23'
 DATE = '2026-10-30'
 REVIEW_DATE = 'October 30, 2026'
 SOURCE = ROOT/'content'/f'q4-2026-v{VERSION}.md'
@@ -46,6 +46,7 @@ TITLE_INDEX = {m[1]: i for i, part in enumerate(raw.split('---PAGE---')) if (m :
 GROUP_BOUNDS = [('Welcome to the AI jungle', 'Where the analogy earns its keep', 'The evolutionary lens'), ('The Ledgerfinch', 'The Proofweaver', 'Meet the species'), ('The quarterly census', 'The metabolic bill', 'The quarterly census'), ('October: the trail so far', 'October 14-16', 'October field notes'), ('October 21', 'October 22 / employment', 'Humans, learning & work'), ('October 22', 'Three seasons ahead', 'Demand & resources'), ('October 25-26', 'The Habitat Engineers', 'Mathematics & the habitat'), ('The Naturalist Was Wrong', 'The three sealed envelopes', 'Expectations & forecasts'), ('New tricks and unexpected turns', 'November-December', 'The field journal'), ('The human cast', 'Paths into the wider world', 'The human cast')]
 GROUPS = [(TITLE_INDEX[lo], TITLE_INDEX[hi], name) for lo, hi, name in GROUP_BOUNDS]
 def category(index):
+    if index == TITLE_INDEX.get('Fork it: the right to branch'): return 'Humans, learning & work'
     if index == TITLE_INDEX.get('October 22 / design'): return 'October field notes'
     for lo,hi,name in GROUPS:
         if lo<=index<=hi: return name

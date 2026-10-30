@@ -1,15 +1,15 @@
 {
-  "version": "0.22",
+  "version": "0.23",
   "reviewed_on": "2026-10-30",
-  "source_sha256": "9a1aef260576be8b4bc9cf5f079c455961862e9e21c5bce9fdbabbb65ff67f6c",
-  "source_sections": 84,
-  "editorial_articles": 55,
-  "article_pages": 57,
-  "concept_panels": 55,
-  "statistic_panels": 34,
-  "source_count": 104,
-  "source_sections_count": 27,
-  "plate_placements": 37,
+  "source_sha256": "2b9bc6be380f75beef0c7b7186b8faae3be09fa313fd5db2ba8c18edac7f7879",
+  "source_sections": 87,
+  "editorial_articles": 56,
+  "article_pages": 58,
+  "concept_panels": 56,
+  "statistic_panels": 35,
+  "source_count": 111,
+  "source_sections_count": 29,
+  "plate_placements": 38,
   "figure_placements": 23,
   "pages": [
     {
@@ -212,144 +212,150 @@
     },
     {
       "source_index": 34,
+      "title": "Fork it: the right to branch",
+      "path": "/issues/2026-q4/fork-it-the-right-to-branch/",
+      "category": "Humans, learning & work"
+    },
+    {
+      "source_index": 35,
       "title": "When the feeding grounds fill",
       "path": "/issues/2026-q4/when-the-feeding-grounds-fill/",
       "category": "Demand & resources"
     },
     {
-      "source_index": 35,
+      "source_index": 36,
       "title": "Three seasons ahead",
       "path": "/issues/2026-q4/three-seasons-ahead/",
       "category": "Demand & resources"
     },
     {
-      "source_index": 36,
+      "source_index": 37,
       "title": "October 25-26",
       "path": "/issues/2026-q4/october-25-26/",
       "category": "Mathematics & the habitat"
     },
     {
-      "source_index": 37,
+      "source_index": 38,
       "title": "October 26 / research",
       "path": "/issues/2026-q4/october-26-research/",
       "category": "Mathematics & the habitat"
     },
     {
-      "source_index": 38,
+      "source_index": 39,
       "title": "Mathematics after the rain",
       "path": "/issues/2026-q4/mathematics-after-the-rain/",
       "category": "Mathematics & the habitat"
     },
     {
-      "source_index": 39,
+      "source_index": 40,
       "title": "The Habitat Engineers",
       "path": "/issues/2026-q4/the-habitat-engineers/",
       "category": "Mathematics & the habitat"
     },
     {
-      "source_index": 40,
+      "source_index": 41,
       "title": "The Naturalist Was Wrong",
       "path": "/issues/2026-q4/the-naturalist-was-wrong/",
       "category": "Expectations & forecasts"
     },
     {
-      "source_index": 41,
+      "source_index": 42,
       "title": "Expectations under pressure",
       "path": "/issues/2026-q4/expectations-under-pressure/",
       "category": "Expectations & forecasts"
     },
     {
-      "source_index": 42,
+      "source_index": 43,
       "title": "The wall grew doors",
       "path": "/issues/2026-q4/the-wall-grew-doors/",
       "category": "Expectations & forecasts"
     },
     {
-      "source_index": 43,
+      "source_index": 44,
       "title": "When the measuring stick moves",
       "path": "/issues/2026-q4/when-the-measuring-stick-moves/",
       "category": "Expectations & forecasts"
     },
     {
-      "source_index": 44,
+      "source_index": 45,
       "title": "Predictions in sealed envelopes",
       "path": "/issues/2026-q4/predictions-in-sealed-envelopes/",
       "category": "Expectations & forecasts"
     },
     {
-      "source_index": 45,
+      "source_index": 46,
       "title": "The three sealed envelopes",
       "path": "/issues/2026-q4/the-three-sealed-envelopes/",
       "category": "Expectations & forecasts"
     },
     {
-      "source_index": 46,
+      "source_index": 47,
       "title": "New tricks and unexpected turns",
       "path": "/issues/2026-q4/new-tricks-and-unexpected-turns/",
       "category": "The field journal"
     },
     {
-      "source_index": 47,
+      "source_index": 48,
       "title": "The Price of Feathers",
       "path": "/issues/2026-q4/the-price-of-feathers/",
       "category": "The field journal"
     },
     {
-      "source_index": 48,
+      "source_index": 49,
       "title": "The speciation hearing",
       "path": "/issues/2026-q4/the-speciation-hearing/",
       "category": "The field journal"
     },
     {
-      "source_index": 49,
+      "source_index": 50,
       "title": "Could it survive a change of weather?",
       "path": "/issues/2026-q4/could-it-survive-a-change-of-weather/",
       "category": "The field journal"
     },
     {
-      "source_index": 50,
+      "source_index": 51,
       "title": "More features for the field journal",
       "path": "/issues/2026-q4/more-features-for-the-field-journal/",
       "category": "The field journal"
     },
     {
-      "source_index": 51,
+      "source_index": 52,
       "title": "Letters from the Undergrowth",
       "path": "/issues/2026-q4/letters-from-the-undergrowth/",
       "category": "The field journal"
     },
     {
-      "source_index": 52,
+      "source_index": 53,
       "title": "November-December",
       "path": "/issues/2026-q4/november-december/",
       "category": "The field journal"
     },
     {
-      "source_index": 53,
+      "source_index": 54,
       "title": "The human cast",
       "path": "/issues/2026-q4/the-human-cast/",
       "category": "The human cast"
     },
     {
-      "source_index": 54,
+      "source_index": 55,
       "title": "From puzzles to worlds",
       "path": "/issues/2026-q4/from-puzzles-to-worlds/",
       "category": "The human cast"
     },
     {
-      "source_index": 55,
+      "source_index": 56,
       "title": "What keeps the jungle growing",
       "path": "/issues/2026-q4/what-keeps-the-jungle-growing/",
       "category": "The human cast"
     },
     {
-      "source_index": 56,
+      "source_index": 57,
       "title": "Paths into the wider world",
       "path": "/issues/2026-q4/paths-into-the-wider-world/",
       "category": "The human cast"
     },
     {
-      "source_index": 57,
+      "source_index": 58,
       "title": "Our continuing workshop",
       "path": "/issues/2026-q4/our-continuing-workshop/",
       "category": "About this edition"

@@ -1,0 +1,25 @@
+{
+  "snapshot_id": "linux-assistance-2026-10-30",
+  "reviewed_on": "2026-10-30",
+  "publication_date": "2026-10-12",
+  "population": "Linux 7.3 accepted non-merge changes through release candidate 7",
+  "observation_period": "Release cycle through 7.3-rc7; not a calendar-quarter aggregate",
+  "total_changes": 18533,
+  "changes_with_assisted_by_tag": 1884,
+  "tag_share_percent": 10.2,
+  "unit": "Recorded assistance labels, not total AI use",
+  "prior_quarter": null,
+  "comparability": "No matched prior-quarter series. Mandatory tag removed in commit dated 2026-10-14; do not append later tag counts as continuous adoption history.",
+  "sources": [
+    {
+      "ref": 108,
+      "url": "https://lwn.net/Articles/1099594/"
+    },
+    {
+      "ref": 109,
+      "url": "https://github.com/torvalds/linux/commit/1e035297ffdadf2184c3c773b8c098e372324aaf"
+    }
+  ],
+  "independence_note": "The commit cites the summit account; these are not two independent counts.",
+  "speciation_status": "Invitation to branch; no sustained anti-AI Linux fork established by this reviewed evidence."
+}
