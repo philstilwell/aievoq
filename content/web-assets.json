@@ -1,6 +1,6 @@
 {
-  "version": "0.28",
-  "source_sha256": "29bdd3a974e9104ba899a07343bf4d7aafd4398b64733b76716cd8e63cdd0b4e",
+  "version": "0.29",
+  "source_sha256": "40d4e824a005676213083b6861197e42fa01c4a1e647d4c642aa364c94e8a333",
   "plates": {
     "living-jungle": {
       "src": "/assets/issue-01/living-jungle.webp",
@@ -210,6 +210,14 @@
       "caption": "The Ledgerfinch, Relay Octopus and Proofweaver redirect a shared river, changing the water reaching neighboring habitats. Imagined changes in the routes of attention and spending; channel widths do not represent measured traffic.",
       "number": 26,
       "alt": "Imagined scene. The Ledgerfinch places pale stones, the Relay Octopus adjusts a wooden sluice and the Proofweaver anchors a web frame where a river branches through woodland, reeds and meadow. Ordinary wildlife occupies the adjoining habitats."
+    },
+    "next-season": {
+      "src": "/assets/issue-01/next-season.webp",
+      "width": 1500,
+      "height": 500,
+      "caption": "Gather reserves, secure tools, strengthen connections: three preparations for a changing habitat. Imagined adaptation, not a prediction of a particular AI outcome.",
+      "number": 27,
+      "alt": "Imagined scene. The Ledgerfinch gathers ivory tiles in a dry tree hollow, the Relay Octopus secures a shelter and raises its paper tray, and the Proofweaver strengthens its web as colder weather approaches over distant hills."
     }
   },
   "figures": {

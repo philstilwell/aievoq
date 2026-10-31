@@ -14,9 +14,9 @@ from forecast_components import render_forecasts
 ROOT = Path(__file__).resolve().parents[1]
 BASE = '/issues/2026-q4/'
 ORIGIN = 'https://aievoq.com'
-VERSION = '0.28'
+VERSION = '0.29'
 CSS_VERSION = hashlib.sha256((ROOT/'webzine.css').read_bytes()).hexdigest()[:12]
-DATE = '2026-10-30'
+DATE = '2026-10-31'
 REVIEW_DATE = 'October 30, 2026'
 SOURCE = ROOT/'content'/f'q4-2026-v{VERSION}.md'
 raw = SOURCE.read_text()
