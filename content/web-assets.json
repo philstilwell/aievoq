@@ -1,6 +1,6 @@
 {
-  "version": "0.25",
-  "source_sha256": "d8ac297cd050f39adbe7c364c5cdd11bdd64ad2507ca54602f24ad51c75db791",
+  "version": "0.26",
+  "source_sha256": "03e5b3b2694f7a938e709abc9a4398b8683bbe44796be6f71ba982eddad0a832",
   "plates": {
     "living-jungle": {
       "src": "/assets/issue-01/living-jungle.webp",
@@ -387,6 +387,27 @@
       "width": 516,
       "height": 300,
       "text": "Benefits reported by workplace AI users\nU.S. employees using AI at work at least a few times in the past year\n\nJanuary 26-March 24, 2026\n\n\nWork faster                                                                                     63%\n\n\nFind more creative solutions                                                              56%\n\n\nProduce higher-quality work                                                         46%\n\n                                             0                      25              50                75       100\n                                                 Percent of the stated population\n\nSelf-reports among 7,845 AI users; three of four benefits shown. Shares reporting benefits, not productivity gains. No\nprior-quarter comparison.\nPublished October 6, 2026 / Q4 release Sources: [104].\nPoint estimates; uncertainty for these contrasts is not included."
+    },
+    "adjacent_search": {
+      "type": "chart",
+      "src": "/assets/issue-01/adjacent_search.svg",
+      "width": 516,
+      "height": 405,
+      "text": "Where search referrals come from\nWorldwide, all platforms. Share within Statcounter’s search-engine referrals to tracked websites, September 2026.\n\nSeptember 2026 / percent of this referral category\n\n\nGoogle                                                                                                      89.94%\n\nBing                                                5.29%\n\nYahoo!                                            1.36%\n\nYandex                                            1.31%\n\nDuckDuckGo                                      0.74%\n\nBaidu                                           0.44%\n\nOther (calculated)                              0.92%\n\n                                             0%               25%              50%              75%              100%\n\nDifferent denominator from the other referral chart. Outbound visits, not searches or users. No prior-quarter\ncomparison verified.\nStatcounter Global Stats; adapted data/chart: CC BY-SA 3.0. Figures may be revised; Other is 100% minus the listed search\nproviders.\nRetrieved October 30, 2026. Sources [115], [117]."
+    },
+    "adjacent_assistants": {
+      "type": "chart",
+      "src": "/assets/issue-01/adjacent_assistants.svg",
+      "width": 516,
+      "height": 375,
+      "text": "Where AI-chatbot referrals come from\nWorldwide, all platforms. Share within Statcounter’s AI-chatbot referrals to tracked websites, September 2026.\n\nSeptember 2026 / percent of this referral category\n\n\nChatGPT                                                                                        80.47%\n\nGoogle Gemini                                          10.94%\n\nPerplexity                                          5.84%\n\nMicrosoft Copilot                                 1.78%\n\nClaude                                          0.95%\n\nDeepseek                                       0.02%\n\n                                             0%               25%              50%       75%             100%\n\nDifferent denominator from the other referral chart. Outbound visits, not searches or users. No prior-quarter\ncomparison verified.\nStatcounter Global Stats; adapted data/chart: CC BY-SA 3.0. Figures may be revised.\nRetrieved October 30, 2026. Sources [116], [117]."
+    },
+    "adjacent_growth": {
+      "type": "chart",
+      "src": "/assets/issue-01/adjacent_growth.svg",
+      "width": 516,
+      "height": 430,
+      "text": "Growth in neighboring habitats\nCompany-reported year-over-year revenue growth. Each company keeps its own fiscal periods; Google is a\nsegment, the others are whole companies.\n\nEarlier / outline   Later / solid\n\n\nGoogle Search & other                                                                    17%\nQ2 2026 → Q3 2026\n                                                                              12%\n\n\nSalesforce                                                                      13%\nQ1 FY2027 → Q2 FY2027\n                                                                            11%\n\n\nServiceNow                                                                                              24%\nQ2 2026 → Q3 2026\n                                                                                                20.5%\n\n\nAdobe                                                                           13%\nQ2 FY2026 → Q3 FY2026\n                                                                                13%\n                                               0%                     10%                     20%              30%\n\nEach bar compares revenue with the same quarter a year earlier. Slower growth is not a revenue decline. Fiscal\nperiods differ.\nRelease dates: Alphabet Jul 22 / Oct 28; Salesforce May 27 / Aug 26; ServiceNow Jul 22 / Oct 28; Adobe Jun 11 / Sep 10, 2026.\nRetrieved October 30, 2026. Sources [118], [119], [120], [121], [122], [123], [124], [125]."
     }
   },
   "portraits": {

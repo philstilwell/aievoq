@@ -1,0 +1,9 @@
+company,metric,period,period_end,revenue_usd_billion,amount_precision_usd_billion,reported_yoy_growth_pct,published_on,source_url,retrieved_on
+Google Search & other,segment revenue,Q2 2026,2026-06-30,63.271,0.001,17,2026-07-22,https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/2026q2-alphabet-earnings-release.pdf,2026-10-30
+Google Search & other,segment revenue,Q3 2026,2026-09-30,63.35,0.001,12,2026-10-28,https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf,2026-10-30
+Salesforce,total revenue,Q1 FY2027,2026-04-30,11.1,0.1,13,2026-05-27,https://www.salesforce.com/news/press-releases/2026/05/27/fy27-q1-earnings/,2026-10-30
+Salesforce,total revenue,Q2 FY2027,2026-07-31,11.3,0.1,11,2026-08-26,https://www.salesforce.com/news/press-releases/2026/08/26/fy27-q2-earnings/,2026-10-30
+ServiceNow,total revenue,Q2 2026,2026-06-30,3.987,0.001,24,2026-07-22,https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-Second-Quarter-2026-Financial-Results/default.aspx,2026-10-30
+ServiceNow,total revenue,Q3 2026,2026-09-30,4.106,0.001,20.5,2026-10-28,https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-Third-Quarter-2026-Financial-Results/default.aspx,2026-10-30
+Adobe,total revenue,Q2 FY2026,2026-05-29,6.618,0.001,13,2026-06-11,https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/11606202/a5543arefgt.pdf,2026-10-30
+Adobe,total revenue,Q3 FY2026,2026-08-28,6.76,0.001,13,2026-09-10,https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/01906202/au56y4ter.pdf,2026-10-30

@@ -1,0 +1,496 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-10-30",
+  "issue": "2026-Q4",
+  "status": "Opening record; Q4 incomplete",
+  "sources": {
+    "115": {
+      "title": "Statcounter: search-engine referrals",
+      "url": "https://gs.statcounter.com/search-engine-market-share",
+      "published_on": null,
+      "retrieved_on": "2026-10-30",
+      "evidence_type": "measurement-provider snapshot",
+      "local_file": "sources/statcounter-search.html",
+      "sha256": "99ecdbea5a217e974aeb6bf00bb18454a9b2eb4793a27296f486ec6cd51d0375"
+    },
+    "116": {
+      "title": "Statcounter: AI-chatbot referrals",
+      "url": "https://gs.statcounter.com/ai-chatbot-market-share",
+      "published_on": null,
+      "retrieved_on": "2026-10-30",
+      "evidence_type": "measurement-provider snapshot",
+      "local_file": "sources/statcounter-ai.html",
+      "sha256": "c7d7564cc8444c6fa7d28c343960f6819ae798b6eac401ea5d39f0d8175defb8"
+    },
+    "117": {
+      "title": "Statcounter: measurement and licensing",
+      "url": "https://gs.statcounter.com/faq",
+      "published_on": null,
+      "retrieved_on": "2026-10-30",
+      "evidence_type": "measurement-provider snapshot",
+      "local_file": "sources/statcounter-methods.html",
+      "sha256": "11e4393b2b188bc6d1704e28fc8a2c10e6ac9eaf177c02fa2f29b964f8fa59eb"
+    },
+    "118": {
+      "title": "Alphabet Q2 2026 results",
+      "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/2026q2-alphabet-earnings-release.pdf",
+      "published_on": "2026-07-22",
+      "retrieved_on": "2026-10-30",
+      "evidence_type": "company-reported results",
+      "local_file": "sources/alphabet-q2.pdf",
+      "sha256": "65f35a2e9c287112121f736321c7526d603ba8e0dae27acac56c7d7357602aa8"
+    },
+    "119": {
+      "title": "Alphabet Q3 2026 results",
+      "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf",
+      "published_on": "2026-10-28",
+      "retrieved_on": "2026-10-30",
+      "evidence_type": "company-reported results",
+      "local_file": "sources/alphabet-q3.pdf",
+      "sha256": "2f9b94e9194ea4b462bf754c4b651615ab53518b314550f3402b27aabf0735e9"
+    },
+    "120": {
+      "title": "Salesforce Q1 FY2027 results",
+      "url": "https://www.salesforce.com/news/press-releases/2026/05/27/fy27-q1-earnings/",
+      "published_on": "2026-05-27",
+      "retrieved_on": "2026-10-30",
+      "evidence_type": "company-reported results",
+      "access_note": "Primary release inspected through web retrieval; no local full-text copy."
+    },
+    "121": {
+      "title": "Salesforce Q2 FY2027 results",
+      "url": "https://www.salesforce.com/news/press-releases/2026/08/26/fy27-q2-earnings/",
+      "published_on": "2026-08-26",
+      "retrieved_on": "2026-10-30",
+      "evidence_type": "company-reported results",
+      "access_note": "Primary release inspected through web retrieval; no local full-text copy."
+    },
+    "122": {
+      "title": "ServiceNow Q2 2026 results",
+      "url": "https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-Second-Quarter-2026-Financial-Results/default.aspx",
+      "published_on": "2026-07-22",
+      "retrieved_on": "2026-10-30",
+      "evidence_type": "company-reported results",
+      "access_note": "Primary release inspected through web retrieval; no local full-text copy."
+    },
+    "123": {
+      "title": "ServiceNow Q3 2026 results",
+      "url": "https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-Third-Quarter-2026-Financial-Results/default.aspx",
+      "published_on": "2026-10-28",
+      "retrieved_on": "2026-10-30",
+      "evidence_type": "company-reported results",
+      "access_note": "Primary release inspected through web retrieval; no local full-text copy."
+    },
+    "124": {
+      "title": "Adobe Q2 FY2026 results",
+      "url": "https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/11606202/a5543arefgt.pdf",
+      "published_on": "2026-06-11",
+      "retrieved_on": "2026-10-30",
+      "evidence_type": "company-reported results",
+      "local_file": "sources/adobe-q2.pdf",
+      "sha256": "3eb9ca0fccc6ba91c508b71d9866c4aa133059a78b1cf9e143139593c3fa7d5c"
+    },
+    "125": {
+      "title": "Adobe Q3 FY2026 results",
+      "url": "https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/01906202/au56y4ter.pdf",
+      "published_on": "2026-09-10",
+      "retrieved_on": "2026-10-30",
+      "evidence_type": "company-reported results",
+      "local_file": "sources/adobe-q3.pdf",
+      "sha256": "95197d4998ce1675d2148a705cf2df7a128955745349cf21757a193253c3f8b8"
+    }
+  },
+  "charts": {
+    "adjacent_search": {
+      "title": "Where search referrals come from",
+      "population": "Worldwide, all platforms. Share within Statcounter’s search-engine referrals to tracked websites, September 2026.",
+      "axis_max": 100,
+      "periods": [
+        "September 2026"
+      ],
+      "rows": [
+        {
+          "label": "Google",
+          "values": [
+            89.94
+          ]
+        },
+        {
+          "label": "Bing",
+          "values": [
+            5.29
+          ]
+        },
+        {
+          "label": "Yahoo!",
+          "values": [
+            1.36
+          ]
+        },
+        {
+          "label": "Yandex",
+          "values": [
+            1.31
+          ]
+        },
+        {
+          "label": "DuckDuckGo",
+          "values": [
+            0.74
+          ]
+        },
+        {
+          "label": "Baidu",
+          "values": [
+            0.44
+          ]
+        },
+        {
+          "label": "Other (calculated)",
+          "values": [
+            0.92
+          ]
+        }
+      ],
+      "refs": [
+        115,
+        117
+      ],
+      "comparison": "First captured monthly baseline; no verified previous-quarter comparison. These two referral charts have different denominators.",
+      "limits": "Referrals are outbound visits, not searches or people. No measure here of zero-click answers or AI’s share of all web traffic. Corrections may occur for 45 days after initial publication.",
+      "publication_dates": [
+        "Continuously updated; monthly snapshot retrieved October 30, 2026"
+      ],
+      "license": "Statcounter Global Stats data and these adapted referral charts: CC BY-SA 3.0. Other content retains its existing rights.",
+      "cadence": "Capture monthly observations; compare matching quarter-end months. A quarter-end month is not a quarterly average."
+    },
+    "adjacent_assistants": {
+      "title": "Where AI-chatbot referrals come from",
+      "population": "Worldwide, all platforms. Share within Statcounter’s AI-chatbot referrals to tracked websites, September 2026.",
+      "axis_max": 100,
+      "periods": [
+        "September 2026"
+      ],
+      "rows": [
+        {
+          "label": "ChatGPT",
+          "values": [
+            80.47
+          ]
+        },
+        {
+          "label": "Google Gemini",
+          "values": [
+            10.94
+          ]
+        },
+        {
+          "label": "Perplexity",
+          "values": [
+            5.84
+          ]
+        },
+        {
+          "label": "Microsoft Copilot",
+          "values": [
+            1.78
+          ]
+        },
+        {
+          "label": "Claude",
+          "values": [
+            0.95
+          ]
+        },
+        {
+          "label": "Deepseek",
+          "values": [
+            0.02
+          ]
+        }
+      ],
+      "refs": [
+        116,
+        117
+      ],
+      "comparison": "First captured monthly baseline; no verified previous-quarter comparison. These two referral charts have different denominators.",
+      "limits": "Referrals are outbound visits, not searches or people. No measure here of zero-click answers or AI’s share of all web traffic. Corrections may occur for 45 days after initial publication.",
+      "publication_dates": [
+        "Continuously updated; monthly snapshot retrieved October 30, 2026"
+      ],
+      "license": "Statcounter Global Stats data and these adapted referral charts: CC BY-SA 3.0. Other content retains its existing rights.",
+      "cadence": "Capture monthly observations; compare matching quarter-end months. A quarter-end month is not a quarterly average."
+    },
+    "adjacent_growth": {
+      "title": "Growth in neighboring habitats",
+      "population": "Company-reported year-over-year revenue growth. Each company keeps its own fiscal periods; Google is a segment, the others are whole companies.",
+      "axis_max": 30,
+      "periods": [
+        "Previous report",
+        "Latest report"
+      ],
+      "rows": [
+        {
+          "label": "Google Search & other",
+          "values": [
+            17,
+            12
+          ],
+          "periods": [
+            "Q2 2026",
+            "Q3 2026"
+          ],
+          "change_pp": -5
+        },
+        {
+          "label": "Salesforce",
+          "values": [
+            13,
+            11
+          ],
+          "periods": [
+            "Q1 FY2027",
+            "Q2 FY2027"
+          ],
+          "change_pp": -2
+        },
+        {
+          "label": "ServiceNow",
+          "values": [
+            24,
+            20.5
+          ],
+          "periods": [
+            "Q2 2026",
+            "Q3 2026"
+          ],
+          "change_pp": -3.5
+        },
+        {
+          "label": "Adobe",
+          "values": [
+            13,
+            13
+          ],
+          "periods": [
+            "Q2 FY2026",
+            "Q3 FY2026"
+          ],
+          "change_pp": 0
+        }
+      ],
+      "refs": [
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125
+      ],
+      "comparison": "Change in the reported annual growth rate: Google −5; Salesforce −2; ServiceNow −3.5; Adobe 0 percentage points. These are not quarter-to-quarter revenue declines.",
+      "limits": "Growth rates retain company rounding. No sector average. Currency, acquisitions, pricing and contract timing also affect results; the chart does not isolate AI’s effect.",
+      "publication_dates": [
+        "Alphabet July 22 / October 28; Salesforce May 27 / August 26; ServiceNow July 22 / October 28; Adobe June 11 / September 10, 2026"
+      ],
+      "cadence": "Update after each earnings release. Compare consecutive company fiscal quarters and retain same-quarter-last-year growth to show seasonality."
+    }
+  },
+  "financial_observations": [
+    {
+      "company": "Google Search & other",
+      "metric": "segment revenue",
+      "periods": [
+        "Q2 2026",
+        "Q3 2026"
+      ],
+      "period_starts": [
+        "2026-04-01",
+        "2026-07-01"
+      ],
+      "period_ends": [
+        "2026-06-30",
+        "2026-09-30"
+      ],
+      "revenue_usd_billion": [
+        63.271,
+        63.35
+      ],
+      "reported_yoy_growth_pct": [
+        17,
+        12
+      ],
+      "reported_growth_change_pp": -5,
+      "sequential_revenue_change_pct": 0.1,
+      "amount_precision_usd_billion": 0.001,
+      "refs": [
+        118,
+        119
+      ],
+      "published_on": [
+        "2026-07-22",
+        "2026-10-28"
+      ],
+      "retrieved_on": "2026-10-30",
+      "status": "reported; not AI-attributable"
+    },
+    {
+      "company": "Salesforce",
+      "metric": "total revenue",
+      "periods": [
+        "Q1 FY2027",
+        "Q2 FY2027"
+      ],
+      "period_starts": [
+        "2026-02-01",
+        "2026-05-01"
+      ],
+      "period_ends": [
+        "2026-04-30",
+        "2026-07-31"
+      ],
+      "revenue_usd_billion": [
+        11.1,
+        11.3
+      ],
+      "reported_yoy_growth_pct": [
+        13,
+        11
+      ],
+      "reported_growth_change_pp": -2,
+      "sequential_revenue_change_pct": 1.8,
+      "amount_precision_usd_billion": 0.1,
+      "refs": [
+        120,
+        121
+      ],
+      "published_on": [
+        "2026-05-27",
+        "2026-08-26"
+      ],
+      "retrieved_on": "2026-10-30",
+      "status": "reported; not AI-attributable"
+    },
+    {
+      "company": "ServiceNow",
+      "metric": "total revenue",
+      "periods": [
+        "Q2 2026",
+        "Q3 2026"
+      ],
+      "period_starts": [
+        "2026-04-01",
+        "2026-07-01"
+      ],
+      "period_ends": [
+        "2026-06-30",
+        "2026-09-30"
+      ],
+      "revenue_usd_billion": [
+        3.987,
+        4.106
+      ],
+      "reported_yoy_growth_pct": [
+        24,
+        20.5
+      ],
+      "reported_growth_change_pp": -3.5,
+      "sequential_revenue_change_pct": 3.0,
+      "amount_precision_usd_billion": 0.001,
+      "refs": [
+        122,
+        123
+      ],
+      "published_on": [
+        "2026-07-22",
+        "2026-10-28"
+      ],
+      "retrieved_on": "2026-10-30",
+      "status": "reported; not AI-attributable"
+    },
+    {
+      "company": "Adobe",
+      "metric": "total revenue",
+      "periods": [
+        "Q2 FY2026",
+        "Q3 FY2026"
+      ],
+      "period_starts": [
+        "2026-02-28",
+        "2026-05-30"
+      ],
+      "period_ends": [
+        "2026-05-29",
+        "2026-08-28"
+      ],
+      "revenue_usd_billion": [
+        6.618,
+        6.76
+      ],
+      "reported_yoy_growth_pct": [
+        13,
+        13
+      ],
+      "reported_growth_change_pp": 0,
+      "sequential_revenue_change_pct": 2.1,
+      "amount_precision_usd_billion": 0.001,
+      "refs": [
+        124,
+        125
+      ],
+      "published_on": [
+        "2026-06-11",
+        "2026-09-10"
+      ],
+      "retrieved_on": "2026-10-30",
+      "status": "reported; not AI-attributable"
+    }
+  ],
+  "ai_disclosures": [
+    {
+      "company": "Salesforce",
+      "metric": "Agentforce annual recurring revenue",
+      "period_end": "2026-07-31",
+      "value_usd_billion": 1.5,
+      "qualifier": "greater than",
+      "status": "reported annualized measure, not quarterly revenue",
+      "definition_break": "Effective Q2 FY2027 includes Slackbot and Headless 360. Do not compute sequential growth from the previous scope.",
+      "refs": [
+        120,
+        121
+      ]
+    },
+    {
+      "company": "ServiceNow",
+      "metric": "AI annual contract value",
+      "value_usd_billion": 1.7,
+      "period_end": "2026-12-31",
+      "published_on": "2026-10-28",
+      "status": "company target, not achieved result",
+      "refs": [
+        123
+      ]
+    }
+  ],
+  "maintenance": {
+    "owner": "AIEVOQ editorial review",
+    "watchlist": [
+      "Salesforce",
+      "ServiceNow",
+      "Adobe"
+    ],
+    "selection": "Initial illustrative public-company watchlist spanning customer management, business workflows and creative software. Not a representative sample or sector index.",
+    "revision_policy": "Freeze each retrieval; corrections receive a new dated version and revision note. Never overwrite an earlier snapshot.",
+    "comparison_policy": "Only identical units, definitions, populations and matched periods. Changes in shares and growth rates are percentage points; changes in revenue amounts are percentages. Missing is null, never zero.",
+    "next_review": "Next releases and quarter close; candidate changes are reviewed before publication.",
+    "watch_fields": [
+      "Publisher click-through and zero-click rates",
+      "AI-referred visits as share of total traffic and conversion",
+      "Customer retention and churn",
+      "Paid seats and usage-based pricing",
+      "Margins and AI revenue definitions"
+    ],
+    "watch_field_status": "Not established comparable series; no values or trend claims assigned."
+  }
+}

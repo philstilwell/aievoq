@@ -22,3 +22,12 @@ Epoch AI's own FrontierMath Erdős evaluations are adapted under **CC BY 4.0**, 
 ## Article panels / 28 October 2026
 
 The six census openings now have Key statistics panels with explicit comparisons and named source links. The separate `data/article-panels-2026-10-28.json` companion records 15 panel definitions used across the magazine and homepage. It does not revise or replace the original census snapshot or its six CSV files. Quarter snapshots, quarter-end annual growth rates, experimental contrasts, provider evaluations, commitments and forecasts retain their different meanings. Missing comparable history is stated explicitly.
+
+
+## Neighboring habitats / added October 30, 2026
+
+The recurring record now also follows web search and software-as-a-service (SaaS) businesses. Search-engine and AI-chatbot referral shares use separate denominators; neither measures all searches or people. The September baseline has no verified prior-quarter comparison. Google Search & other revenue and the illustrative Salesforce/ServiceNow/Adobe watchlist retain actual fiscal periods, release dates, company rounding and year-over-year growth. They are not an AI impact estimate or a sector index.
+
+`adjacent-ecosystems-2026-10-30.json` preserves definitions, observations, source links, AI-disclosure scope changes and future measurement candidates. Four CSVs separate shares, growth and revenue. Capture monthly referral observations and each company earnings release; compare matching observations, preserving forecasts separately. Changes in rates are percentage points; changes in amounts are percentages. Keep missing data unavailable, old snapshots unchanged and discontinued companies visible in history.
+
+The full measurement contract is in the editorial project at `research/adjacent/README.md`. The three-day research watch flags relevant fresh releases for review and does not publish automatically. Source-provider attribution and CC BY-SA 3.0 licensing accompany Statcounter-derived data/charts.

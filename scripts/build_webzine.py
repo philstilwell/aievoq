@@ -8,11 +8,12 @@ import math
 import re
 import unicodedata
 from adoption_components import render_chart
+from adjacent_components import render_adjacent_chart
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = '/issues/2026-q4/'
 ORIGIN = 'https://aievoq.com'
-VERSION = '0.25'
+VERSION = '0.26'
 CSS_VERSION = hashlib.sha256((ROOT/'webzine.css').read_bytes()).hexdigest()[:12]
 DATE = '2026-10-30'
 REVIEW_DATE = 'October 30, 2026'
@@ -79,6 +80,8 @@ def image(item,alt,cls='',eager=False):
     return f'<img src="{item["src"]}" width="{item["width"]}" height="{item["height"]}" alt="{escape(alt,quote=True)}" class="{cls}" loading="{"eager" if eager else "lazy"}" decoding="async">'
 
 def figure(kind):
+    if kind.startswith('adjacent_'):
+        return render_adjacent_chart(kind)
     if kind.startswith('human_'):
         return render_chart(kind)
     if kind=='cast_cover':
@@ -147,7 +150,7 @@ def render(section,source_mode=False):
 
 def shell(title,description,path,body,extra_head='',body_class=''):
     if 'class="human-chart"' in body:
-        extra_head += '<link rel="stylesheet" href="/statistics/human-adoption.css?v=0.22"><script src="/statistics/human-adoption.js?v=0.22" defer></script>'
+        extra_head += '<link rel="stylesheet" href="/statistics/human-adoption.css?v=0.26"><script src="/statistics/human-adoption.js?v=0.22" defer></script>'
     canonical=ORIGIN+path
     return f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
