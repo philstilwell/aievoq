@@ -9,11 +9,12 @@ import re
 import unicodedata
 from adoption_components import render_chart
 from adjacent_components import render_adjacent_chart
+from forecast_components import render_forecasts
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = '/issues/2026-q4/'
 ORIGIN = 'https://aievoq.com'
-VERSION = '0.27'
+VERSION = '0.28'
 CSS_VERSION = hashlib.sha256((ROOT/'webzine.css').read_bytes()).hexdigest()[:12]
 DATE = '2026-10-30'
 REVIEW_DATE = 'October 30, 2026'
@@ -48,7 +49,7 @@ def inline(text):
     return ''.join(result)
 
 TITLE_INDEX = {m[1]: i for i, part in enumerate(raw.split('---PAGE---')) if (m := re.search(r'^# (.+)', part, re.M))}
-GROUP_BOUNDS = [('Welcome to the AI jungle', 'Where the analogy earns its keep', 'The evolutionary lens'), ('The Ledgerfinch', 'The Proofweaver', 'Meet the species'), ('The quarterly census', 'The metabolic bill', 'The quarterly census'), ('October: the trail so far', 'October 14-16', 'October field notes'), ('October 21', 'October 22 / employment', 'Humans, learning & work'), ('October 22', 'Three seasons ahead', 'Demand & resources'), ('October 25-26', 'The Habitat Engineers', 'Mathematics & the habitat'), ('The Naturalist Was Wrong', 'The three sealed envelopes', 'Expectations & forecasts'), ('New tricks and unexpected turns', 'November-December', 'The field journal'), ('The human cast', 'Paths into the wider world', 'The human cast')]
+GROUP_BOUNDS = [('Welcome to the AI jungle', 'Where the analogy earns its keep', 'The evolutionary lens'), ('The Ledgerfinch', 'The Proofweaver', 'Meet the species'), ('The quarterly census', 'The metabolic bill', 'The quarterly census'), ('October: the trail so far', 'October 14-16', 'October field notes'), ('October 21', 'October 22 / employment', 'Humans, learning & work'), ('October 22', 'Three seasons ahead', 'Demand & resources'), ('October 25-26', 'The Habitat Engineers', 'Mathematics & the habitat'), ('The Naturalist Was Wrong', 'The three sealed envelopes', 'Expectations & forecasts'), ('New tricks and unexpected turns', 'November-December', 'The field journal'), ('The human cast', 'Paths into the wider world', 'The human cast'), ('The next season', "The naturalist's scorecard", 'Outlook & accountability')]
 GROUPS = [(TITLE_INDEX[lo], TITLE_INDEX[hi], name) for lo, hi, name in GROUP_BOUNDS]
 def category(index):
     if index == TITLE_INDEX.get('Fork it: the right for purists to branch'): return 'Humans, learning & work'
@@ -161,7 +162,7 @@ def shell(title,description,path,body,extra_head='',body_class=''):
 <link rel="canonical" href="{canonical}"><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="/webzine.css?v={CSS_VERSION}">
 <meta property="og:type" content="article"><meta property="og:title" content="{escape(title,quote=True)}"><meta property="og:description" content="{escape(description,quote=True)}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="{ORIGIN}/assets/watering-hole.webp"><meta name="twitter:card" content="summary_large_image">{extra_head}</head>
 <body class="{body_class}"><a class="skip-link" href="#main">Skip to content</a><div class="page">
-<header class="masthead"><a class="wordmark" href="/" aria-label="AI Evolution Quarterly home"><span class="wordmark-title"><span class="wordmark-ai">AI</span> EVOLUTION</span><span class="wordmark-sub">Quarterly <span aria-hidden="true">/</span> AIEVOQ</span></a><nav aria-label="Main navigation"><a href="{BASE}">Read the issue</a><a href="/statistics/">Statistics</a><a href="{BASE}sources/">Sources</a></nav></header>
+<header class="masthead"><a class="wordmark" href="/" aria-label="AI Evolution Quarterly home"><span class="wordmark-title"><span class="wordmark-ai">AI</span> EVOLUTION</span><span class="wordmark-sub">Quarterly <span aria-hidden="true">/</span> AIEVOQ</span></a><nav aria-label="Main navigation"><a href="{BASE}">Read the issue</a><a href="/statistics/">Statistics</a><a href="/forecasts/">Forecasts</a><a href="{BASE}sources/">Sources</a></nav></header>
 <main id="main">{body}</main><footer><div><a class="footer-brand" href="/">AIEVOQ</a><p>AI Evolution Quarterly · Phil Stilwell<br>An illustrated webzine. A print edition may follow.</p></div><p class="footer-motto">Observe. Question. Revisit.</p><p class="copyright">© 2026 Phil Stilwell</p></footer></div></body></html>'''
 
 def write(path,html):
@@ -213,9 +214,11 @@ contents+=f'</section><aside class="issue-evidence"><div><p class="eyebrow">Keep
 write(BASE,shell('Issue 01 — The struggle for a niche',f'Read the full illustrated Q4 2026 webzine: {ARTICLE_COUNT} articles and field notes, {STATS_COUNT} Key statistics panels and {SOURCE_COUNT} sources.',BASE,hero+contents,'<script src="/webzine.js" defer></script>','issue-page'))
 (OUT/'search-index.json').write_text(json.dumps(search,ensure_ascii=False)+'\n')
 
+write('/forecasts/', shell('Forecasts & scorecard', 'Dated AI forecasts for the next quarter and year, with preserved tests, evidence and a future accuracy scorecard.', '/forecasts/', render_forecasts(), '<link rel="stylesheet" href="/forecasts/forecasts.css?v=0.28"><script src="/forecasts/forecasts.js?v=0.28" defer></script>', 'forecast-page'))
+
 # Explicit, reproducible inventory used by the migration audit.
 manifest={'version':VERSION,'reviewed_on':DATE,'source_sha256':hashlib.sha256(SOURCE.read_bytes()).hexdigest(),'source_sections':len(sections),'editorial_articles':sum('[CONCEPT:' in a['raw'] for a in articles),'article_pages':len(articles),'concept_panels':raw.count('[CONCEPT:'),'statistic_panels':raw.count('[STATS:'),'source_count':len(refs),'source_sections_count':len(source_sections),'plate_placements':raw.count('[PLATE:'),'figure_placements':raw.count('[FIGURE:'),'pages':[{'source_index':a['index'],'title':a['title'],'path':BASE+a['slug']+'/','category':a['category']} for a in articles]}
 (ROOT/'content/migration-manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
-urls=['/','/statistics/',BASE,BASE+'sources/']+[a['path'] for a in manifest['pages']]
+urls=['/','/statistics/','/forecasts/',BASE,BASE+'sources/']+[a['path'] for a in manifest['pages']]
 (ROOT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f'<url><loc>{ORIGIN+url}</loc><lastmod>{DATE}</lastmod></url>\n' for url in urls)+'</urlset>\n')
 print(f'Built {len(articles)} reading pages, contents and source ledger. {manifest["concept_panels"]} concept panels; {manifest["statistic_panels"]} statistic panels; {len(refs)} sources.')

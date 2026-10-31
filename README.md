@@ -6,24 +6,25 @@ The public website for **https://aievoq.com**: an illustrated quarterly explorin
 
 This is a static webzine with local artwork, full reading pages and a statistical census. There are no package dependencies, trackers or server services. The contents search runs in the browser; all articles and sources remain readable without JavaScript.
 
-The complete developing first issue is at `/issues/2026-q4/`. Draft 0.27 contains 57 articles and field notes, plus front matter and workshop notes, 37 Key statistics panels, 125 numbered sources, all 26 illustrated scenes, the species and human casts, and all 26 figure placements. The contents page supports full manuscript search and department filtering. Each reading page has a permanent URL and previous/next links; citations open the matching source entry. The homepage links to the full articles.
+The complete developing first issue is at `/issues/2026-q4/`. Draft 0.28 contains 59 articles and field notes, plus front matter and workshop notes, 39 Key statistics panels, 127 numbered sources, all 26 illustrated scenes, the species and human casts, and all 26 figure placements. The contents page supports full manuscript search and department filtering. Each reading page has a permanent URL and previous/next links; citations open the matching source entry. The homepage links to the full articles.
 
 The publication is web first. Q4 remains in progress, with selected evidence reviewed through October 30, 2026 and November–December still open. The preserved manuscript and artwork support a possible later print edition. The working PDF remains in the editorial workspace.
 
-The web edition reuses the three fictional species, all twenty-five illustrated scenes, eight public-figure caricatures and the approved cover. The website uses lightweight WebP copies; charts retain their original vector shapes and labels. The original report and full-resolution artwork are maintained separately. No new images were generated for the migration.
+The web edition reuses the three fictional species, all twenty-six illustrated scenes, eight public-figure caricatures and the approved cover. The website uses lightweight WebP copies; charts retain their original vector shapes and labels. The original report and full-resolution artwork are maintained separately. No new images were generated for the migration.
 
 The design echoes the report with charcoal, cobalt, ivory and copper; small capsule illustrations with 3px borders; softly rounded information panels; subtle shadows; and large unframed artwork with fading edges. Native HTML disclosure controls provide optional extra detail without JavaScript. The statistics page progressively adds SVG charts and two display controls; its tables and downloads remain available without JavaScript. System fonts avoid external font requests.
 
 ## Content and artwork
 
 - `index.html`: webzine home, featured articles and publication status.
-- `issues/2026-q4/`: complete contents, 57 reading sections and the combined source ledger.
+- `issues/2026-q4/`: complete contents, 61 reading sections and the combined source ledger.
 - `webzine.css`, `webzine.js`: reading layouts, print stylesheet and optional contents search.
 - `content/`: exact versioned manuscript, statistics panels, figure captions and migration inventory.
 - `scripts/build_webzine.py`: dependency-free generator for the reading pages, source ledger, search index and sitemap.
 - `scripts/check_webzine.py`: content-preservation, citation, image and local-link audit.
 - `assets/issue-01/`: optimized copies of approved artwork and vector figures exported from the print source; no new generated art.
 - `styles.css`: responsive layouts, accessible focus states and reduced-motion support.
+- `forecasts/`: permanent forecast register, next-quarter/year filters, exact tests and downloadable dated records. Draft probabilities are editorial judgments; no track record is implied.
 - `statistics/`: permanent census with five charts, source notes, static data tables, CSV downloads and a dated JSON archive. See `statistics/README.md` for the update rules.
 - `assets/ledgerfinch.webp`, `relay-octopus.webp`, `proofweaver.webp`: the recurring species.
 - `assets/mathematical-rain.webp`, `learning-nursery.webp`, `naturalist-surprised.webp`: capsule illustrations from the existing report.

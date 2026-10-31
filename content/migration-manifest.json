@@ -1,15 +1,15 @@
 {
-  "version": "0.27",
+  "version": "0.28",
   "reviewed_on": "2026-10-30",
-  "source_sha256": "6144b5c214e2c04d6e9c2017157eb6f7d2a478b30f3acdca56692795cc5adb35",
-  "source_sections": 90,
-  "editorial_articles": 57,
-  "article_pages": 59,
-  "concept_panels": 57,
-  "statistic_panels": 37,
-  "source_count": 125,
-  "source_sections_count": 31,
-  "plate_placements": 39,
+  "source_sha256": "29bdd3a974e9104ba899a07343bf4d7aafd4398b64733b76716cd8e63cdd0b4e",
+  "source_sections": 93,
+  "editorial_articles": 59,
+  "article_pages": 61,
+  "concept_panels": 59,
+  "statistic_panels": 39,
+  "source_count": 127,
+  "source_sections_count": 32,
+  "plate_placements": 41,
   "figure_placements": 26,
   "pages": [
     {
@@ -362,6 +362,18 @@
     },
     {
       "source_index": 59,
+      "title": "The next season",
+      "path": "/issues/2026-q4/the-next-season/",
+      "category": "Outlook & accountability"
+    },
+    {
+      "source_index": 60,
+      "title": "The naturalist's scorecard",
+      "path": "/issues/2026-q4/the-naturalist-s-scorecard/",
+      "category": "Outlook & accountability"
+    },
+    {
+      "source_index": 61,
       "title": "Our continuing workshop",
       "path": "/issues/2026-q4/our-continuing-workshop/",
       "category": "About this edition"
