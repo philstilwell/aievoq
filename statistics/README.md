@@ -31,3 +31,8 @@ The recurring record now also follows web search and software-as-a-service (SaaS
 `adjacent-ecosystems-2026-10-30.json` preserves definitions, observations, source links, AI-disclosure scope changes and future measurement candidates. Four CSVs separate shares, growth and revenue. Capture monthly referral observations and each company earnings release; compare matching observations, preserving forecasts separately. Changes in rates are percentage points; changes in amounts are percentages. Keep missing data unavailable, old snapshots unchanged and discontinued companies visible in history.
 
 The full measurement contract is in the editorial project at `research/adjacent/README.md`. The three-day research watch flags relevant fresh releases for review and does not publish automatically. Source-provider attribution and CC BY-SA 3.0 licensing accompany Statcounter-derived data/charts.
+
+
+## October 30 explanatory revision r2
+
+`adjacent-ecosystems-2026-10-30-r2.json` and three matching chart CSVs clarify definitions and labels only. Numbers, observation periods, source dates and comparisons are identical to the first snapshot; the original revenue CSV remains applicable. Keep the original files and archive link. This revision is not a new measurement. Define referral as a click-produced visit to another website, with tracked destination and identifiable origin; explain separate source-category totals, unrecorded no-click answers and multiple visits per person. Search engines themselves can use AI.

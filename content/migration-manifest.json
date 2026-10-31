@@ -1,7 +1,7 @@
 {
-  "version": "0.26",
+  "version": "0.27",
   "reviewed_on": "2026-10-30",
-  "source_sha256": "03e5b3b2694f7a938e709abc9a4398b8683bbe44796be6f71ba982eddad0a832",
+  "source_sha256": "6144b5c214e2c04d6e9c2017157eb6f7d2a478b30f3acdca56692795cc5adb35",
   "source_sections": 90,
   "editorial_articles": 57,
   "article_pages": 59,
@@ -9,7 +9,7 @@
   "statistic_panels": 37,
   "source_count": 125,
   "source_sections_count": 31,
-  "plate_placements": 38,
+  "plate_placements": 39,
   "figure_placements": 26,
   "pages": [
     {

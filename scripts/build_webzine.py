@@ -13,7 +13,7 @@ from adjacent_components import render_adjacent_chart
 ROOT = Path(__file__).resolve().parents[1]
 BASE = '/issues/2026-q4/'
 ORIGIN = 'https://aievoq.com'
-VERSION = '0.26'
+VERSION = '0.27'
 CSS_VERSION = hashlib.sha256((ROOT/'webzine.css').read_bytes()).hexdigest()[:12]
 DATE = '2026-10-30'
 REVIEW_DATE = 'October 30, 2026'
@@ -131,7 +131,10 @@ def render(section,source_mode=False):
             block=[line]
             while i<len(lines) and lines[i].strip().startswith('|'):block.append(lines[i].strip());i+=1
             rows=[[cell.strip() for cell in r.strip('|').split('|')] for r in block if not re.match(r'^\|[\s:|\-]+\|$',r)]
-            table='<div class="article-table" role="region" tabindex="0" aria-label="Data table; scroll horizontally if needed"><table><thead><tr>'+''.join('<th scope="col">'+inline(c)+'</th>' for c in rows[0])+'</tr></thead><tbody>'
+            definition_table=rows[0]==['Term','Meaning and example']
+            table_class='article-table definition-table' if definition_table else 'article-table'
+            table_label='Terms, meanings and examples' if definition_table else 'Data table; scroll horizontally if needed'
+            table=f'<div class="{table_class}" role="region" tabindex="0" aria-label="{table_label}"><table><thead><tr>'+''.join('<th scope="col">'+inline(c)+'</th>' for c in rows[0])+'</tr></thead><tbody>'
             for row in rows[1:]:table+='<tr>'+''.join('<td>'+inline(c)+'</td>' for c in row)+'</tr>'
             out.append(table+'</tbody></table></div>');continue
         if line.startswith('##'):
@@ -150,7 +153,7 @@ def render(section,source_mode=False):
 
 def shell(title,description,path,body,extra_head='',body_class=''):
     if 'class="human-chart"' in body:
-        extra_head += '<link rel="stylesheet" href="/statistics/human-adoption.css?v=0.26"><script src="/statistics/human-adoption.js?v=0.22" defer></script>'
+        extra_head += '<link rel="stylesheet" href="/statistics/human-adoption.css?v=0.27"><script src="/statistics/human-adoption.js?v=0.22" defer></script>'
     canonical=ORIGIN+path
     return f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
