@@ -6,7 +6,7 @@ The public website for **https://aievoq.com**: an illustrated quarterly explorin
 
 This is a static webzine with local artwork, full reading pages and a statistical census. There are no package dependencies, trackers or server services. The contents search runs in the browser; all articles and sources remain readable without JavaScript.
 
-The complete developing first issue is at `/issues/2026-q4/`. Draft 0.30 contains 59 articles and field notes, plus front matter and workshop notes, 39 Key statistics panels, 133 numbered sources, all 27 illustrated scenes, the species and human casts, and all 26 figure placements. The contents page supports full manuscript search and department filtering. Each reading page has a permanent URL and previous/next links; citations open the matching source entry. The homepage links to the full articles.
+The complete developing first issue is at `/issues/2026-q4/`. Draft 0.31 contains 59 articles and field notes, plus front matter and workshop notes, 39 Key statistics panels, 133 numbered sources, all 27 illustrated scenes, the species and human casts, and all 26 figure placements. The contents page supports full manuscript search and department filtering. Each reading page has a permanent URL and previous/next links; citations open the matching source entry. The homepage links to the full articles.
 
 The publication is web first. Q4 remains in progress, with selected evidence reviewed through November 2, 2026 and further November–December reporting still open. The preserved manuscript and artwork support a possible later print edition. The working PDF remains in the editorial workspace.
 
@@ -93,3 +93,6 @@ Draft 0.27 adds the river illustration and plain-language definitions to Neighbo
 Draft 0.29 adds a dedicated seasonal-preparation plate to The next season and the permanent forecast register. The species preserve their original identities; weather is a metaphor for changing conditions. The October 30 forecast register and all statistical records remain unchanged.
 
 Draft 0.30 adds two short developing field notes within existing articles: publisher training preferences and flexible electricity demand. A third panel holds the October referral update pending source reconciliation. These 232 words add no new articles or statistical observations. Six new source entries preserve announcement dates and distinguish peer-reviewed background from preprints and prospective commitments. Earlier numerical records and forecasts remain unchanged.
+
+
+Draft 0.31 simplifies illustration captions, removes repeated reminders that the artwork is metaphorical, and replaces prompt-like alternative text with concise visual descriptions. Figure numbers and useful explanations remain. Statistical definitions, qualifications, frozen records, source entries and forecasts are unchanged.

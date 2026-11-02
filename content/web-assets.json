@@ -1,6 +1,6 @@
 {
-  "version": "0.30",
-  "source_sha256": "db7f41779ee88ea1c6e8b44bde48493c956d6887eb1b60990d21e620ec4ef648",
+  "version": "0.31",
+  "source_sha256": "a369a3b0cfaf24a95b97c476b6fb5c387bcdb84edb4dd43757a32d7bae72a940",
   "plates": {
     "living-jungle": {
       "src": "/assets/issue-01/living-jungle.webp",
@@ -8,7 +8,7 @@
       "height": 500,
       "caption": "A shared habitat: useful abilities, outside resources and neighbours all matter.",
       "number": 1,
-      "alt": "Imagined scene. A small sweeping ecosystem in one wide scene: Ledgerfinch sorting ivory tiles on a branch at left, Relay Octopus working with detachable tools beside a pool in the middle, Proofweaver spinning a precise web between roots at right. Subtle connected paths and trailing cord suggest interdependence. Make the creatures substantial and readable, not tiny lost figures. Invitation to an expedition through an intelligent habitat."
+      "alt": "The Ledgerfinch sorts ivory tiles, the Relay Octopus works beside a pool, and the Proofweaver spins a web among roots."
     },
     "mathematical-rain": {
       "src": "/assets/issue-01/mathematical-rain.webp",
@@ -16,7 +16,7 @@
       "height": 500,
       "caption": "A rain of possible results; each strand still needs examination.",
       "number": 2,
-      "alt": "Imagined scene. The Proofweaver in a forest clearing has spun an unexpectedly expansive network of webs. Pale blank leaf-shaped papers drift down like rain, catching on the strands. A separate small checking frame and an anonymous human hand with a magnifying glass inspect just one strand at the edge. Distinguish the abundance of proposed threads from the careful checking of each. No equations or written marks. Wondrous, not apocalyptic."
+      "alt": "Leaf-shaped papers drift onto the Proofweaver's expanding web while a human hand examines one strand through a separate checking frame."
     },
     "office-reef": {
       "src": "/assets/issue-01/office-reef.webp",
@@ -24,15 +24,15 @@
       "height": 504,
       "caption": "More arms reach more drawers, provided the keys and connections are available.",
       "number": 3,
-      "alt": "Imagined scene. The Relay Octopus inhabits a whimsical office reef grown from coral-like wooden drawers. It uses distinct detachable implements to reach a paper tray, a cabinet key and an information pool. Several drawers are open; one remains locked; a cord visibly runs to an external resource stone. A clear wide scene about tools and permissions, not simply more intelligence inside a bigger head."
+      "alt": "The Relay Octopus uses detachable tools, keys and an outside connection among the drawers of a woodland office."
     },
     "beyond-glasshouse": {
       "src": "/assets/issue-01/beyond-glasshouse.webp",
       "width": 1500,
       "height": 500,
-      "caption": "The same creature, different conditions. This is a proposed encounter, not a test result.",
+      "caption": "The same creature, different conditions.",
       "number": 4,
-      "alt": "Imagined scene. A graceful paired landscape joined across one wide scene: on the left the Relay Octopus works inside a sunlit small glasshouse with orderly drawers and dry blank papers. On the right the SAME recurring species ventures into a windblown garden where papers have moved, a gate is shut and a cable ends short of its socket. Show an attentive pause and a tool held ready, not a demonstrated failure or victory. Repeat the character deliberately as two hypothetical settings. Strong visual contrast in surroundings, identical creature capability."
+      "alt": "The Relay Octopus works in a sheltered glasshouse and then faces moved papers, a locked gate and a short cable in a windy garden."
     },
     "empty-perch": {
       "src": "/assets/issue-01/empty-perch.webp",
@@ -40,15 +40,15 @@
       "height": 500,
       "caption": "An empty perch need not mean extinction; useful work may continue elsewhere.",
       "number": 5,
-      "alt": "Imagined scene. Wide forest vignette about local disappearance and continued life: a conspicuously empty mossy perch and a small loose copper feather at left; in the middle distance the Ledgerfinch is still alive and working on a different branch; at right a young living branch supports a carefully reworked small Proofweaver web in an ivory checking frame. No dead animals, gravestones or total extinction imagery. Quiet transition with a hopeful, investigative tone."
+      "alt": "An empty mossy perch stands near a Ledgerfinch working on another branch and a new Proofweaver web."
     },
     "learning-nursery": {
       "src": "/assets/issue-01/learning-nursery.webp",
       "width": 1500,
       "height": 500,
-      "caption": "A full tray and a learned skill are different achievements. The nursery is an invented analogy.",
+      "caption": "A full tray and a learned skill are different achievements.",
       "number": 6,
-      "alt": "Imagined scene. A woodland learning scene. An adult Ledgerfinch uses a fine wing-finger to demonstrate one ivory tile to a smaller juvenile of the SAME fictional species. The juvenile actively tries sorting a few tiles itself, with a small imperfect pile still present. At the opposite side the helpful Relay Octopus holds a full prepared tray but waits, leaving room for the youngster to practice. Express the difference between giving an answer and making room for learning. Warm, thoughtful, not infantilizing humans."
+      "alt": "An adult Ledgerfinch demonstrates tile sorting to a youngster while the Relay Octopus waits with a prepared tray."
     },
     "borrowed-metabolism": {
       "src": "/assets/issue-01/borrowed-metabolism.webp",
@@ -56,7 +56,7 @@
       "height": 500,
       "caption": "Borrowed functions can support a capable partnership; the outside supply still matters.",
       "number": 7,
-      "alt": "Imagined scene. An imaginative dependency plate, not a literal biological diagram. At left, two magnified translucent organic microbe-like forms exchange different copper and teal nutrient beads through a shared pool. At right, the Relay Octopus's external cord reaches a resource stone fed by the same visual current. A broad ivory gap softly separates the microscopic metaphor and the familiar AI creature; copper and teal flows tie them together. Clear reciprocal exchange, no labelled pathways, no genetic symbols, no claim that cells are actual AI components."
+      "alt": "Two translucent microorganisms exchange copper and teal beads; a matching current connects the Relay Octopus to an outside resource."
     },
     "claws-in-reserve": {
       "src": "/assets/issue-01/claws-in-reserve.webp",
@@ -64,7 +64,7 @@
       "height": 500,
       "caption": "A tool can rest in its case while a useful skill stays in practice.",
       "number": 8,
-      "alt": "Imagined scene. The Ledgerfinch deliberately practices handling and checking ivory tiles with its fine wing-fingers at a little woodland workbench. A useful detachable tool lies safely in an OPEN case nearby, available but temporarily set aside. Three simple objects suggest practice, stored capability and a fallback: a working pile, a spare implement, a small bridge to another perch. No disuse deformity, no genetic degeneration, no broken limbs. The bird looks curious and capable. This is retaining a skill through practice."
+      "alt": "The Ledgerfinch practices sorting tiles beside a detachable tool resting in an open case."
     },
     "access-to-web": {
       "src": "/assets/issue-01/access-to-web.webp",
@@ -72,7 +72,7 @@
       "height": 500,
       "caption": "Who can reach the web, inspect its strands and build on what they find?",
       "number": 9,
-      "alt": "Imagined scene. A large elegant Proofweaver web spans a woodland arch. One half of the arch is open, with a magnifying glass and an ivory checking frame within reach; the other side is behind a tasteful closed lattice gate with a simple keyhole. The Proofweaver tends the web without a villainous expression. Focus on access to inspect a result, not safety policing. No human caricatures or named organizations. A small key placed outside the gate makes the question visible."
+      "alt": "A Proofweaver web spans an open woodland arch and a gated section, with a checking frame, magnifying glass and key nearby."
     },
     "understanding-the-web": {
       "src": "/assets/issue-01/understanding-the-web.webp",
@@ -80,7 +80,7 @@
       "height": 500,
       "caption": "A proposed result invites checking, explanation and further work.",
       "number": 10,
-      "alt": "Imagined scene. A single wide scene follows a strand of reasoning across the forest: left an intricate tangled exploratory web with an amber unfinished strand, center an anonymous human hand gently guides that strand through the Proofweaver's separate ivory checking frame, right a smaller clean elegant web opens onto further branches. The familiar Proofweaver remains visible near the frame. Suggest proposing, checking, understanding and building onward without text, arrows, a guaranteed conclusion or a numerical chart. Beautiful and intelligible."
+      "alt": "A tangled exploratory web passes through a human-held checking frame toward a smaller, orderly web."
     },
     "habitat-engineers": {
       "src": "/assets/issue-01/habitat-engineers.webp",
@@ -88,7 +88,7 @@
       "height": 500,
       "caption": "Changing the habitat can open one route while making another less useful.",
       "number": 11,
-      "alt": "Imagined scene. A wide evocative habitat-engineering scene. A recognizable ordinary beaver at left places a branch in a low dam, changing the course of a small stream. The stream winds into a clearly fantastical office garden at right where the Relay Octopus and Ledgerfinch occupy reorganized wooden work platforms and channels. The water creates both a new sheltered pool and a stranded former pathway. No catastrophe; show that different inhabitants encounter different conditions. The beaver is a biological comparison, not a new branded AI species. Metaphor of people reorganizing around tools; no actual event depicted."
+      "alt": "A beaver changes a stream with its dam; the new channels pass through the Ledgerfinch and Relay Octopus's workspaces."
     },
     "naturalist-surprised": {
       "src": "/assets/issue-01/naturalist-surprised.webp",
@@ -96,7 +96,7 @@
       "height": 500,
       "caption": "The notebook must change when the observations no longer fit.",
       "number": 12,
-      "alt": "Imagined scene. An anonymous naturalist's open field notebook rests on a stump across the foreground, with NO writing, only a simple ink silhouette of a bird confined inside a small drawn boundary. The real Ledgerfinch steps past the notebook's edge toward an unexpected new perch; nearby a Proofweaver thread runs beyond an old empty measuring frame. A surprised human hand holds a pencil above the blank page, ready to revise. Gentle humor about expectations and evidence, no named expert, no dunce cap, no certainty that every forecast fails."
+      "alt": "The Ledgerfinch steps beyond a boundary in a naturalist's notebook while a Proofweaver thread reaches beyond an old measuring frame."
     },
     "wall-with-doors": {
       "src": "/assets/issue-01/wall-with-doors.webp",
@@ -104,7 +104,7 @@
       "height": 500,
       "caption": "Several routes may help, but their contributions overlap and their limits still need testing.",
       "number": 13,
-      "alt": "Imagined scene. A low ancient garden wall crosses the wide scene, with several different routes through or around it. Ledgerfinch explores a narrow opening with a precise beak, Relay Octopus uses a key in a larger gate, Proofweaver lays an exploratory thread toward an upper gap. Some routes reconnect rather than forming independent roads. Show possibilities for different methods, not inevitable unlimited progress. The landscape continues into mist rather than a triumphant final summit. No arrows or text."
+      "alt": "The Ledgerfinch, Relay Octopus and Proofweaver explore different passages through a garden wall."
     },
     "sealed-forecasts": {
       "src": "/assets/issue-01/sealed-forecasts.webp",
@@ -112,15 +112,15 @@
       "height": 500,
       "caption": "Seal the prediction before the outcome arrives; preserve what was actually expected.",
       "number": 14,
-      "alt": "Imagined scene. A naturalist's careful forecast archive: three closed ivory envelopes with copper wax seals arranged beside three CLOSED seed capsules on a wooden field table, with a blank calendar-like card without any digits or letters. The Ledgerfinch observes without opening them. A distant path leads into unpainted mist. Strong sense of preserved expectations and an outcome genuinely unknown, no sprouting seed that reveals which prediction wins, no crystal ball. Warm restrained still life."
+      "alt": "Three sealed envelopes and closed seed capsules rest on a field table as the Ledgerfinch looks on."
     },
     "unexpected-use": {
       "src": "/assets/issue-01/unexpected-use.webp",
       "width": 1500,
       "height": 500,
-      "caption": "An old tool may find a new use. This scene illustrates repurposing, not a reported test.",
+      "caption": "An old tool finds a new use.",
       "number": 15,
-      "alt": "Imagined scene. The Ledgerfinch uses its familiar narrow precision beak in an unexpected but plausible new way: instead of sorting the nearby ivory tiles, it carefully draws an amber thread through a small eyelet, opening a different kind of seedpod-like mechanism. The same beak, recognizable species, no suddenly invented extra limbs. Its usual tiles remain visible to establish the original niche. Moment of curious discovery, an imagined example of repurposing rather than a documented capability."
+      "alt": "The Ledgerfinch uses its precision beak to draw a thread through an eyelet beside its usual sorting tiles."
     },
     "price-of-feathers": {
       "src": "/assets/issue-01/price-of-feathers.webp",
@@ -128,15 +128,15 @@
       "height": 500,
       "caption": "What does the new plumage earn, and what does supporting it require?",
       "number": 16,
-      "alt": "Imagined scene. A thought-provoking Ledgerfinch portrait in a wide woodland vignette: its familiar green and copper plumage has a modest flourish of extra elegant feathers, while nearby sit a larger seed dish, an unmarked hourglass and a magnifying lens for checking work. Keep ordinary bird proportions, not a peacock or a new species. The bird examines the objects thoughtfully. No scales with measured quantities, no numbers, no suggestion that all improvements must cost more. A hypothetical question about usefulness and upkeep."
+      "alt": "The Ledgerfinch examines a seed dish, hourglass and magnifying lens beneath a flourish of feathers."
     },
     "possible-branches": {
       "src": "/assets/issue-01/possible-branches.webp",
       "width": 1500,
       "height": 500,
-      "caption": "Possible branches for discussion. The drawing does not establish a speciation event.",
+      "caption": "Possible branches to investigate.",
       "number": 17,
-      "alt": "Imagined scene. A very wide natural-history study of a mossy branch splitting into three twigs. On the first sits the familiar Ledgerfinch; on the others sit subtly varied imagined close relatives with different precision beaks and tool-like wing-finger poses. Make similarities clear. Their chosen objects differ: sorting tiles, a thread, a small seed capsule. Use faint unfinished ink lines at branch tips so this reads as a hypothetical sketch being considered, not a confirmed family tree. No labels, no rankings, no claim of actual ancestry."
+      "alt": "A mossy branch divides into three twigs bearing finch-like creatures with different beaks and tools."
     },
     "changing-weather": {
       "src": "/assets/issue-01/changing-weather.webp",
@@ -144,23 +144,23 @@
       "height": 500,
       "caption": "A changed route raises questions about recovery, help and dependence.",
       "number": 18,
-      "alt": "Imagined scene. The Relay Octopus and Ledgerfinch meet a change in weather along a woodland work route. A gust moves a hanging sign-shaped blank leaf and a bridge plank has shifted; an external cord and its socket remain visible. The Octopus reaches carefully for a stable alternate stepping stone while the Finch watches a new route. Depict deliberation and a recoverable obstacle, not a guaranteed successful crossing, disaster or dead creatures. A broad elegant landscape with changing conditions clearly legible."
+      "alt": "The Relay Octopus and Ledgerfinch consider alternate routes beside a shifted bridge and windblown sign."
     },
     "octopus-correspondence": {
       "src": "/assets/issue-01/octopus-correspondence.webp",
       "width": 1500,
       "height": 500,
-      "caption": "An invented correspondent, with several arms and a complicated relationship with drawers.",
+      "caption": "An eight-armed correspondent with a complicated relationship with drawers.",
       "number": 19,
-      "alt": "Imagined scene. A witty, exquisitely drawn wide scene of the Relay Octopus writing a private letter with a detachable ivory stylus at a compact woodland secretary desk. All paper is blank. Around it are several drawers, only two visibly open, a conspicuously useful keyring and an external cord leading to its resource stone. One arm patiently holds a sealed drawer handle. Express mild bemusement through pose, not exaggerated cartoon facial features. No speech bubbles or actual text. Match natural-history watercolor, not a modern cartoon."
+      "alt": "The Relay Octopus writes at a woodland desk surrounded by drawers, keys and an outside connection."
     },
     "unwalked-trail": {
       "src": "/assets/issue-01/unwalked-trail.webp",
       "width": 1500,
       "height": 500,
-      "caption": "The trail continues into unreported territory. Future outcomes remain open.",
+      "caption": "The trail continues into unreported territory.",
       "number": 20,
-      "alt": "Imagined scene. A beautiful wide panorama: the three familiar species pause at the edge of a winding forest trail. The near ground is richly observed in ink and watercolor; farther along, the landscape fades into warm ivory unpainted paper and a gentle pale mist. No visible future triumph, extinction, new species or destination. A blank field notebook and pencil lie nearby. A sense of curiosity and ongoing observation through an unfinished season."
+      "alt": "The three AI species pause beside a notebook at the edge of a forest trail fading into mist."
     },
     "crowded-watering-hole": {
       "src": "/assets/issue-01/crowded-watering-hole.webp",
@@ -168,7 +168,7 @@
       "height": 500,
       "caption": "More visitors, more buckets, and only so much room at the water's edge.",
       "number": 21,
-      "alt": "Imagined scene. The three recurring AI species gather at a crowded woodland watering hole, drinking, waiting and carrying buckets."
+      "alt": "The Ledgerfinch, Relay Octopus and Proofweaver drink, wait and carry buckets around a crowded woodland watering hole."
     },
     "laborans-two-arrangements": {
       "src": "/assets/issue-01/laborans-two-arrangements.webp",
@@ -176,7 +176,7 @@
       "height": 625,
       "caption": "The same human, two working arrangements: stepping back from the task, or directing and checking it with an AI partner.",
       "number": 22,
-      "alt": "Imagined scene. The same recognizable fictional human steps back from work in one imagined scene and directs and checks work with the Relay Octopus in the other."
+      "alt": "The same human steps back from a task in one scene and directs and checks work with the Relay Octopus in the other."
     },
     "elephant-goldfish": {
       "src": "/assets/issue-01/elephant-goldfish.webp",
@@ -184,40 +184,40 @@
       "height": 506,
       "caption": "The elephant preserves the design history; the goldfish inspects the plan without the earlier conversation.",
       "number": 23,
-      "alt": "Imagined scene. An elephant keeps an archive of rolled plans and unfolds the current design; a copper-orange goldfish inspects an uncertain connection in that design through a brass magnifying lens beside a woodland pool. The animals represent complementary workflow roles."
+      "alt": "An elephant keeps rolled plans and unfolds a design while a goldfish examines a connection through a brass magnifying lens."
     },
     "adoption-gradient": {
       "src": "/assets/issue-01/adoption-gradient.webp",
       "width": 1500,
       "height": 837,
-      "caption": "Nine patterns of AI adoption. These are behaviors that can change with the task, not fixed kinds of person. Full descriptions follow.",
+      "caption": "Nine patterns of AI adoption, shifting with the task. Full descriptions follow.",
       "number": 24,
-      "alt": "Imagined scene. Nine illustrated patterns of human AI adoption: a sealed burrow, an abandoned feeding ground, a forest edge, exploratory foraging, opportunistic feeding, a productive niche, habitat construction, mutualism and expansion into new niches. Full descriptions appear in the article.",
+      "alt": "Nine AI-adoption patterns illustrated as burrows, feeding grounds, forest edges, foraging, nests, partnerships and new habitats.",
       "full_size": "/assets/issue-01/adoption-gradient-original.jpeg"
     },
     "penguin-branches": {
       "src": "/assets/issue-01/penguin-branches.webp",
       "width": 1500,
       "height": 651,
-      "caption": "An unfamiliar helper divides the colony: some penguins work with AI, others rely on their own tools. Imagined choices about trust, not an observed Linux split.",
+      "caption": "An unfamiliar helper divides the colony: some penguins work with AI, others rely on their own tools.",
       "number": 25,
-      "alt": "Imagined scene. A shared penguin colony branches into two coastal communities. One builds with an imagined octopus AI partner while the other works with hand tools and plans. Both tend healthy nests; paths remain connected."
+      "alt": "A penguin colony divides into connected coastal communities: one builds with an octopus partner, the other with hand tools and plans."
     },
     "neighboring-river": {
       "src": "/assets/issue-01/neighboring-river.webp",
       "width": 1500,
       "height": 651,
-      "caption": "The Ledgerfinch, Relay Octopus and Proofweaver redirect a shared river, changing the water reaching neighboring habitats. Imagined changes in the routes of attention and spending; channel widths do not represent measured traffic.",
+      "caption": "The Ledgerfinch, Relay Octopus and Proofweaver redirect a shared river, changing the water reaching neighboring habitats.",
       "number": 26,
-      "alt": "Imagined scene. The Ledgerfinch places pale stones, the Relay Octopus adjusts a wooden sluice and the Proofweaver anchors a web frame where a river branches through woodland, reeds and meadow. Ordinary wildlife occupies the adjoining habitats."
+      "alt": "The Ledgerfinch places stones, the Relay Octopus adjusts a sluice, and the Proofweaver anchors a frame where a river branches through woodland and meadow."
     },
     "next-season": {
       "src": "/assets/issue-01/next-season.webp",
       "width": 1500,
       "height": 500,
-      "caption": "Gather reserves, secure tools, strengthen connections: three preparations for a changing habitat. Imagined adaptation, not a prediction of a particular AI outcome.",
+      "caption": "Gather reserves, secure tools, strengthen connections: three preparations for a changing habitat.",
       "number": 27,
-      "alt": "Imagined scene. The Ledgerfinch gathers ivory tiles in a dry tree hollow, the Relay Octopus secures a shelter and raises its paper tray, and the Proofweaver strengthens its web as colder weather approaches over distant hills."
+      "alt": "The Ledgerfinch gathers reserves, the Relay Octopus secures shelter and tools, and the Proofweaver strengthens its web as colder weather approaches."
     }
   },
   "figures": {
@@ -497,7 +497,7 @@
       "name": "Elon Musk",
       "title": "The cross-habitat tinkerer",
       "role_line": "SpaceX / Tesla / xAI lineage",
-      "caption": "The rocket, robot and trailing cord bring AI and physical engineering into one miniature habitat. This is an imagined combination, not a claim that the pieces already work together. The cord invites us to follow the dependencies. [25]"
+      "caption": "The rocket, robot and trailing cord bring AI and physical engineering into one miniature habitat. The cord invites us to follow the dependencies. [25]"
     }
   },
   "cover": {

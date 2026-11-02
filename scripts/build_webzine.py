@@ -14,7 +14,7 @@ from forecast_components import render_forecasts
 ROOT = Path(__file__).resolve().parents[1]
 BASE = '/issues/2026-q4/'
 ORIGIN = 'https://aievoq.com'
-VERSION = '0.30'
+VERSION = '0.31'
 CSS_VERSION = hashlib.sha256((ROOT/'webzine.css').read_bytes()).hexdigest()[:12]
 DATE = '2026-11-02'
 REVIEW_DATE = 'November 2, 2026'
@@ -86,18 +86,18 @@ def figure(kind):
     if kind.startswith('human_'):
         return render_chart(kind)
     if kind=='cast_cover':
-        return '<div class="issue-cast">'+''.join(f'<figure><img src="/assets/{k}.webp" width="1122" height="1402" alt="{n}, an imagined AI species" loading="lazy"><figcaption>{n}</figcaption></figure>' for k,n in [('ledgerfinch','The Ledgerfinch'),('relay-octopus','The Relay Octopus'),('proofweaver','The Proofweaver')])+'</div>'
+        return '<div class="issue-cast">'+''.join(f'<figure><img src="/assets/{k}.webp" width="1122" height="1402" alt="{n}" loading="lazy"><figcaption>{n}</figcaption></figure>' for k,n in [('ledgerfinch','The Ledgerfinch'),('relay-octopus','The Relay Octopus'),('proofweaver','The Proofweaver')])+'</div>'
     if kind.startswith('people_pair'):
         pairs=[('sam-altman','dario-amodei'),('demis-hassabis','fei-fei-li'),('jensen-huang','arthur-mensch'),('mark-zuckerberg','elon-musk')]
         html='<div class="people-pair">'
         for key in pairs[int(kind[-1])-1]:
             p=assets['portraits'][key]
-            html+=f'<figure>{image(p,"Editorial caricature of "+p["name"]+". Imagined scene.")}<figcaption><h3>{escape(p["name"])}</h3><p class="portrait-title">{escape(p["title"])}</p><p>{inline(p["role_line"])}</p><p>{inline(p["caption"])}</p></figcaption></figure>'
+            html+=f'<figure>{image(p,"Editorial caricature of "+p["name"])}<figcaption><h3>{escape(p["name"])}</h3><p class="portrait-title">{escape(p["title"])}</p><p>{inline(p["role_line"])}</p><p>{inline(p["caption"])}</p></figcaption></figure>'
         return html+'</div>'
     item=assets['figures'][kind]
     if item['type']=='portrait':
         name={'ledgerfinch':'The Ledgerfinch','relay_octopus':'The Relay Octopus','proofweaver':'The Proofweaver'}[kind]
-        return f'<figure class="species-reading"><img src="{item["src"]}" width="1122" height="1402" alt="{name}, an imagined functional metaphor" loading="lazy"><figcaption><h3>Reading the portrait</h3><dl>'+''.join(f'<div><dt>{escape(a)}</dt><dd>{escape(b)}</dd></div>' for a,b in item['entries'])+'</dl><p>Imagined anatomy / functional metaphor</p></figcaption></figure>'
+        return f'<figure class="species-reading"><img src="{item["src"]}" width="1122" height="1402" alt="{name}" loading="lazy"><figcaption><h3>Reading the portrait</h3><dl>'+''.join(f'<div><dt>{escape(a)}</dt><dd>{escape(b)}</dd></div>' for a,b in item['entries'])+'</dl></figcaption></figure>'
     title=item['text'].splitlines()[0].strip().title()
     readable_text='\n'.join(re.sub(r'\s+',' ',line).strip() for line in item['text'].splitlines() if line.strip())
     return f'<figure class="issue-diagram"><div class="diagram-scroll" tabindex="0" role="region" aria-label="{escape(title,quote=True)}; scroll to see the full figure">{image(item,title+". Full text follows below.")}</div><figcaption><a href="{item["src"]}">Enlarge figure</a> <span>Scroll across on small screens.</span></figcaption><details><summary>Read the figure’s text <span aria-hidden="true">+</span></summary><pre>{inline(readable_text)}</pre></details></figure>'
@@ -130,7 +130,7 @@ def render(section,source_mode=False):
                 href=escape(item['full_size'],quote=True)
                 artwork=f'<a href="{href}" aria-label="Open illustration at full size">{artwork}</a>'
                 full_link=f' <a href="{href}">View full-size overview</a>'
-            out.append(f'<figure class="{cls}">'+artwork+f'<figcaption><span>Imagined scene / Figure {item["number"]:02}</span> {inline(item["caption"])}{full_link}</figcaption></figure>');continue
+            out.append(f'<figure class="{cls}">'+artwork+f'<figcaption><span>Figure {item["number"]:02}</span> {inline(item["caption"])}{full_link}</figcaption></figure>');continue
         if line.startswith('|'):
             block=[line]
             while i<len(lines) and lines[i].strip().startswith('|'):block.append(lines[i].strip());i+=1
