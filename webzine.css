@@ -53,6 +53,10 @@ button:focus-visible,input:focus-visible,select:focus-visible,[tabindex]:focus-v
 .reading-article .key-statistics-comparison,.reading-article .key-statistics-limit{font-size:15px;line-height:1.75}
 .reference{color:var(--cobalt);font:.8em/1 var(--sans);white-space:nowrap;text-decoration:none;padding:3px 1px}
 .reference:hover{text-decoration:underline}
+.field-watch{margin:24px 0;padding:20px 23px;background:#f7f3ea;border:1px solid #d8c9b7;border-left:3px solid var(--copper);border-radius:7px;box-shadow:var(--shadow);break-inside:avoid}
+.field-watch .field-watch-label{font:11px/1.5 var(--mono);letter-spacing:.045em;text-transform:uppercase;color:var(--copper);margin:0 0 10px}
+.reading-article .field-watch h3{font:700 20px/1.35 var(--sans);margin:0 0 12px;color:var(--ink)}
+.field-watch p{font:15px/1.75 var(--sans);margin:0;overflow-wrap:anywhere}
 .editorial-plate{margin:30px 0 34px}
 .editorial-plate img{display:block;width:100%;height:auto;mix-blend-mode:multiply;border-radius:5px}
 .editorial-plate img[src$="/penguin-branches.webp"],.editorial-plate img[src$="/neighboring-river.webp"],.editorial-plate img[src$="/next-season.webp"]{border-radius:0;mask-image:linear-gradient(to right,transparent,#000 2%,#000 98%,transparent),linear-gradient(to bottom,transparent,#000 3%,#000 97%,transparent);mask-composite:intersect}

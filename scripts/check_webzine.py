@@ -64,6 +64,7 @@ for i,section in enumerate(sections):
             d=panels[stat[1]]
             texts=[d[k] for k in ['scope','comparison','limits','source']]+[v for m in d['metrics'] for v in m.values()]
         elif line.startswith('[CONCEPT:'):texts=[line[len('[CONCEPT:'):-1]]
+        elif line.startswith('[WATCH:'):texts=line[len('[WATCH:'):-1].split('|',1)
         elif line.startswith('|'):texts=line.strip('|').split('|')
         else:texts=[re.sub(r'^#+ ','',line)]
         for text in texts:
@@ -75,8 +76,10 @@ tags=[t for d in article_docs for t in d.tags]
 concepts=sum('concept-intro' in a.get('class','').split() for t,a in tags)
 stats=sum('key-statistics' in a.get('class','').split() for t,a in tags)
 plates=sum('editorial-plate' in a.get('class','').split() for t,a in tags)
+field_notes=sum('field-watch' in a.get('class','').split() for t,a in tags)
+assert field_notes==source.read_text().count('[WATCH:')
 assert (concepts,stats,plates)==(manifest['concept_panels'],manifest['statistic_panels'],manifest['plate_placements']),(concepts,stats,plates)
 assert {f'source-{i}' for i in range(1,manifest['source_count']+1)} <= set(sources.ids)
-summary={'passed':not failures,'html_pages':len(docs),'checked_manuscript_lines_and_cells':checked_lines,'local_links_and_assets_checked':local_links,'concept_panels':concepts,'key_statistics_panels':stats,'illustration_placements':plates,'numbered_sources':manifest['source_count'],'failures':failures}
+summary={'passed':not failures,'html_pages':len(docs),'checked_manuscript_lines_and_cells':checked_lines,'local_links_and_assets_checked':local_links,'concept_panels':concepts,'key_statistics_panels':stats,'developing_field_notes':field_notes,'illustration_placements':plates,'numbered_sources':manifest['source_count'],'failures':failures}
 print(json.dumps(summary,indent=2))
 if failures:raise SystemExit(1)

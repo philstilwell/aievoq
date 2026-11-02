@@ -14,10 +14,10 @@ from forecast_components import render_forecasts
 ROOT = Path(__file__).resolve().parents[1]
 BASE = '/issues/2026-q4/'
 ORIGIN = 'https://aievoq.com'
-VERSION = '0.29'
+VERSION = '0.30'
 CSS_VERSION = hashlib.sha256((ROOT/'webzine.css').read_bytes()).hexdigest()[:12]
-DATE = '2026-10-31'
-REVIEW_DATE = 'October 30, 2026'
+DATE = '2026-11-02'
+REVIEW_DATE = 'November 2, 2026'
 SOURCE = ROOT/'content'/f'q4-2026-v{VERSION}.md'
 raw = SOURCE.read_text()
 assets = json.loads((ROOT/'content/web-assets.json').read_text())
@@ -113,6 +113,9 @@ def render(section,source_mode=False):
         if not line or line.startswith('# '): continue
         if line.startswith('[CONCEPT:'):
             out.append('<div class="concept-intro"><span class="concept-label">AI concept</span><p>'+inline(line[len('[CONCEPT:'):-1].strip())+'</p></div>');continue
+        m=re.fullmatch(r'\[WATCH:([^|]+)\|(.+)\]',line)
+        if m:
+            out.append('<aside class="field-watch" id="watch-'+slug(m[1].strip())+'" aria-label="Developing field note"><p class="field-watch-label">Developing field note</p><h3>'+inline(m[1].strip())+'</h3><p>'+inline(m[2].strip())+'</p></aside>');continue
         m=re.fullmatch(r'\[STATS:([^\]]+)\]',line)
         if m:out.append(statistics(m[1]));continue
         m=re.fullmatch(r'\[FIGURE:(\w+)\]',line)
@@ -143,7 +146,7 @@ def render(section,source_mode=False):
             text=line[level+1:];key=slug(text);headings[key]+=1
             out.append(f'<h{level} id="{key}-{headings[key]}">{inline(text)}</h{level}>');continue
         block=[line]
-        while i<len(lines) and lines[i].strip() and not lines[i].startswith(('#','|','[FIGURE:','[PLATE:','[CONCEPT:','[STATS:')):
+        while i<len(lines) and lines[i].strip() and not lines[i].startswith(('#','|','[FIGURE:','[PLATE:','[CONCEPT:','[STATS:','[WATCH:')):
             block.append(lines[i].strip());i+=1
         text=' '.join(block)
         ref=re.match(r'^\[(\d+)\] ',text) if source_mode else None
@@ -189,7 +192,7 @@ for pos,a in enumerate(articles):
     nav+=f'<a href="{BASE+nxt["slug"]+"/" if nxt else BASE+"sources/"}"><span>Next →</span><strong>{escape(nxt["title"]) if nxt else "Sources and figure notes"}</strong></a></nav>'
     data={'@context':'https://schema.org','@type':'Article','headline':headline,'description':description,'author':{'@type':'Person','name':'Phil Stilwell'},'dateModified':DATE,'isPartOf':{'@type':'PublicationIssue','name':'AI Evolution Quarterly — Q4 2026','issueNumber':'1'},'mainEntityOfPage':ORIGIN+path}
     write(path,shell(headline,description,path,header+body+source_note+'</article>'+nav, '<script type="application/ld+json">'+json.dumps(data).replace('<','\\u003c')+'</script>','article-page'))
-    search.append({'slug':a['slug'],'title':a['title'],'subtitle':a['subtitle'],'category':a['category'],'text':re.sub(r'\[(?:CONCEPT|STATS|FIGURE|PLATE):',' ',a['raw'])})
+    search.append({'slug':a['slug'],'title':a['title'],'subtitle':a['subtitle'],'category':a['category'],'text':re.sub(r'\[(?:CONCEPT|STATS|FIGURE|PLATE|WATCH):',' ',a['raw'])})
 
 # Source sections stay together, with unique numbered destinations.
 source_toc='<nav class="source-toc" aria-label="Source sections">'+''.join(f'<a href="#source-section-{a["index"]}">{escape(a["title"])}</a>' for a in source_sections)+'</nav>'

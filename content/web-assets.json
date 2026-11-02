@@ -1,6 +1,6 @@
 {
-  "version": "0.29",
-  "source_sha256": "40d4e824a005676213083b6861197e42fa01c4a1e647d4c642aa364c94e8a333",
+  "version": "0.30",
+  "source_sha256": "db7f41779ee88ea1c6e8b44bde48493c956d6887eb1b60990d21e620ec4ef648",
   "plates": {
     "living-jungle": {
       "src": "/assets/issue-01/living-jungle.webp",
